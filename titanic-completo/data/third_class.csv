@@ -1,0 +1,709 @@
+"Name"|"Age"|"Class/Dept"|"Ticket"|"Fare"|"Group"|"Ship"|"Joined"|"Job"|"Boat"|"Body"
+"ABBING, Mr Anthony"|42|"3rd Class"|5547|"£7 11s "|||"Southampton"|"Blacksmith"||
+"ABBOTT, Mrs Rhoda Mary 'Rosa'"|39|"3rd Class"|"CA2673"|"£20 5s "|||"Southampton"||"A"|
+"ABBOTT, Mr Rossmore Edward"|16|"3rd Class"|"CA2673"|"£20 5s "|||"Southampton"|"Jeweller"||"190"
+"ABBOTT, Mr Eugene Joseph"|14|"3rd Class"|"CA2673"|"£20 5s "|||"Southampton"|"Scholar"||
+"ABELSETH, Miss Karen Marie"|16|"3rd Class"|348125|"£7 13s "|||"Southampton"||"16"|
+"ABELSETH, Mr Olaus Jørgensen"|25|"3rd Class"|348122|"£7 13s "|||"Southampton"|"Farmer"|"A"|
+"ABRAHAMSSON, Mr Abraham August Johannes"|20|"3rd Class"|3101284|"£7 18s 6d"|||"Southampton"||"15"|
+"ABRAHIM, Mrs Mary Sophie Halaut"|18|"3rd Class"|2657|"£7 4s 7d"|||"Cherbourg"||"C"|
+"ÅDAHL, Mr Mauritz Nils Martin"|30|"3rd Class"|7076|"£7 5s "|||"Southampton"|"General Labourer"||"72"
+"ADAMS, Mr John"|26|"3rd Class"|341826|"£8 1s "|||"Southampton"|||"103"
+"AHLIN, Mrs Johanna Persdotter"|40|"3rd Class"|7546|"£9 9s 6d"|||"Southampton"|||
+"AKS, Mrs Leah"|18|"3rd Class"|392091|"£9 7s "|||"Southampton"||"13"|
+"AKS, Master Frank Philip"|"10m"|"3rd Class"|392091|"£9 7s "|||"Southampton"||"11"|
+"ALBIMONA, Mr Nassef Cassem"|26|"3rd Class"|2699|"£18 15s 9d"|||"Cherbourg"||"15"|
+"ALEXANDER, Mr William"|23|"3rd Class"|3474|"£7 17s 9d"|||"Southampton"|"General Labourer"||
+"ALHOMäKI, Mr Ilmari Rudolf"|19|"3rd Class"|3101287|"£7 18s 6d"|||"Southampton"|"General Labourer"||
+"ALI, Mr Ahmed"|24|"3rd Class"|3101311|"£7 1s "|||"Southampton"|"General Labourer"||
+"ALI, Mr William"|25|"3rd Class"|3101312|"£7 1s "|||"Southampton"|"General Labourer"||"79"
+"ALLEN, Mr William Henry"|35|"3rd Class"|373450|"£8 1s "|||"Southampton"|"Tool Maker"||
+"ALLUM, Mr Owen George"|15|"3rd Class"|2223|"£8 6s "|||"Southampton"|"Gardener"||"259"
+"ANDERSEN, Mr Albert Karvin"|33|"3rd Class"|4001|"£22 10s 6d"|||"Southampton"|"Engineer"||"260"
+"ANDERSEN-JENSEN, Miss Carla Christine Nielsine"|19|"3rd Class"|350046|"£7 17s 1d"|||"Southampton"||"16"|
+"ANDERSSON, Miss Erna Alexandra"|17|"3rd Class"|3101281|"£7 18s 6d"|||"Southampton"||"D"|
+"ANDERSSON, Mr Johan Samuel"|26|"3rd Class"|347075|"£7 15s 6d"|||"Southampton"|"General Labourer"||
+"ANDERSSON, Miss Ida Augusta Margareta"|38|"3rd Class"|347091|"£7 15s 6d"|||"Southampton"|||
+"ANDERSSON, Mr Anders Johan"|39|"3rd Class"|347082|"£31 5s 6d"|||"Southampton"|"General Labourer"||
+"ANDERSSON, Mrs Alfrida Konstantia Brogren"|39|"3rd Class"|347082|"£31 5s 6d"|||"Southampton"|||
+"ANDERSSON, Miss Sigrid Elisabeth"|11|"3rd Class"|347082|"£31 5s 6d"|||"Southampton"|||
+"ANDERSSON, Miss Ingeborg Constanzia"|9|"3rd Class"|347082|"£31 5s 6d"|||"Southampton"|||
+"ANDERSSON, Miss Ebba Iris Alfrida"|6|"3rd Class"|347082|"£31 5s 6d"|||"Southampton"|||
+"ANDERSSON, Master Sigvard Harald Elias"|4|"3rd Class"|347082|"£31 5s 6d"|||"Southampton"|||
+"ANDERSSON, Miss Ellis Anna Maria"|2|"3rd Class"|347082|"£31 5s 6d"|||"Southampton"|||
+"ANDREASSON, Mr Paul Edvin"|20|"3rd Class"|347466|"£7 17s 1d"|||"Southampton"|"General Labourer"||
+"ANGHELOFF, Mr Minko"|26|"3rd Class"|349202|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"ARNOLD-FRANCHI, Mr Josef"|25|"3rd Class"|349237|"£17 16s "|||"Southampton"|"General Labourer"||
+"ARNOLD-FRANCHI, Mrs Josefine"|18|"3rd Class"|349237|"£17 16s "|||"Southampton"|||
+"ARONSSON, Mr Ernst Axel Algot"|24|"3rd Class"|349911|"£7 15s 6d"|||"Southampton"|"General Labourer"||
+"ASIM, Mr Adola"|35|"3rd Class"|3101310|"£7 1s "|||"Southampton"|"General Labourer"||
+"ASPLUND, Master Edvin Rojj Felix"|3|"3rd Class"|347077|"£31 7s 9d"|||"Southampton"||"15"|
+"ASPLUND, Mr Johan Charles"|23|"3rd Class"|350054|"£7 15s 11d"|||"Southampton"||"13"|
+"ASPLUND, Mr Carl Oscar Vilhelm Gustafsson"|40|"3rd Class"|347077|"£31 7s 9d"|||"Southampton"|"General Labourer"||"142"
+"ASPLUND, Mrs Selma Augusta Emilia"|38|"3rd Class"|347077|"£31 7s 9d"|||"Southampton"||"15"|
+"ASPLUND, Master Carl Edgar"|5|"3rd Class"|347077|"£31 7s 9d"|||"Southampton"|||
+"ASPLUND, Master Filip Oscar"|13|"3rd Class"|347077|"£31 7s 9d"|||"Southampton"|||
+"ASPLUND, Master Clarence Gustaf Hugo"|9|"3rd Class"|347077|"£31 7s 9d"|||"Southampton"|||
+"ASPLUND, Miss Lillian Gertrud"|5|"3rd Class"|347077|"£31 7s 9d"|||"Southampton"||"15"|
+"ASSAF, Mrs Mariana"|45|"3rd Class"|2696|"£7 4s 6d"|||"Cherbourg"||"C"|
+"ASSAM, Mr Ali"|23|"3rd Class"|3101309|"£7 1s "|||"Southampton"|"General Labourer"||
+"ATTALA, Mr Sleiman"|27|"3rd Class"|2694|"£7 4s 6d"|||"Cherbourg"|"Journalist"||
+"ATTALAH, Miss Malake"|17|"3rd Class"|2627|"£14 9s 2d"|||"Cherbourg"|||
+"AUGUSTSSON, Mr Albert"|23|"3rd Class"|347468|"£7 17s 1d"|||"Southampton"|"General Labourer"||
+"AYOUB DAHER, Miss Banoura"|15|"3rd Class"|2687|"£7 4s 7d"|||"Cherbourg"||"C"|
+"BACCOS, Mr Raffull"|20|"3rd Class"|2679|"£7 4s 6d"|||"Cherbourg"|"Farm Labourer"||
+"BACKSTRöM, Mr Karl Alfred"|32|"3rd Class"|3101278|"£15 17s "|||"Southampton"|"General Labourer"||
+"BACKSTRöM, Mrs Maria Mathilda"|33|"3rd Class"|3101278|"£15 17s "|||"Southampton"||"D"|
+"BACLINI, Mrs Latifa"|24|"3rd Class"|2666|"£19 5s 2d"|||"Cherbourg"||"C"|
+"BACLINI, Miss Marie Catherine"|5|"3rd Class"|2666|"£19 5s 2d"|||"Cherbourg"||"C"|
+"BACLINI, Miss Eugenie"|3|"3rd Class"|2666|"£19 5s 2d"|||"Cherbourg"||"C"|
+"BACLINI, Miss Helene Barbara"|"9m"|"3rd Class"|2666|"£19 5s 2d"|||"Cherbourg"||"C"|
+"BADMAN, Miss Emily Louisa"|18|"3rd Class"|31416|"£8 1s "|||"Southampton"|"Servant"|"C"|
+"BADT, Mr Mohamed"|40|"3rd Class"|2623|"£7 4s 6d"|||"Cherbourg"|"Farmer"||
+"BALKIC, Mr Cerin"|26|"3rd Class"|349248|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"BANSKI, Mrs Mara"|31|"3rd Class"|349244|"£8 13s 8d"|||"Southampton"|||
+"BARBARA, Mrs Catherine David"|45|"3rd Class"|2691|"£14 9s 1d"|||"Cherbourg"|"Housekeeper"||
+"BARBARA, Miss Saiide"|18|"3rd Class"|2691|"£14 9s 1d"|||"Cherbourg"|"Housekeeper"||
+"BARRY, Miss Julia"|26|"3rd Class"|330844|"£7 17s 7d"|||"Queenstown"|"Housekeeper"||
+"BARTON, Mr David John"|22|"3rd Class"|324669|"£8 1s "|||"Southampton"|"General Labourer"||
+"BEAVAN, Mr William Thomas"|18|"3rd Class"|323951|"£8 1s "|||"Southampton"|"General Labourer"||
+"BENGTSSON, Mr Johan Viktor"|26|"3rd Class"|347068|"£7 15s 6d"|||"Southampton"|"General Labourer"||
+"BERGLUND, Mr Karl Ivar Sven"|22|"3rd Class"|4348|"£9 7s "|||"Southampton"|"General Labourer"||
+"BETROS, Mr Tannous"|20|"3rd Class"|2648|"£7 4s 7d"|||"Cherbourg"|"Shoemaker"||
+"BING, Mr Lee"|32|"3rd Class"|1601|"£56 9s 11d"|||"Southampton"|"Seaman"|"C"|
+"BIRKELAND, Mr Hans Martin Monsen"|21|"3rd Class"|312992|"£7 15s 6d"|||"Southampton"|"Seaman"||
+"BJöRKLUND, Mr Ernst Herbert"|18|"3rd Class"|347090|"£7 15s "|||"Southampton"|"General Labourer"||
+"BOSTANDYEFF, Mr Guentcho"|26|"3rd Class"|349224|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"BOULOS, Mrs Sultana"|40|"3rd Class"|2678|"£15 4s 11d"|||"Cherbourg"|||
+"BOULOS, Miss Nourelain"|7|"3rd Class"|2678|"£15 4s 11d"|||"Cherbourg"|||
+"BOULOS, Master Akar"|9|"3rd Class"|2678|"£15 4s 11d"|||"Cherbourg"|||
+"BOURKE, Mr John"|42|"3rd Class"|364849|"£15 10s "|||"Queenstown"|"Farmer"||
+"BOURKE, Mrs Catherine"|32|"3rd Class"|364849|"£15 10s "|||"Queenstown"|"Housewife"||
+"BOURKE, Miss Mary"|40|"3rd Class"|364848|"£7 15s "|||"Queenstown"|||
+"BOWEN, Mr David John ""Dai"""|26|"3rd Class"|54636|"£16 2s "|||"Southampton"|"Pugilist"||
+"BRADLEY, Miss Bridget Delia"|22|"3rd Class"|334914|"£7 14s 6d"|||"Queenstown"||"13"|
+"BRAF, Miss Elin Ester Maria"|20|"3rd Class"|347471|"£7 17s 1d"|||"Southampton"|"Servant"||
+"BRAUND, Mr Lewis Richard"|29|"3rd Class"|3460|"£7 11d"|||"Southampton"|"Farm Labourer"||
+"BRAUND, Mr Owen Harris"|22|"3rd Class"|21171|"£7 5s "|||"Southampton"|"Ironmonger"||
+"BROBECK, Mr Karl Rudolf"|22|"3rd Class"|350045|"£7 15s 11d"|||"Southampton"|"Farm Labourer"||
+"BROCKLEBANK, Mr William Alfred"|35|"3rd Class"|364512|"£8 1s "|||"Southampton"|"Groom"||
+"BUCKLEY, Mr Daniel"|21|"3rd Class"|330920|"£7 15s 17d"|||"Queenstown"|"Farm Labourer"|"13"|
+"BUCKLEY, Miss Katherine"|22|"3rd Class"|329944|"£7 5s 8d"|||"Queenstown"|||"299"
+"BURKE, Mr Jeremiah"|19|"3rd Class"|365222|"£6 15s "|||"Queenstown"|"Farm Labourer"||
+"BURNS, Miss Mary Delia"|17|"3rd Class"|330963|"£7 17s 7d"|||"Queenstown"|||
+"CACIC, Mr Jego Grga"|18|"3rd Class"|315091|"£8 13s 3d"|||"Southampton"|"Farmer"||
+"CACIC, Mr Luka"|38|"3rd Class"|315089|"£8 13s 3d"|||"Southampton"|"Farmer"||
+"CACIC, Miss Marija"|30|"3rd Class"|315084|"£8 13s 3d"|||"Southampton"|"Farm Labourer"||
+"CACIC, Miss Manda"|21|"3rd Class"|315087|"£8 13s 3d"|||"Southampton"|"Farm Labourer"||
+"CALIC, Mr Petar"|17|"3rd Class"|315086|"£8 13s 3d"|||"Southampton"|"Farm Labourer"||
+"CALIC, Mr Jovo"|17|"3rd Class"|315093|"£8 13s 3d"|||"Southampton"|||
+"CANAVAN, Miss Mary"|22|"3rd Class"|364846|"£7 15s "|||"Queenstown"|||
+"CANAVAN, Mr Patrick"|21|"3rd Class"|364858|"£7 15s "|||"Queenstown"|"General Labourer"||
+"CANN, Mr Ernest Charles"|21|"3rd Class"|2152|"£8 1s "|||"Southampton"|"Miner"||
+"CARAM, Mr Joseph"|28|"3rd Class"|2689|"£14 9s 2d"|||"Cherbourg"|"Merchant"||
+"CARAM, Mrs Maria Elias"|18|"3rd Class"|2689|"£14 9s 2d"|||"Cherbourg"|"Housekeeper"||
+"CARLSSON, Mr Carl Robert"|24|"3rd Class"|350409|"£7 17s 1d"|||"Southampton"|"General Labourer"||
+"CARLSSON, Mr August Sigfrid"|28|"3rd Class"|350042|"£7 15s 11d"|||"Southampton"|"Farmer"||
+"CARR, Miss Jane"|45|"3rd Class"|368364|"£7 15s "|||"Queenstown"|||
+"CARVER, Mr Alfred John"|28|"3rd Class"|370160|"£7 5s "|||"Southampton"|"Seaman"||
+"CELOTTI, Mr Francesco"|24|"3rd Class"|343275|"£8 1s "|||"Southampton"|"Stoker"||
+"CHARTERS, Mr David"|20|"3rd Class"|13032|"£7 14s 8d"|||"Queenstown"|"General Labourer"||
+"CHEHAB/SHIHAB, Mr Emir Farres"|29|"3rd Class"|2631|"£7 4s 6d"|||"Cherbourg"|"General Labourer"||
+"CHIP, Mr Chang"|32|"3rd Class"|1601|"£56 9s 11d"|||"Southampton"|"Seaman"|"C"|
+"CHRISTMANN, Mr Emil"|29|"3rd Class"|343276|"£8 1s "|||"Southampton"|"Clerk"||
+"CHRONOPOULOS, Mr Apostolos M."|26|"3rd Class"|2680|"£14 9s 1d"|||"Cherbourg"|"General Labourer"||
+"CHRONOPOULOS, Mr Dimitrios M."|21|"3rd Class"|2680|"£14 9s 1d"|||"Cherbourg"|"General Labourer"||
+"COELHO, Mr Domingos Fernandeo"|20|"3rd Class"|3101307|"£7 1s "|||"Southampton"|"General Labourer"||
+"COHEN, Mr Gurshon ""Gus"""|18|"3rd Class"|3540|"£8 1s "|||"Southampton"|"Printer / Compositor"|"12"|
+"COLBERT, Mr Patrick"|24|"3rd Class"|371109|"£7 5s "|||"Queenstown"|"General Labourer"||
+"COLEFF, Mr Satio"|24|"3rd Class"|349209|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"COLTCHEFF, Mr Peju"|36|"3rd Class"|349210|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"CONLON, Mr Thomas Henry"|31|"3rd Class"|21332|"£7 14s 8d"|||"Queenstown"|"General Labourer"||
+"CONNAGHTON, Mr Michael"|31|"3rd Class"|335097|"£7 15s "|||"Queenstown"|"Farm Labourer"||
+"CONNOLLY, Miss Kate"|23|"3rd Class"|370373|"£7 15s "|||"Queenstown"||"13"|
+"CONNOLLY, Miss Kate"|35|"3rd Class"|330972|"£7 12s 7d"|||"Queenstown"|||
+"CONNORS, Mr Patrick"|66|"3rd Class"|370369|"£7 15s "|||"Queenstown"|"Farm Labourer"||"171"
+"COOK, Mr Jacob"|43|"3rd Class"|3536|"£8 1s "|||"Southampton"|"Wood Carver"||
+"COR, Mr Bartol"|35|"3rd Class"|349230|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"COR, Mr Ivan"|27|"3rd Class"|349229|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"COR, Mr Liudevit"|19|"3rd Class"|349231|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"CORN, Mr Harry"|30|"3rd Class"|392090|"£8 1s "|||"Southampton"|"Upholsterer"||
+"CORR, Miss Helen"|16|"3rd Class"|367231|"£7 15s "|||"Queenstown"||"16"|
+"COUTTS, Mrs Winnie ""Minnie"""|36|"3rd Class"|37671|"£15 18s "|||"Southampton"||"2"|
+"COUTTS, Master William Loch ""Willie"""|9|"3rd Class"|37671|"£15 18s "|||"Southampton"||"2"|
+"COUTTS, Master Neville Leslie"|3|"3rd Class"|37671|"£15 18s "|||"Southampton"||"2"|
+"COXON, Mr Daniel"|59|"3rd Class"|364500|"£7 5s "|||"Southampton"|"Dealer"||
+"CREASE, Mr Ernest James"|19|"3rd Class"|3464|"£8 3s 2d"|||"Southampton"|"Tinsmith"||
+"CRIBB, Mr John Hatfield"|44|"3rd Class"|371362|"£16 2s "|||"Southampton"|"Butler"||
+"CRIBB, Miss Laura Mae"|16|"3rd Class"|371362|"£16 2s "|||"Southampton"|"Shop Assistant"|"12"|
+"CULUMOVIC, Mr Jeso"|17|"3rd Class"|315090|"£8 13s 3d"|||"Southampton"|||
+"DAHER, Mr Tannous"|28|"3rd Class"|2686|"£7 4s 7d"|||"Cherbourg"|||
+"DAHL, Mr Charles Edward"|45|"3rd Class"|7598|"£8 1s "|||"Southampton"|"Carpenter / Joiner"|"15"|
+"DAHLBERG, Miss Gerda Ulrika"|22|"3rd Class"|7552|"£10 10s 4d"|||"Southampton"|||
+"DAKIC, Mr Branko"|19|"3rd Class"|349228|"£10 3s 5d"|||"Southampton"|"General Labourer"||
+"DALY, Miss Margaret Marcella ""Maggie"""|30|"3rd Class"|382650|"£6 19s "|||"Queenstown"|"Housekeeper"|"15"|
+"DALY, Mr Eugene Patrick"|29|"3rd Class"|382651|"£7 15s "|||"Queenstown"|"Farm Labourer"|"B"|
+"DANBOM, Mr Ernst Gilbert"|34|"3rd Class"|347080|"£14 8s "|||"Southampton"|"General Labourer"||"197"
+"DANBOM, Mrs Anna Sigrid Maria"|28|"3rd Class"|347080|"£14 8s "|||"Southampton"|||
+"DANBOM, Master Gilbert Sigvard Emanuel"|"4m"|"3rd Class"|347080|"£14 8s "|||"Southampton"|||
+"DANOFF, Mr Yoto"|27|"3rd Class"|349219|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"DANTCHEFF, Mr Ristiu"|25|"3rd Class"|349203|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"DAVIES, Mr Evan"|22|"3rd Class"|23568|"£8 1s "|||"Southampton"|"Miner"||
+"DAVIES, Mr Alfred J."|24|"3rd Class"|48871|"£24 3s "|||"Southampton"|"Caster"||
+"DAVIES, Mr John Samuel"|21|"3rd Class"|48871|"£24 3s "|||"Southampton"|"Ironworker"||
+"DAVIES, Mr Joseph"|17|"3rd Class"|48873|"£8 1s "|||"Southampton"|"Ironworker"||
+"DAVISON, Mr Thomas Henry"|32|"3rd Class"|386525|"£16 2s "|||"Southampton"|"Blacksmith"||
+"DAVISON, Mrs Mary E."|34|"3rd Class"|386525|"£16 2s "|||"Southampton"||"16"|
+"DE MESSEMAEKER, Mr Guillaume Joseph"|36|"3rd Class"|345572|"£17 8s "|||"Southampton"||"15"|
+"DE MESSEMAEKER, Mrs Anna"|36|"3rd Class"|345572|"£17 8s "|||"Southampton"||"13"|
+"DE MULDER, Mr Theodoor"|30|"3rd Class"|345774|"£9 10s "|||"Southampton"||"11"|
+"DE PELSMAEKER, Mr Alfons"|16|"3rd Class"|345778|"£9 10s "|||"Southampton"|"Farm Labourer"||
+"DEAN, Mr Bertram Frank"|25|"3rd Class"|2315|"£20 11s 6d"|||"Southampton"|"Farmer"||
+"DEAN, Mrs Eva Georgetta"|32|"3rd Class"|2315|"£20 11s 6d"|||"Southampton"||"10"|
+"DEAN, Master Bertram Vere"|1|"3rd Class"|2315|"£20 11s 6d"|||"Southampton"||"10"|
+"DEAN, Miss Elizabeth Gladys 'Millvina'"|"2m"|"3rd Class"|2315|"£20 11s 6d"|||"Southampton"||"10"|
+"DELALIC, Mr Redjo"|25|"3rd Class"|349250|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"DENKOFF, Mr Mitto"|30|"3rd Class"|349225|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"DENNIS, Mr Samuel"|22|"3rd Class"|21172|"£7 5s "|||"Southampton"|"Farmer"||
+"DENNIS, Mr William"|26|"3rd Class"|21175|"£7 5s "|||"Southampton"|"Farmer"||
+"DEVANEY, Miss Margaret Delia"|19|"3rd Class"|330958|"£7 17s 7d"|||"Queenstown"||"C"|
+"DIKA, Mr Mirko"|17|"3rd Class"|349232|"£7 17s 11d"|||"Southampton"|||
+"DIMIC, Mr Jovan"|42|"3rd Class"|315088|"£8 13s 3d"|||"Southampton"|||
+"DINTCHEFF, Mr Valtcho"|43|"3rd Class"|349226|"£7 17s 11d"|||"Southampton"|||
+"DONOHOE, Miss Bridget"|21|"3rd Class"|364856|"£7 15s "|||"Queenstown"|||
+"DOOLEY, Mr Patrick"|38|"3rd Class"|370376|"£7 15s "|||"Queenstown"|"General Labourer"||
+"DORKING, Mr Edward Arthur"|18|"3rd Class"|10482|"£8 1s "|||"Southampton"|"Groom"|"B"|
+"DOUGHERTY, Mr William John"|22|"3rd Class"|330877|"£8 9s 2d"|||"Queenstown"|||
+"DOWDELL, Miss Elizabeth"|31|"3rd Class"|364516|"£12 9s 6d"|||"Southampton"|"Housekeeper"|"13"|
+"DOYLE, Miss Elizabeth"|24|"3rd Class"|368702|"£7 15s "|||"Queenstown"|||
+"DRAZENOVIC, Mr Jozef"|33|"3rd Class"|349241|"£7 17s 11d"|||"Cherbourg"|"General Labourer"||"51"
+"DROPKIN, Miss Jennie"|24|"3rd Class"|392083|"£8 1s "|||"Southampton"|"Box Maker"||
+"DUQUEMIN, Mr Joseph Pierre"|19|"3rd Class"|752|"£7 11s "|||"Southampton"|"Mason"|"D"|
+"DWAN, Mr Frank"|65|"3rd Class"|336439|"£7 15s "|||"Queenstown"|"Farm Labourer"||
+"DYKER, Mr Adolf Fredrik"|23|"3rd Class"|347072|"£13 18s "|||"Southampton"|"General Labourer"||
+"DYKER, Mrs Anna Elisabeth Judith"|22|"3rd Class"|347072|"£13 18s "|||"Southampton"||"16"|
+"EDVARDSSON, Mr Gustaf Hjalmar"|18|"3rd Class"|349912|"£7 15s 6d"|||"Southampton"|"General Labourer"||
+"EKLUND, Mr Hans Linus"|16|"3rd Class"|347074|"£7 15s 6d"|||"Southampton"|"General Labourer"||
+"EKSTRöM, Mr Johan"|45|"3rd Class"|347061|"£6 19s 6d"|||"Southampton"|"General Labourer"||
+"ELIAS, Mr Dibo"|29|"3rd Class"|2674|"£7 4s 6d"|||"Cherbourg"|"General Labourer"||
+"ELIAS, Mr Joseph jr."|15|"3rd Class"|2690|"£7 4s 7d"|||"Cherbourg"|"General Labourer"||
+"ELIAS NASRALLAH, Mr Tannous"|22|"3rd Class"|2695|"£7 4s 7d"|||"Cherbourg"|"General Labourer"||
+"ELSBURY, Mr William James"|47|"3rd Class"|3902|"£7 5s "|||"Southampton"|"Farmer"||
+"EMANUEL, Miss Virginia Ethel"|5|"3rd Class"|364516|"£12 9s 6d"|||"Southampton"||"13"|
+"ESTANISLAU, Mr Manuel Gonçalves"|37|"3rd Class"|3101306|"£7 1s "|||"Southampton"|"General Labourer"||
+"EVERETT, Mr Thomas James"|39|"3rd Class"|6212|"£15 2s "|||"Southampton"|"Crane Operator"||"187"
+"FARRELL, Mr James ""Jim"""|25|"3rd Class"|367232|"£7 15s "|||"Queenstown"|"Farm Labourer"||"68"
+"FINOLI, Mr Luigi"|34|"3rd Class"|3101308|"£7 1s "|||"Southampton"||"15"|
+"FISCHER, Mr Eberhard Thelander"|18|"3rd Class"|350036|"£7 15s 11d"|||"Southampton"|||
+"FLEMING, Miss Honora"|22|"3rd Class"|364859|"£7 15s "|||"Queenstown"|||
+"FLYNN, Mr James"|28|"3rd Class"|364851|"£7 15s "|||"Queenstown"|"General Labourer"||
+"FLYNN, Mr John"|42|"3rd Class"|368323|"£6 19s "|||"Queenstown"|"Farm Labourer"||
+"FOLEY, Mr Joseph"|19|"3rd Class"|330910|"£7 17s 7d"|||"Queenstown"|"Farm Labourer"||
+"FOLEY, Mr William"|20|"3rd Class"|365235|"£7 15s "|||"Queenstown"|"Farm Labourer"||
+"FOO, Mr Choong"|32|"3rd Class"|1601|"£56 9s 11d"|||"Southampton"|"Seaman"|"13"|
+"FORD, Mr Arthur"|22|"3rd Class"|1478|"£8 1s "|||"Southampton"|"Carpenter / Joiner"||
+"FORD, Mrs Margaret Ann Watson"|48|"3rd Class"|6608|"£34 7s 6d"|||"Southampton"|"Farmer"||
+"FORD, Miss Dollina Margaret"|20|"3rd Class"|6608|"£34 7s 6d"|||"Southampton"|"Servant"||
+"FORD, Mr Edward Watson"|18|"3rd Class"|6608|"£34 7s 6d"|||"Southampton"|"Blacksmith"||
+"FORD, Mr William Neal Thomas"|16|"3rd Class"|6608|"£34 7s 6d"|||"Southampton"|"Messenger"||
+"FORD, Miss Robina Maggie"|7|"3rd Class"|6608|"£34 7s 6d"|||"Southampton"|||
+"FOX, Mr Patrick"|28|"3rd Class"|368573|"£7 15s "|||"Queenstown"|"General Labourer"||
+"FRANKLIN, Mr Charles (""Charles Fardon"")"|38|"3rd Class"|3101314|"£7 5s "|||"Southampton"|"Carpenter / Joiner"||
+"GALLAGHER, Mr Martin"|29|"3rd Class"|36864|"£7 14s 10d"|||"Queenstown"|"Farm Labourer"||
+"GARFIRTH, Mr John"|21|"3rd Class"|358585|"£14 10s "|||"Southampton"|"Shoemaker"||
+"GEORGE/JOSEPH, Mrs Shawneene"|38|"3rd Class"|2688|"£7 4s 7d"|||"Cherbourg"||"C"|
+"GERIOS THAMAH, Mr Assaf"|21|"3rd Class"|2692|"£7 4s 6d"|||"Cherbourg"|"Farm Labourer"||
+"GHEORGHEFF, Mr Stanio"||"3rd Class"|349254|"£7 17s 11d"|||"Cherbourg"|"General Labourer"||
+"GILINSKI, Mr Eliezer"|22|"3rd Class"|14973|"£8 1s "|||"Southampton"|"Locksmith"||"47"
+"GILNAGH, Miss Mary Katherine ""Katie"""|17|"3rd Class"|35851|"£7 14s 8d"|||"Queenstown"||"16"|
+"GLYNN, Miss Mary Agatha"|19|"3rd Class"|335677|"£7 15s "|||"Queenstown"||"13"|
+"GOLDSMITH, Mr Frank John"|33|"3rd Class"|363291|"£20 10s 6d"|||"Southampton"|"Turner"||
+"GOLDSMITH, Mrs Emily Alice"|31|"3rd Class"|363291|"£20 10s 6d"|||"Southampton"||"C"|
+"GOLDSMITH, Master Frank John William"|9|"3rd Class"|363291|"£20 10s 6d"|||"Southampton"||"C"|
+"GOLDSMITH, Mr Nathan"|41|"3rd Class"|3101263|"£7 17s "|||"Southampton"|"Shoemaker"||
+"GOODWIN, Mr Frederick Joseph"|42|"3rd Class"|2144|"£46 18s "|||"Southampton"|"Engineer"||
+"GOODWIN, Mrs Augusta"|43|"3rd Class"|2144|"£46 18s "|||"Southampton"|||
+"GOODWIN, Miss Lillian Amy"|16|"3rd Class"|2144|"£46 18s "|||"Southampton"|"Servant"||
+"GOODWIN, Mr Charles Edward"|14|"3rd Class"|2144|"£46 18s "|||"Southampton"|"Scholar"||
+"GOODWIN, Master William Frederick"|11|"3rd Class"|2144|"£46 18s "|||"Southampton"|||
+"GOODWIN, Miss Jessie Allis"|10|"3rd Class"|2144|"£46 18s "|||"Southampton"|||
+"GOODWIN, Master Harold Victor"|9|"3rd Class"|2144|"£46 18s "|||"Southampton"|||
+"GOODWIN, Master Sidney Leslie"|1|"3rd Class"|2144|"£46 18s "|||"Southampton"|||"4"
+"GREEN, Mr George Henry"|40|"3rd Class"|21440|"£8 1s "|||"Southampton"|"Farrier"||
+"GRøNNESTAD, Mr Daniel Danielsen"|32|"3rd Class"|8471|"£8 6s 15d"|||"Southampton"|"General Labourer"||
+"GUEST, Mr Robert"|23|"3rd Class"|376563|"£8 1s "|||"Southampton"|"General Labourer"||
+"GUSTAFSSON, Mr Karl Gideon"|19|"3rd Class"|347069|"£7 15s 6d"|||"Southampton"|"General Labourer"||
+"GUSTAFSSON, Mr Alfred Ossian"|19|"3rd Class"|7534|"£9 16s 11d"|||"Southampton"|"General Labourer"||
+"GUSTAFSSON, Mr Anders Vilhelm"|37|"3rd Class"|3101276|"£7 18s 6d"|||"Southampton"|"General Labourer"||"98"
+"GUSTAFSSON, Mr Johan Birger"|28|"3rd Class"|3101277|"£7 18s 6d"|||"Southampton"|||
+"HAAS, Miss Aloisia"|24|"3rd Class"|349236|"£8 17s "|||"Southampton"|"General Labourer"||
+"HAGLAND, Mr Ingvald Olai Olsen"|28|"3rd Class"|65303|"£6 19s 4d"|||"Southampton"|"General Labourer"||
+"HAGLAND, Mr Konrad Mathias Reiersen"|19|"3rd Class"|65304|"£6 19s 4d"|||"Southampton"|"General Labourer"||
+"HAKKARAINEN, Mr Pekka Pietari"|28|"3rd Class"|3101279|"£15 17s "|||"Southampton"|"General Labourer"||
+"HAKKARAINEN, Mrs Elin Matilda"|24|"3rd Class"|3101279|"£15 17s "|||"Southampton"||"15"|
+"HAMPE, Mr Léon Jérome"|19|"3rd Class"|345769|"£9 10s "|||"Southampton"|"Painter & Decorator"||
+"HANNA, Mr Boulos"|18|"3rd Class"|2664|"£7 4s 6d"|||"Cherbourg"|"General Labourer"||
+"HANNA, Mr Mansour"|35|"3rd Class"|2693|"£7 4s 7d"|||"Cherbourg"|||"188"
+"HANNAH, Mr Borak (""Hannah Assi Borah"")"|27|"3rd Class"|2663|"£7 4s 7d"|||"Cherbourg"||"15"|
+"HANSEN, Mr Claus Peter"|41|"3rd Class"|350026|"£14 2s 2d"|||"Southampton"|"Barber"||
+"HANSEN, Mrs Jennie Louise"|45|"3rd Class"|350026|"£14 2s 2d"|||"Southampton"||"11"|
+"HANSEN, Mr Henry Damsgaard"|21|"3rd Class"|350029|"£7 17s 1d"|||"Southampton"|"Manufacturer"||"69"
+"HANSEN, Mr Henrik Juul"|26|"3rd Class"|350025|"£7 17s 1d"|||"Southampton"|"Farmer"||
+"HARGADON, Miss Catherine ""Kate"""|17|"3rd Class"|30631|"£7 14s 8d"|||"Queenstown"|||
+"HARKNETT, Miss Alice Phoebe"|21|"3rd Class"|6609|"£7 11s "|||"Southampton"|"Servant"||
+"HART, Mr Henry"|28|"3rd Class"|394140|"£6 17s 2d"|||"Queenstown"|"General Labourer"||
+"HASSAN ABILMONA, Mr Houssein Mohamed"|11|"3rd Class"|2699|"£18 15s 9d"|||"Cherbourg"|||
+"HEALY, Miss Hanora ""Nora"""|29|"3rd Class"|370375|"£7 15s "|||"Queenstown"||"16"|
+"HEDMAN, Mr Oskar Arvid"|27|"3rd Class"|347089|"£6 19s 6d"|||"Southampton"|"Settler Recruiter"|"15"|
+"HEE, Mr Ling"|24|"3rd Class"|1601|"£56 9s 11d"|||"Southampton"|"Seaman"|"C"|
+"HEGARTY, Miss Hanora ""Nora"""|18|"3rd Class"|365226|"£6 15s "|||"Queenstown"|||
+"HEIKKINEN, Miss Laina"|26|"3rd Class"|3101282|"£7 18s 6d"|||"Southampton"|||
+"HEININEN, Miss Wendla Maria"|23|"3rd Class"|3101290|"£7 18s 6d"|||"Southampton"|"Servant"||"8"
+"HELLSTRöM, Miss Hilda Maria"|22|"3rd Class"|7548|"£8 19s 3d"|||"Southampton"||"C"|
+"HENDEKOVIC, Mr Ignjac"|28|"3rd Class"|349243|"£7 17s 11d"|||"Southampton"|"General Labourer"||"306"
+"HENRIKSSON, Miss Jenny Lovisa"|28|"3rd Class"|347086|"£7 15s 6d"|||"Southampton"|"Servant"||"3"
+"HENRY, Miss Bridget Delia"|21|"3rd Class"|382649|"£7 15s "|||"Queenstown"|||
+"HIRVONEN, Mrs Helga Elisabeth Lindqvist"|22|"3rd Class"|3101298|"£12 5s 9d"|||"Southampton"||"15"|
+"HIRVONEN, Miss Hildur Elisabeth"|2|"3rd Class"|3101298|"£12 5s 9d"|||"Southampton"||"15"|
+"HOLM, Mr John Fredrik Alexander"|43|"3rd Class"|7075|"£6 9s "|||"Southampton"|"Farmer"||
+"HOLTHEN, Mr Johan Martin"|28|"3rd Class"|4001|"£22 10s 6d"|||"Southampton"|"Seaman"||
+"HONKANEN, Miss Eliina"|27|"3rd Class"|3101283|"£7 18s 6d"|||"Southampton"|||
+"HORGAN, Mr John"|22|"3rd Class"|370377|"£7 15s "|||"Queenstown"|"General Labourer"||
+"HOWARD, Miss May Elizabeth"|27|"3rd Class"|39186|"£8 1s "|||"Southampton"|"Laundry Worker"|"C"|
+"HUMBLEN, Mr Adolf Mathias Nicolai Olsen"|42|"3rd Class"|348121|"£7 13s "|||"Southampton"|"Farmer"||"120"
+"HYMAN, Mr Abraham Joseph"|34|"3rd Class"|3470|"£7 17s 9d"|||"Southampton"|"Framer"|"C"|
+"IBRAHIM SHAWAH, Mr Yousseff"|33|"3rd Class"|2627|"£14 9s 2d"|||"Cherbourg"|||
+"ILIEFF, Mr Ylio"|32|"3rd Class"|349220|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"ILMAKANGAS, Miss Ida Livija"|27|"3rd Class"|3101270|"£7 18s 6d"|||"Southampton"|"Servant"||
+"ILMAKANGAS, Miss Pieta Sofia"|25|"3rd Class"|3101271|"£7 18s 6d"|||"Southampton"|"Servant"||
+"IVANOFF, Mr Kanio"|20|"3rd Class"|349201|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"JABBUR (ZABOUR), Miss Thamine"|19|"3rd Class"|2665|"£14 9s 1d"|||"Cherbourg"|"Housekeeper"||
+"JABBUR (ZABOUR), Miss Hileni"|16|"3rd Class"|2665|"£14 9s 1d"|||"Cherbourg"|"Housekeeper"||"328"
+"JALšEVAC, Mr Ivan"|29|"3rd Class"|349240|"£7 17s 11d"|||"Cherbourg"||"15"|
+"JANSSON, Mr Carl Olof"|21|"3rd Class"|350034|"£7 15s 11d"|||"Southampton"||"A"|
+"JARDIM, Mr José Neto"|21|"3rd Class"|3101305|"£7 1s "|||"Southampton"|"General Labourer"||
+"JENSEN, Mr Hans Peder"|20|"3rd Class"|350050|"£7 17s 1d"|||"Southampton"|||
+"JENSEN, Mr Svend Lauritz"|17|"3rd Class"|350047|"£7 17s 1d"|||"Southampton"|"Farmer"||
+"JENSEN, Mr Niels Peder (""Rasmus"")"|48|"3rd Class"|350048|"£7 1s 1d"|||"Southampton"|"Farmer"||
+"JERMYN, Miss Annie Jane"|26|"3rd Class"|14313|"£7 15s "|||"Queenstown"||"D"|
+"JOHANNESEN, Mr Bernt Johannes"|29|"3rd Class"|65306|"£8 2s 3d"|||"Southampton"||"13"|
+"JOHANSON, Mr Jakob Alfred"|34|"3rd Class"|3101264|"£6 9s 11d"|||"Southampton"|"General Labourer"||"143"
+"JOHANSSON, Mr Nils"|29|"3rd Class"|347467|"£7 17s 1d"|||"Southampton"|"General Labourer"||
+"JOHANSSON, Mr Erik"|22|"3rd Class"|350052|"£7 15s 11d"|||"Southampton"|"General Labourer"||"156"
+"JOHANSSON, Mr Gustaf Joel"|33|"3rd Class"|7540|"£8 13s 1d"|||"Southampton"|||"285"
+"JOHANSSON, Mr Karl Johan"|31|"3rd Class"|347063|"£7 15s 6d"|||"Southampton"|||
+"JOHANSSON PALMQUIST, Mr Oskar Leander"|26|"3rd Class"|347070|"£7 15s 6d"|||"Southampton"||"15"|
+"JOHNSON, Mr August"|49|"3rd Class"|370160||||"Southampton"|"Seaman"||
+"JOHNSON, Mr William Cahoone Jr."|19|"3rd Class"|370160||||"Southampton"|"Seaman"||
+"JOHNSON, Mr Malkolm Joackim"|33|"3rd Class"|347062|"£7 15s 6d"|||"Southampton"|"General Labourer"||"37"
+"JOHNSON, Mrs Elisabeth Vilhelmina"|26|"3rd Class"|347742|"£11 2s 8d"|||"Southampton"||"15"|
+"JOHNSON, Master Harold Theodor"|4|"3rd Class"|347742|"£11 2s 8d"|||"Southampton"||"15"|
+"JOHNSON, Miss Eleanor Ileen"|1|"3rd Class"|347742|"£11 2s 8d"|||"Southampton"||"15"|
+"JOHNSTON, Mr Andrew Emslie"|35|"3rd Class"|6607|"£23 9s "|||"Southampton"|"Plumber"||
+"JOHNSTON, Mrs Eliza"|34|"3rd Class"|6607|"£23 9s "|||"Southampton"|||
+"JOHNSTON, Master William Andrew"|8|"3rd Class"|6607|"£23 9s "|||"Southampton"|||
+"JOHNSTON, Miss Catherine Nellie"|7|"3rd Class"|6607|"£23 9s "|||"Southampton"|||
+"JONKOFF, Mr Lalio"|23|"3rd Class"|349204|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"JONSSON, Mr Carl"|25|"3rd Class"|350417|"£7 17s 1d"|||"Southampton"|"General Labourer"|"15"|
+"JöNSSON, Mr Nils Hilding"|27|"3rd Class"|350408|"£7 17s 1d"|||"Southampton"|"General Labourer"||
+"JOSEPH (SHAHIN), Mr Elias"|39|"3rd Class"|2675|"£7 4s 7d"|||"Cherbourg"|||
+"JUSSILA, Miss Katriina"|20|"3rd Class"|4136|"£9 16s 10d"|||"Southampton"|"Servant"||
+"JUSSILA, Miss Mari Aina"|21|"3rd Class"|4137|"£9 16s 10d"|||"Southampton"|"Servant"||
+"JUSSILA, Mr Eiriik"|32|"3rd Class"|3101286|"£7 18s 6d"|||"Southampton"||"15"|
+"KALLIO, Mr Nikolai Erland"|17|"3rd Class"|3101274|"£7 2s 6d"|||"Southampton"|"General Labourer"||
+"KALVIK, Mr Johannes Halvorsen"|21|"3rd Class"|8475|"£8 8s 8d"|||"Southampton"|"General Labourer"||
+"KARAJIC, Mr Milan"|30|"3rd Class"|349246|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"KARLSSON, Mr Einar Gervasius"|21|"3rd Class"|350053|"£7 15s 11d"|||"Southampton"|"Military"|"13"|
+"KARLSSON, Mr Julius Konrad Eugen"|33|"3rd Class"|347465|"£7 17s 1d"|||"Southampton"|"Engineer"||
+"KARLSSON, Mr Nils August"|22|"3rd Class"|350060|"£7 10s 5d"|||"Southampton"|"Farmer"||
+"KARUN, Mr Franz"|39|"3rd Class"|349256|"£13 8s 4d"|||"Cherbourg"|"Hotelier"|"15"|
+"KARUN, Miss Manca"|4|"3rd Class"|349256|"£13 8s 4d"|||"Cherbourg"||"15"|
+"KASSEM HOUSSEIN, Mr Fared"|18|"3rd Class"|2700|"£7 4s 7d"|||"Cherbourg"|"Farmer"||
+"KATAVELOS, Mr Vasilios G."|19|"3rd Class"|2682|"£7 4s 7d"|||"Cherbourg"|"Farmer"||"58"
+"KEANE, Mr Andrew ""Andy"""|23|"3rd Class"|12460|"£7 15s "|||"Queenstown"|"Farm Labourer"||
+"KEEFE, Mr Arthur"|39|"3rd Class"|323592|"£7 5s "|||"Southampton"|"Farmer"|"A"|"332"
+"KELLY, Mr James"|19|"3rd Class"|363592|"£8 1s "|||"Southampton"|"Painter & Decorator"||
+"KELLY, Mr James"|44|"3rd Class"|330911|"£7 16s 7d"|||"Queenstown"|"Farm Labourer"||"70"
+"KELLY, Miss Anna Katherine"|20|"3rd Class"|9234|"£7 15s "|||"Queenstown"||"16"|
+"KELLY, Miss Mary"|22|"3rd Class"|14312|"£7 15s "|||"Queenstown"||"D"|
+"KENNEDY, Mr John"|24|"3rd Class"|368783|"£7 15s "|||"Queenstown"|"Farm Labourer"||
+"KHALIL, Mr Betros"|25|"3rd Class"|2660|"£14 9s 1d"|||"Cherbourg"|"Farm Labourer"||
+"KHALIL, Mrs Zahie ""Maria"""|20|"3rd Class"|2660|"£14 9s 1d"|||"Cherbourg"|"Farm Labourer"||
+"KIERNAN, Mr John"|25|"3rd Class"|367227|"£7 15s "|||"Queenstown"|"General Labourer"||
+"KIERNAN, Mr Philip"|22|"3rd Class"|367229|"£7 15s "|||"Queenstown"|"General Labourer"||
+"KILGANNON, Mr Thomas"|22|"3rd Class"|36865|"£7 14s 9d"|||"Queenstown"|"Farm Labourer"||
+"KINK, Mr Anton"|29|"3rd Class"|315153|"£22 6d"|||"Southampton"||"2"|
+"KINK, Miss Maria"|22|"3rd Class"|315152|"£8 13s 3d"|||"Southampton"|||
+"KINK, Mr Vincenz"|26|"3rd Class"|315151|"£8 13s 3d"|||"Southampton"|"Magazineer"||
+"KINK-HEILMANN, Mrs Luise"|26|"3rd Class"|315153|"£22 6d"|||"Southampton"||"2"|
+"KINK-HEILMANN, Miss Luise Gretchen"|4|"3rd Class"|315153|"£22 6d"|||"Southampton"||"2"|
+"KLASéN, Mr Klas Albin"|18|"3rd Class"|350404|"£7 17s 1d"|||"Southampton"|"Farm Labourer"||
+"KLASéN, Miss Gertrud Emilia"|1|"3rd Class"|350405|"£12 3s 8d"|||"Southampton"|||
+"KLASéN, Mrs Hulda Kristina Eugenia"|36|"3rd Class"|350405|"£12 3s 8d"|||"Southampton"|"Housewife"||
+"KRAEFF, Mr Theodor"||"3rd Class"|349253|"£7 17s 11d"|||"Cherbourg"|"General Labourer"||
+"KREKORIAN, Mr Neshan"|25|"3rd Class"|2654|"£7 4s 7d"|||"Cherbourg"|"General Labourer"|"10"|
+"KUTSCHER (LITHMAN), Mr Simon"|26|"3rd Class"|251|"£7 11s "|||"Southampton"|"Baker"||
+"LAHOUD ISHAQ MOWAD, Mr Sarkis"|30|"3rd Class"|2624|"£7 4s 6d"|||"Cherbourg"|"General Labourer"||
+"LAITINEN, Miss Kristina Sofia"|37|"3rd Class"|4135|"£9 11s 9d"|||"Southampton"|"Housekeeper"||
+"LALEFF, Mr Kristo"|23|"3rd Class"|349217|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"LAM, Mr Ali"|38|"3rd Class"|1601|"£56 9s 11d"|||"Southampton"|"Seaman"|"C"|
+"LAM, Mr Len"|23|"3rd Class"|1601|"£56 9s 11d"|||"Southampton"|"Seaman"||
+"LANDERGREN, Miss Aurora Adelia"|22|"3rd Class"|7077|"£7 5s "|||"Southampton"||"13"|
+"LANE, Mr Patrick"|16|"3rd Class"|7935|"£7 15s "|||"Queenstown"|"Farm Labourer"||
+"LANG, Mr Fang"|32|"3rd Class"|1601|"£56 9s 11d"|||"Southampton"|"Seaman"|"14"|
+"LARSSON, Mr August Viktor"|29|"3rd Class"|7545|"£9 9s 8d"|||"Southampton"|"General Labourer"||
+"LARSSON, Mr Bengt Edvin"|29|"3rd Class"|347067|"£7 15s 6d"|||"Southampton"|"General Labourer"||
+"LARSSON-RONDBERG, Mr Edvard A."|22|"3rd Class"|347065|"£7 15s 6d"|||"Southampton"|"General Labourer"||
+"LEENI, Mr Fahim (""Philip Zenni"")"|22|"3rd Class"|2620|"£7 4s 6d"|||"Cherbourg"|"General Labourer"|"6"|
+"LEFEBVRE, Mrs Frances Marie"|40|"3rd Class"|4133|"£25 9s 4d"|||"Southampton"|||
+"LEFEBVRE, Master Henry"|5|"3rd Class"|4133|"£25 9s 4d"|||"Southampton"|||
+"LEFEBVRE, Miss Ida"|3|"3rd Class"|4133|"£25 9s 4d"|||"Southampton"|||
+"LEFEBVRE, Miss Jeannie"|8|"3rd Class"|4133|"£25 9s 4d"|||"Southampton"|||
+"LEFEBVRE, Miss Mathilde"|12|"3rd Class"|4133|"£25 9s 4d"|||"Southampton"|||
+"LEINONEN, Mr Antti Gustaf"|32|"3rd Class"|3101292|"£7 18s 6d"|||"Southampton"|||
+"LENNON, Mr Denis"|20|"3rd Class"|370371|"£15 10s "|||"Queenstown"|"General Labourer"||
+"LEONARD, Mr Lionel"|36|"3rd Class"|370160||||"Southampton"|"Seaman"||
+"LESTER, Mr James"|26|"3rd Class"|48871|"£24 3s "|||"Southampton"|"Dipper"||
+"LIEVENS, Mr René Aimé"|24|"3rd Class"|345781|"£9 10s "|||"Southampton"|"Farmer"||
+"LINDAHL, Miss Agda Thorilda Viktoria"|25|"3rd Class"|347071|"£7 15s 6d"|||"Southampton"|||
+"LINDBLOM, Miss Augusta Charlotta"|45|"3rd Class"|347073|"£7 15s "|||"Southampton"|||
+"LINDELL, Mr Edvard Bengtsson"|36|"3rd Class"|349910|"£15 11s "|||"Southampton"|"General Labourer"|"A"|
+"LINDELL, Mrs Elin Gerda"|30|"3rd Class"|349910|"£15 11s "|||"Southampton"||"A"|
+"LINDQVIST, Mr Eino William"|20|"3rd Class"|3101285|"£7 18s 6d"|||"Southampton"||"15"|
+"LINEHAN, Mr Michael"|21|"3rd Class"|330971|"£7 17s 7d"|||"Queenstown"|"Farm Labourer"||
+"LING, Mr Lee"|28|"3rd Class"|1601|"£56 9s 11d"|||"Southampton"|"Seaman"||
+"LINHART, Mr Wenzel"|27|"3rd Class"|345775|"£9 10s "|||"Southampton"|"Baker"||"298"
+"LIVSHIN, Mr David (Abraham Harmer)"|25|"3rd Class"|374887|"£7 5s "|||"Southampton"|"Jeweller"|"B"|
+"LOBB, Mr William Arthur"|30|"3rd Class"|3336|"£16 2s "|||"Southampton"|"Engineer"||
+"LOBB, Mrs Cordelia K."|26|"3rd Class"|3336|"£16 2s "|||"Southampton"|||"55"
+"LOCKYER, Mr Edward Thomas"|21|"3rd Class"|1222|"£7 17s 7d"|||"Southampton"|"Grocers Assistant"||"153"
+"LOVELL, Mr John Hall (""Henry"")"|20|"3rd Class"|21173|"£7 5s "|||"Southampton"|"Farmer"||
+"LULIC, Mr Nikola"|29|"3rd Class"|315098|"£8 13s 3d"|||"Southampton"||"15"|
+"LUNDAHL, Mr Johan Svensson"|51|"3rd Class"|347743|"£7 1s 1d"|||"Southampton"|"General Labourer"||
+"LUNDSTRöM, Mr Thure Edvin"|32|"3rd Class"|350403|"£7 11s 7d"|||"Southampton"||"15"|
+"LYMPEROPOULUS, Mr Panagiotis K."|30|"3rd Class"|2683|"£6 8s 9d"|||"Cherbourg"|"General Labourer"||"196"
+"LYNTAKOFF, Mr Stanko"|44|"3rd Class"|349235|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"MACKAY, Mr George William"|20|"3rd Class"|42795|"£7 11s "|||"Southampton"|"Butler"||
+"MADIGAN, Miss Margaret ""Maggie"""|21|"3rd Class"|370370|"£7 15s "|||"Queenstown"||"15"|
+"MADSEN, Mr Fridtjof Arne"|24|"3rd Class"|17369|"£7 2s 10d"|||"Southampton"||"13"|
+"MäENPää, Mr Matti Alexanteri"|22|"3rd Class"|3101275|"£7 2s 6d"|||"Southampton"|||
+"MAHON, Miss Bridget Delia"|20|"3rd Class"|330924|"£7 17s 7d"|||"Queenstown"|||
+"MAISNER, Mr Simon"|34|"3rd Class"|2816|"£8 1s "|||"Southampton"|"Tailor"||
+"MäKINEN, Mr Kalle Edvard"|29|"3rd Class"|3101268|"£7 18s 6d"|||"Southampton"|"General Labourer"||
+"MAMEE, Mr Hanna"|20|"3rd Class"|2677|"£7 4s 7d"|||"Cherbourg"||"15"|
+"MANGAN, Miss Mary"|32|"3rd Class"|364850|"£7 15s "|||"Queenstown"|||"61"
+"MANNION, Miss Margaret"|28|"3rd Class"|36866|"£7 14s 9d"|||"Queenstown"||"16"|
+"MARDIROSIAN, Mr Sarkis"|25|"3rd Class"|2655|"£7 4s 7d"|||"Cherbourg"|"Farm Labourer"||
+"MARINKO, Mr Dmitri"|23|"3rd Class"|349238|"£7 17s 11d"|||"Southampton"|||
+"MARKOFF, Mr Marin"|35|"3rd Class"|349213|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"MARKUN, Mr Johann"|33|"3rd Class"|349257|"£7 17s 11d"|||"Cherbourg"|"General Labourer"||
+"MATINOFF, Mr Nicola"|30|"3rd Class"|349255|"£7 17s 11d"|||"Cherbourg"|||
+"MCCARTHY, Miss Catherine ""Katie"""|24|"3rd Class"|383123|"£7 15s "|||"Queenstown"||"15"|
+"MCCORMACK, Mr Thomas Joseph"|19|"3rd Class"|367228|"£7 15s "|||"Queenstown"|"Barman"||
+"MCCOY, Miss Agnes"|29|"3rd Class"|367226|"£23 5s "|||"Queenstown"||"16"|
+"MCCOY, Miss Alicia"|26|"3rd Class"|367226|"£23 5s "|||"Queenstown"||"16"|
+"MCCOY, Mr Bernard"|24|"3rd Class"|367226|"£23 5s "|||"Queenstown"|"General Labourer"|"16"|
+"MCDERMOTT, Miss Bridget Delia"|31|"3rd Class"|330932|"£7 15s 8d"|||"Queenstown"||"13"|
+"MCEVOY, Mr Michael"|19|"3rd Class"|36568|"£15 10s "|||"Queenstown"|"Farm Labourer"||
+"MCGOVERN, Ms Mary"|22|"3rd Class"|330931|"£7 17s 7d"|||"Queenstown"||"13"|
+"MCGOWAN, Miss Katherine"|42|"3rd Class"|9232|"£7 15s "|||"Queenstown"|||
+"MCGOWAN, Miss Anna ""Annie"""|17|"3rd Class"|330923|"£8 7d"|||"Queenstown"|||
+"MCMAHON, Mr Martin"|20|"3rd Class"|370372|"£7 15s "|||"Queenstown"|"Farm Labourer"||
+"MCNAMEE, Mr Neal"|27|"3rd Class"|376566|"£16 2s "|||"Southampton"|"Provision Manager"||
+"MCNAMEE, Mrs Eileen"|19|"3rd Class"|376566|"£16 2s "|||"Southampton"|||"53"
+"MCNEILL, Miss Bridget"|27|"3rd Class"|370368|"£7 15s "|||"Queenstown"|||
+"MEANWELL, Mrs Marian"|63|"3rd Class"|392087|"£8 1s "|||"Southampton"|"Milliner"||
+"MEEHON, Mr John"|22|"3rd Class"|3130|"£7 15s "|||"Queenstown"|"General Labourer"||
+"MEEK, Mrs Annie Louise Rowley"|31|"3rd Class"|343095|"£8 1s "|||"Southampton"|||
+"MEO (MARTINO), Mr Alfonzo"|48|"3rd Class"|11206|"£8 1s "|||"Southampton"|"Musician"||"201"
+"MERNAGH, Mr Robert"|28|"3rd Class"|368703|"£7 15s "|||"Queenstown"|"Farm Labourer"||
+"MIDTSJø, Mr Karl Albert"|21|"3rd Class"|345501|"£7 15s 6d"|||"Southampton"|"Farmer"|"15"|
+"MIHOFF, Mr Stoytcho"|28|"3rd Class"|349207|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"MILES, Mr Frank"|23|"3rd Class"|359306|"£8 1s "|||"Southampton"|"Engineer"||
+"MINEFF, Mr Ivan"|24|"3rd Class"|349233|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"MINKOFF, Mr Lazar"|21|"3rd Class"|349211|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"MITKOFF, Mr Mito"|23|"3rd Class"|349221|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"MOCKLER, Miss Ellen Mary"|23|"3rd Class"|330980|"£7 17s 7d"|||"Queenstown"||"16"|
+"MOEN, Mr Sigurd Hansen"|27|"3rd Class"|348123|"£7 13s "|||"Southampton"|"Carpenter / Joiner"||"309"
+"MOOR, Mrs Beila"|29|"3rd Class"|392096|"£12 9s 6d"|||"Southampton"|"Tailor"|"14"|
+"MOOR, Master Meier"|7|"3rd Class"|392096|"£12 9s 6d"|||"Southampton"||"14"|
+"MOORE, Mr Leonard Charles"|19|"3rd Class"|54510|"£8 1s "|||"Southampton"|"Bricklayer"||
+"MORAN, Miss Bertha Bridget"|28|"3rd Class"|371110|"£24 3s "|||"Queenstown"||"16"|
+"MORAN, Mr Daniel James"|27|"3rd Class"|371110|"£24 3s "|||"Queenstown"|"General Labourer"||
+"MORLEY, Mr William"|34|"3rd Class"|364506|"£8 1s "|||"Southampton"|"Carpenter / Joiner"||
+"MORROW, Mr Thomas Rowan"|30|"3rd Class"|372622|"£7 15s "|||"Queenstown"|"General Labourer"||
+"MOSS, Mr Albert Johan"|29|"3rd Class"|312991|"£7 15s 6d"|||"Southampton"||"B"|
+"MOUBAREK, Mrs Omine"|24|"3rd Class"|2661|"£15 4s 11d"|||"Cherbourg"||"C"|
+"MOUBAREK, Master Gerios (""George _"")"|7|"3rd Class"|2661|"£15 4s 11d"|||"Cherbourg"||"C"|
+"MOUBAREK, Master Halim Gonios (""William George"")"|4|"3rd Class"|2661|"£15 4s 11d"|||"Cherbourg"||"C"|
+"MOUSSA, Mrs Mantoura Boulos"|35|"3rd Class"|2626|"£7 4s 7d"|||"Cherbourg"|"Housewife"||
+"MOUSSELMANI, Mrs Fatima"|22|"3rd Class"|2649|"£7 4s 6d"|||"Cherbourg"||"C"|
+"MOUTAL, Mr Rahamin Haim"|28|"3rd Class"|374746|"£8 1s "|||"Southampton"|"Traveller"||
+"MULLEN, Miss Katherine ""Katie"""|21|"3rd Class"|35852|"£7 14s 8d"|||"Queenstown"||"16"|
+"MULLIN, Miss Mary (_Lennon)"|18|"3rd Class"|370371|"£15 10s "|||"Queenstown"|||
+"MULVIHILL, Miss Bridget Elizabeth"|25|"3rd Class"|382653|"£7 15s "|||"Queenstown"||"15"|
+"MURDLIN, Mr Joseph"|22|"3rd Class"|3235|"£8 1s "|||"Southampton"|"Chemist"||
+"MURPHY, Miss Nora"|34|"3rd Class"|36568|"£15 10s "|||"Queenstown"||"16"|
+"MURPHY, Miss Margaret Jane ""Mary"" ""Maggie"""|25|"3rd Class"|367230|"£15 10s "|||"Queenstown"||"16"|
+"MURPHY, Miss Catherine ""Kate"""|18|"3rd Class"|367230|"£15 10s "|||"Queenstown"||"16"|
+"MYHRMAN, Mr Pehr Fabian Oliver Malkolm"|18|"3rd Class"|347078|"£7 15s "|||"Southampton"|"General Labourer"||
+"NAIDENOFF, Mr Penko"|22|"3rd Class"|349206|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"NAJIB KIAMIE, Miss Adele ""Jane"""|15|"3rd Class"|2667|"£7 4s 6d"|||"Cherbourg"||"C"|
+"NAKHLI, Mr Toufik"|17|"3rd Class"|2641|"£7 4s 7d"|||"Cherbourg"|||
+"NAKID, Mr Sahid"|20|"3rd Class"|2653|"£15 14s 10d"|||"Cherbourg"||"C"|
+"NAKID, Mrs Waika ""Mary"""|19|"3rd Class"|2653|"£15 14s 10d"|||"Cherbourg"||"C"|
+"NAKID, Miss Maria"|1|"3rd Class"|2653|"£15 14s 10d"|||"Cherbourg"||"C"|
+"NANCARROW, Mr William Henry"|34|"3rd Class"|3338|"£8 1s "|||"Southampton"|"Mason"||
+"NANKOFF, Mr Minko"|32|"3rd Class"|349218|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"NASR ALMA, Mr Mustafa"|20|"3rd Class"|2652|"£7 4s 7d"|||"Cherbourg"|"Farm Labourer"||
+"NASSR RIZQ, Mr Saade"|20|"3rd Class"|2676|"£7 4s 6d"|||"Cherbourg"|||
+"NAUGHTON, Miss Hannah"|21|"3rd Class"|365237|"£7 15s "|||"Queenstown"|||
+"NENKOFF, Mr Christo"|22|"3rd Class"|349234|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"NICOLA-YARRED, Miss Jamila (""Amelia Garrett"")"|14|"3rd Class"|2651|"£11 4s 10d"|||"Cherbourg"||"C"|
+"NICOLA-YARRED, Master Elias (""Louis Garrett"")"|11|"3rd Class"|2651|"£11 4s 10d"|||"Cherbourg"||"C"|
+"NIEMINEN, Miss Manta Josefina"|29|"3rd Class"|3101297|"£7 18s 6d"|||"Southampton"|"Servant"||
+"NIKLASSON, Mr Samuel"|28|"3rd Class"|363611|"£8 1s "|||"Southampton"|"General Labourer"||
+"NILSSON, Mr August Ferdinand"|21|"3rd Class"|350410|"£7 17s 1d"|||"Southampton"|"General Labourer"||
+"NILSSON, Miss Berta Olivia"|18|"3rd Class"|347066|"£7 15s 6d"|||"Southampton"||"D"|
+"NILSSON, Miss Helmina Josefina"|26|"3rd Class"|347470|"£7 17s 1d"|||"Southampton"||"13"|
+"NIRVA, Mr Iisakki Antino Äijö"|41|"3rd Class"|3101272|"£7 2s 6d"|||"Southampton"|"General Labourer"||
+"NISKäNEN, Mr Juha"|39|"3rd Class"|3101289|"£7 18s 6d"|||"Southampton"||"9"|
+"NOFAL, Mr Mansouer"|20|"3rd Class"|2697|"£7 4s 7d"|||"Cherbourg"|"Journalist"||"181"
+"NOSWORTHY, Mr Richard Cater"|21|"3rd Class"|39886|"£7 16s "|||"Southampton"|"Farm Labourer"||
+"NYSTEN, Miss Anna Sofia"|22|"3rd Class"|347081|"£7 15s "|||"Southampton"||"13"|
+"NYSVEEN, Mr Johan Hansen"|60|"3rd Class"|345364|"£6 4s 9d"|||"Southampton"|"Farmer"||
+"O'BRIEN, Mr Timothy"|21|"3rd Class"|330979|"£7 16s 7d"|||"Queenstown"|||
+"O'BRIEN, Mr Thomas"|27|"3rd Class"|370365|"£15 10s "|||"Queenstown"|"Farm Labourer"||
+"O'BRIEN, Mrs Johanna ""Hannah"""|26|"3rd Class"|370365|"£15 10s "|||"Queenstown"|"Housewife"||
+"O'CONNELL, Mr Patrick Denis"|17|"3rd Class"|334912|"£7 14s 8d"|||"Queenstown"|"General Labourer"||
+"O'CONNOR, Mr Maurice"|16|"3rd Class"|371060|"£7 15s "|||"Queenstown"|"General Labourer"||
+"O'CONNOR, Mr Patrick"|23|"3rd Class"|366713|"£7 15s "|||"Queenstown"|"Farmer"||
+"O'DRISCOLL, Miss Bridget"|27|"3rd Class"|14311|"£7 15s "|||"Queenstown"||"D"|
+"O'DWYER, Miss Ellen ""Nellie"""|25|"3rd Class"|330959|"£7 17s 7d"|||"Queenstown"|||
+"O'KEEFE, Mr Patrick"|21|"3rd Class"|368402|"£7 15s "|||"Queenstown"|"Farm Labourer"|"B"|
+"O'LEARY, Miss Hanora ""Nora"""|16|"3rd Class"|330919|"£7 16s 7d"|||"Queenstown"||"13"|
+"O'SULLIVAN, Miss Bridget Mary"|21|"3rd Class"|330909|"£7 12s 7d"|||"Queenstown"|||
+"ÖDAHL, Mr Nils Martin"|23|"3rd Class"|7267|"£9 4s 6d"|||"Southampton"|"General Labourer"||
+"ÖHMAN, Miss Velin"|22|"3rd Class"|347085|"£7 15s 6d"|||"Southampton"||"C"|
+"OLSEN, Mr Karl Siegwart Andreas"|42|"3rd Class"|4579|"£8 8s 1d"|||"Southampton"|"General Labourer"||
+"OLSEN, Master Artur Karl"|9|"3rd Class"|17368|"£3 3s 5d"|||"Southampton"||"13"|
+"OLSEN, Mr Henry Margido"|28|"3rd Class"|4001|"£22 10s 6d"|||"Southampton"|"Engineer"||"173"
+"OLSEN, Mr Ole Martin"|27|"3rd Class"|265302|"£7 6s 3d"|||"Southampton"|"General Labourer"||
+"OLSSON, Mr Oscar Wilhelm"|32|"3rd Class"|347079|"£7 15s 6d"|||"Southampton"||"A"|
+"OLSSON, Mr Nils Johan Göransson"|28|"3rd Class"|347464|"£7 17s 1d"|||"Southampton"|||
+"OLSSON, Miss Elina"|31|"3rd Class"|350407|"£7 17s 1d"|||"Southampton"|||
+"OLSVIGEN, Mr Thor Anderson"|20|"3rd Class"|6563|"£9 4s 6d"|||"Southampton"|"Salesman"||"89"
+"ORESKOVIC, Mr Luka"|20|"3rd Class"|315094|"£8 13s 3d"|||"Southampton"|"Farmer"||
+"ORESKOVIC, Miss Jelka"|23|"3rd Class"|315085|"£8 13s 3d"|||"Southampton"|"Farmer"||
+"ORESKOVIC, Miss Marija"|20|"3rd Class"|315096|"£8 13s 3d"|||"Southampton"|"Farm Labourer"||
+"OSéN, Mr Olaf Elon"|16|"3rd Class"|7534|"£9 4s 4d"|||"Southampton"|"Farm Labourer"||
+"PåLSSON, Mrs Alma Cornelia"|29|"3rd Class"|349909|"£21 1s 6d"|||"Southampton"|"Housewife"||"206"
+"PåLSSON, Master Gösta Leonard"|2|"3rd Class"|349909|"£21 1s 6d"|||"Southampton"|||
+"PåLSSON, Master Paul Folke"|6|"3rd Class"|349909|"£21 1s 6d"|||"Southampton"|||
+"PåLSSON, Miss Stina Viola"|3|"3rd Class"|349909|"£21 1s 6d"|||"Southampton"|||
+"PåLSSON, Miss Torborg Danira"|8|"3rd Class"|349909|"£21 1s 6d"|||"Southampton"|||
+"PANULA, Mrs Maija Emelia Abrahamintytar"|41|"3rd Class"|3101295|"£39 13s 9d"|||"Southampton"|||
+"PANULA, Master Jaako Arnold"|14|"3rd Class"|3101295|"£39 13s 9d"|||"Southampton"|"General Labourer"||
+"PANULA, Mr Ernesti Arvid"|16|"3rd Class"|3101295|"£39 13s 9d"|||"Southampton"|"General Labourer"||
+"PANULA, Master Juha Niilo"|7|"3rd Class"|3101295|"£39 13s 9d"|||"Southampton"|||
+"PANULA, Master Urho Abraham"|2|"3rd Class"|3101295|"£39 13s 9d"|||"Southampton"|||
+"PANULA, Master Eino Viljam"|1|"3rd Class"|3101295|"£39 13s 9d"|||"Southampton"|||
+"PASIC, Mr Jakob"|21|"3rd Class"|315097|"£8 13s 3d"|||"Southampton"|"Farmer"||
+"PATCHETT, Mr George"|19|"3rd Class"|358585|"£14 10s "|||"Southampton"|"Shoemaker"||
+"PAVLOVIC, Mr Stefo"|32|"3rd Class"|349242|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"PEACOCK, Mrs Edith"|26|"3rd Class"|3101315|"£13 15s 6d"|||"Southampton"|||
+"PEACOCK, Master Alfred Edward"|"7m"|"3rd Class"|3101315|"£13 15s 6d"|||"Southampton"|||
+"PEACOCK, Miss Treasteall"|3|"3rd Class"|3101315|"£13 15s 6d"|||"Southampton"|||
+"PEARCE, Mr Ernest"|32|"3rd Class"|343271|"£7 "|||"Southampton"|"Farmer"||
+"PEDERSEN, Mr Olaf"|28|"3rd Class"|345498|"£7 15s 6d"|||"Southampton"|"General Labourer"||
+"PEDUZZI, Mr Giuseppe"|24|"3rd Class"|2817|"£8 1s "|||"Southampton"|"Waiter"||
+"PEKONIEMI, Mr Edvard"|21|"3rd Class"|3101294|"£7 18s 6d"|||"Southampton"|"General Labourer"||
+"PELTOMäKI, Mr Nikolai Johannes"|25|"3rd Class"|3101291|"£7 18s 6d"|||"Southampton"|"General Labourer"||
+"PERKIN, Mr John Henry"|22|"3rd Class"|21174|"£7 5s "|||"Southampton"|"Farmer"||
+"PERSSON, Mr Ernst Ulrik"|25|"3rd Class"|347083|"£7 15s 6d"|||"Southampton"|"Chauffeur"|"15"|
+"PETER / JOSEPH, Mrs Catherine"|24|"3rd Class"|2668|"£22 7s 2d"|||"Cherbourg"||"C"|
+"PETER / JOSEPH, Master Michael J. (""Michael Joseph"")"|4|"3rd Class"|2668|"£22 7s 2d"|||"Cherbourg"||"D"|
+"PETER / JOSEPH, Miss Anna (""Mary Joseph"")"|2|"3rd Class"|2668|"£22 7s 2d"|||"Cherbourg"||"C"|
+"PETERS, Miss Katie"|26|"3rd Class"|330935|"£8 2s 9d"|||"Queenstown"|||
+"PETERSEN, Mr Marius"|24|"3rd Class"|342441|"£8 1s "|||"Southampton"|"Dairy Worker"||
+"PETRANEC, Miss Matilda"|28|"3rd Class"|349245|"£7 17s 11d"|||"Southampton"|"Servant"||
+"PETROFF, Mr Nedialco"|19|"3rd Class"|349212|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"PETROFF, Mr Pastcho"|29|"3rd Class"|349215|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"PETTERSSON, Mr Johan Emil"|25|"3rd Class"|347076|"£7 15s 6d"|||"Southampton"|"General Labourer"||
+"PETTERSSON, Miss Ellen Natalia"|18|"3rd Class"|347087|"£7 15s 6d"|||"Southampton"|||
+"PICKARD, Mr Berk"|32|"3rd Class"|392078|"£8 1s "|||"Southampton"|"Leather Worker"|"9"|
+"PLOTCHARSKY, Mr Vasil"|27|"3rd Class"|349227|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"POKRNIC, Mr Mate"|17|"3rd Class"|315095|"£8 13s 3d"|||"Southampton"|||
+"POKRNIC, Mr Tome"|24|"3rd Class"|315092|"£8 13s 3d"|||"Southampton"|||
+"PULNER, Mr Uscher"|16|"3rd Class"|3411|"£8 14s 3d"|||"Cherbourg"|||
+"RADEFF, Mr Alexander"|27|"3rd Class"|349223|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"RASMUSSEN, Mrs Lena Jakobsen"|63|"3rd Class"|65305|"£8 2s 3d"|||"Southampton"|||
+"RAZI, Mr Raihed"|30|"3rd Class"|2629|"£7 4s 7d"|||"Cherbourg"|||
+"REED, Mr James George"|19|"3rd Class"|362316|"£7 5s "|||"Southampton"|"Butcher"||
+"REKIC, Mr Tido"|38|"3rd Class"|349249|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"REYNOLDS, Mr Harold J."|21|"3rd Class"|342684|"£8 1s "|||"Southampton"|"Baker"||"327"
+"RICE, Mrs Margaret"|39|"3rd Class"|382652|"£29 2s 6d"|||"Queenstown"|"Housekeeper"||"12"
+"RICE, Master Albert"|10|"3rd Class"|382652|"£29 2s 6d"|||"Queenstown"|||
+"RICE, Master George Hugh"|8|"3rd Class"|382652|"£29 2s 6d"|||"Queenstown"|||
+"RICE, Master Eric"|7|"3rd Class"|382652|"£29 2s 6d"|||"Queenstown"|||
+"RICE, Master Arthur"|4|"3rd Class"|382652|"£29 2s 6d"|||"Queenstown"|||
+"RICE, Master Eugene Francis"|2|"3rd Class"|382652|"£29 2s 6d"|||"Queenstown"|||
+"RIIHIVUORI, Miss Susanna Juhantytär ""Sanni"""|22|"3rd Class"|3101295|"£39 13s 9d"|||"Southampton"|||
+"RINTAMäKI, Mr Matti"|35|"3rd Class"|3101273|"£7 2s 6d"|||"Southampton"|"General Labourer"||
+"RIORDAN, Miss Hannah"|18|"3rd Class"|334915|"£7 14s 5d"|||"Queenstown"||"13"|
+"RISIEN, Mr Samuel Beard"|69|"3rd Class"|364498|"£14 10s "|||"Southampton"|"Hotelier"||
+"RISIEN, Mrs Emma"|58|"3rd Class"|364498|"£14 10s "|||"Southampton"|||
+"ROBINS, Mr Alexander A."|50|"3rd Class"|3337|"£14 10s "|||"Southampton"|"Mason"||"119"
+"ROBINS, Mrs Grace Charity"|47|"3rd Class"|3337|"£14 10s "|||"Southampton"|||"7"
+"ROGERS, Mr William John"|29|"3rd Class"|23567|"£8 1s "|||"Southampton"|"Miner"||
+"ROMMETVEDT, Mr Knud Paust"|49|"3rd Class"|312993|"£7 15s 6d"|||"Southampton"|"Tailor"||
+"ROSBLOM, Mrs Helena Wilhelmina"|41|"3rd Class"|370129|"£20 4s 3d"|||"Southampton"|||
+"ROSBLOM, Miss Salli Helena"|2|"3rd Class"|370129|"£20 4s 3d"|||"Southampton"|||
+"ROSBLOM, Mr Viktor Richard"|18|"3rd Class"|370129|"£20 4s 3d"|||"Southampton"|"General Labourer"||
+"ROTH, Miss Sarah A."|26|"3rd Class"|342712|"£8 1s "|||"Southampton"|"Tailor"|"C"|
+"ROUSE, Mr Richard Henry"|53|"3rd Class"|3594|"£8 1s "|||"Southampton"|"Farm Labourer"||
+"RUSH, Mr Alfred George John"|16|"3rd Class"|20589|"£8 1s "|||"Southampton"|"Porter"||
+"RYAN, Mr Patrick"|29|"3rd Class"|371110|"£24 3s "|||"Queenstown"|"General Labourer"||
+"RYAN, Mr Edward"|24|"3rd Class"|383162|"£7 15s "|||"Queenstown"|"General Labourer"|"14"|
+"SAAD, Mr Amin"|30|"3rd Class"|2671|"£7 4s 7d"|||"Cherbourg"|"Farm Labourer"||
+"SAAD, Mr Khalil"|27|"3rd Class"|2672|"£7 4s 6d"|||"Cherbourg"|"Farm Labourer"||
+"SADLIER, Mr Matthew"|20|"3rd Class"|367655|"£7 14s 7d"|||"Queenstown"|"Farm Labourer"||
+"SADOWITZ, Mr Harry"|17|"3rd Class"|1588|"£7 11s 10d"|||"Southampton"|"Fur Cutter"||
+"SAGE, Mr John George"|44|"3rd Class"|2343|"£69 11s "|||"Southampton"|"Tradesman"||
+"SAGE, Mrs Annie Elizabeth"|44|"3rd Class"|2343|"£69 11s "|||"Southampton"|||
+"SAGE, Miss Stella Anne"|20|"3rd Class"|2343|"£69 11s "|||"Southampton"|"Dressmaker / Couturière"||
+"SAGE, Mr George John"|19|"3rd Class"|2343|"£69 11s "|||"Southampton"|"Barman"||
+"SAGE, Mr Douglas Bullen"|18|"3rd Class"|2343|"£69 11s "|||"Southampton"|"Baker"||
+"SAGE, Mr Frederick"|16|"3rd Class"|2343|"£69 11s "|||"Southampton"|"Cook"||
+"SAGE, Miss Dorothy"|14|"3rd Class"|2343|"£69 11s "|||"Southampton"|"Scholar"||
+"SAGE, Master Anthony William"|12|"3rd Class"|2343|"£69 11s "|||"Southampton"|||"67"
+"SAGE, Miss Elizabeth Ada"|10|"3rd Class"|2343|"£69 11s "|||"Southampton"|||
+"SAGE, Miss Constance Gladys"|7|"3rd Class"|2343|"£69 11s "|||"Southampton"|||
+"SAGE, Master Thomas Henry"|4|"3rd Class"|2343|"£69 11s "|||"Southampton"|||
+"SALANDER, Mr Karl Johan"|24|"3rd Class"|7266|"£9 6s 6d"|||"Southampton"|"General Labourer"||
+"SALKJELSVIK, Miss Anna Kristine"|21|"3rd Class"|343120|"£7 13s "|||"Southampton"||"C"|
+"SALONEN, Mr Johan Werner"|29|"3rd Class"|3101296|"£7 18s 6d"|||"Southampton"|"General Labourer"||
+"SAMAAN, Mr Hanna Elias"|40|"3rd Class"|2662|"£21 13s 7d"|||"Cherbourg"|"General Labourer"||
+"SAMAAN, Mr Elias"|17|"3rd Class"|2662|"£21 13s 7d"|||"Cherbourg"|"General Labourer"||
+"SAMAAN, Mr Youssef (""Joseph"")"|15|"3rd Class"|2662|"£21 13s 7d"|||"Cherbourg"|"General Labourer"||
+"SANDSTRöM, Mrs Agnes Charlotta"|24|"3rd Class"|9549|"£16 14s "|||"Southampton"||"13"|
+"SANDSTRöM, Miss Beatrice Irene"|1|"3rd Class"|9549|"£16 14s "|||"Southampton"||"13"|
+"SANDSTRöM, Miss Marguerite Rut"|4|"3rd Class"|9549|"£16 14s "|||"Southampton"||"13"|
+"SAP, Mr Julius (""Jules _"")"|21|"3rd Class"|345768|"£9 10s "|||"Southampton"||"11"|
+"SAUNDERCOCK, Mr William Henry"|19|"3rd Class"|2151|"£8 1s "|||"Southampton"|"Miner"||
+"SAWYER, Mr Frederick Charles"|33|"3rd Class"|342826|"£8 1s "|||"Southampton"|"Gardener"||"284"
+"SCANLAN, Mr James"|22|"3rd Class"|36209|"£7 14s 6d"|||"Queenstown"|||
+"SCHEERLINCK, Mr Jean"|29|"3rd Class"|345779|"£9 10s "|||"Southampton"||"11"|
+"SDYCOFF, Mr Todor"|42|"3rd Class"|349222|"£7 17s 11d"|||"Southampton"|||
+"SEMAN, Master Betros"|10|"3rd Class"|2622|"£4 3d"|||"Cherbourg"|||
+"SHAUGHNESSY, Mr Patrick"|24|"3rd Class"|370374|"£7 15s "|||"Queenstown"|"Farm Labourer"||
+"SHEDID, Mr Daher"|19|"3rd Class"|2698|"£7 4s 6d"|||"Cherbourg"|||"9"
+"SHELLARD, Mr Frederick William Blainey"|55|"3rd Class"|6212|"£15 2s "|||"Southampton"|"Painter & Decorator"||
+"SHINE, Miss Ellen Natalia"|20|"3rd Class"|330968|"£7 16s 7d"|||"Queenstown"|||
+"SHORNEY, Mr Charles Joseph"|22|"3rd Class"|374910|"£8 1s "|||"Southampton"|"Valet"||
+"SIMMONS, Mr John"|39|"3rd Class"|392082|"£8 1s "|||"Southampton"|"General Labourer"||
+"SIRAYANIAN, Mr Orsen"|22|"3rd Class"|2669|"£7 4s 7d"|||"Cherbourg"|"Farmer"||
+"SIROTA, Mr Maurice"|20|"3rd Class"|392092|"£8 1s "|||"Southampton"|"Tailor"||
+"SIVIC, Mr Husein"|40|"3rd Class"|349251|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"SIVOLA, Mr Antti Wilhelm"|21|"3rd Class"|3101280|"£7 18s 6d"|||"Southampton"|"General Labourer"||
+"SJöBLOM, Miss Anna Sofia"|18|"3rd Class"|3101265|"£6 9s 11d"|||"Southampton"||"16"|
+"SKOOG, Mr Wilhelm (""William Johansson"")"|40|"3rd Class"|347088|"£27 18s "|||"Southampton"|"General Labourer"||
+"SKOOG, Mrs Anna Bernhardina"|43|"3rd Class"|347088|"£27 18s "|||"Southampton"|||
+"SKOOG, Master Karl Thorsten"|11|"3rd Class"|347088|"£27 18s "|||"Southampton"|||
+"SKOOG, Master Harald"|5|"3rd Class"|347088|"£27 18s "|||"Southampton"|||
+"SKOOG, Miss Mabel"|9|"3rd Class"|347088|"£27 18s "|||"Southampton"|||
+"SKOOG, Miss Margit Elizabeth"|2|"3rd Class"|347088|"£27 18s "|||"Southampton"|||
+"SLABENOFF, Mr Petco"|42|"3rd Class"|349214|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"SLOCOVSKI, Mr Selman Francis"|20|"3rd Class"|392086|"£8 1s "|||"Southampton"|"Merchant"||
+"SMILJANIC, Mr Mile"|37|"3rd Class"|315037|"£8 13s 3d"|||"Southampton"|"Farm Labourer"||
+"SMYTH, Mr Thomas"|26|"3rd Class"|384461|"£7 15s "|||"Queenstown"|||
+"SMYTH, Miss Julia"|17|"3rd Class"|335432|"£7 14s 8d"|||"Queenstown"||"13"|
+"SOMERTON, Mr Francis William"|31|"3rd Class"|18509|"£8 1s "|||"Southampton"|||
+"SPECTOR, Mr Woolf"|23|"3rd Class"|3236|"£8 1s "|||"Southampton"|"General Labourer"||
+"SPINNER, Mr Henry John"|32|"3rd Class"|369943|"£8 1s "|||"Southampton"|"Grocer"||
+"STANEFF, Mr Ivan"|23|"3rd Class"|349208|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"STANKOVIC, Mr Ivan"|33|"3rd Class"|349239|"£8 13s 9d"|||"Cherbourg"|"General Labourer"||
+"STANLEY, Miss Amy Zillah Elsie"|24|"3rd Class"|2314|"£7 11s "|||"Southampton"|"Servant"|"C"|
+"STANLEY, Mr Edward Roland"|21|"3rd Class"|45380|"£8 1s "|||"Southampton"|"Porter"||
+"STOREY, Mr Thomas"|51|"3rd Class"|370160||||"Southampton"|"Seaman"||"261"
+"STOYTCHEFF, Mr Ilia"|19|"3rd Class"|349205|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"STRANDBERG, Miss Ida Sofia"|22|"3rd Class"|7553|"£9 16s 9d"|||"Southampton"|||
+"STRANDéN, Mr Juho Niilosson"|31|"3rd Class"|3101288|"£7 18s 6d"|||"Southampton"||"9"|
+"STRILIC, Mr Ivan"|27|"3rd Class"|315083|"£8 13s 3d"|||"Southampton"|"Farmer"||
+"STRöM, Mrs Elna Matilda"|29|"3rd Class"|347054|"£10 9s 3d"|||"Southampton"|||
+"STRöM, Miss Telma Matilda"|2|"3rd Class"|347054|"£10 9s 3d"|||"Southampton"|||
+"SUNDERLAND, Mr Victor Francis"|20|"3rd Class"|392089|"£8 1s "|||"Southampton"|"Farmer"|"B"|
+"SUNDMAN, Mr Johan Julian"|44|"3rd Class"|3101269|"£7 18s 6d"|||"Southampton"||"15"|
+"SUTEHALL, Mr Henry Jr"|25|"3rd Class"|392076|"£7 1s "|||"Southampton"|"Coach Trimmer"||
+"SVENSSON, Mr Olof"|24|"3rd Class"|350035|"£7 15s 11d"|||"Southampton"|"Farmer"||
+"SVENSSON, Mr Johan"|74|"3rd Class"|347060|"£7 15s 6d"|||"Southampton"|||
+"SVENSSON, Mr Johan Cervin"|14|"3rd Class"|7538|"£9 4s 6d"|||"Southampton"||"13"|
+"SæTHER, Mr Simon Sivertsen"|43|"3rd Class"|3101262|"£7 5s "|||"Southampton"|"Miner"||"32"
+"SøHOLT, Mr Peter Andreas Lauritz Andersen"|19|"3rd Class"|348124|"£7 13s "|||"Southampton"|"Carpenter / Joiner"||
+"TENGLIN, Mr Gunnar Isidor"|25|"3rd Class"|350033|"£7 15s 11d"|||"Southampton"||"13"|
+"THEOBALD, Mr Thomas Leonard"|34|"3rd Class"|363294|"£8 1s "|||"Southampton"|"Groom"||"176"
+"THOMAS, Mr Charles R'ad."|31|"3rd Class"|2621|"£6 8s 9d"|||"Cherbourg"|"Dealer"||
+"THOMAS, Mrs Thamine ""Thelma"""|16|"3rd Class"|2625|"£8 10s 4d"|||"Cherbourg"||"14"|
+"THOMAS/TANNOUS, Mr Tannous"|16|"3rd Class"|2684|"£7 4s 6d"|||"Cherbourg"|"Scholar"||
+"THOMAS/TANNOUS, Master Assad Alexander"|"5m"|"3rd Class"|2625|"£8 10s 4d"|||"Cherbourg"||"16"|
+"THOMAS/TANNOUS, Mr John"|34|"3rd Class"|2681|"£6 8s 9d"|||"Cherbourg"|"Dealer"||
+"THOMPSON, Mr Alexander Morrison"|36|"3rd Class"|32302|"£8 1s "|||"Southampton"|"Mason"||
+"THORNEYCROFT, Mr Percival"|36|"3rd Class"|376564|"£16 2s "|||"Southampton"|"General Labourer"||
+"THORNEYCROFT, Mrs Florence Kate"|32|"3rd Class"|376564|"£16 2s "|||"Southampton"||"10"|
+"TIKKANEN, Mr Juho"|32|"3rd Class"|3101293|"£7 18s 6d"|||"Southampton"|"General Labourer"||
+"TOBIN, Mr Roger"|20|"3rd Class"|383121|"£7 15s "|||"Queenstown"|"Farmer"||
+"TODOROFF, Mr Lalio"|23|"3rd Class"|349216|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"TOMLIN, Mr Ernest Portage"|22|"3rd Class"|364499|"£8 1s "|||"Southampton"|"Scholar"||"50"
+"TöRBER, Mr Ernst Wilhelm"|41|"3rd Class"|364511|"£8 1s "|||"Southampton"|"Florist"||
+"TORFA, Mr Assad"|20|"3rd Class"|2673|"£7 4s 7d"|||"Cherbourg"|"Farm Labourer"||
+"TöRNQUIST, Mr William Henry"|25|"3rd Class"|370160||||"Southampton"|"Seaman"|"15"|
+"TOUMA, Mrs Hanna Youssef"|27|"3rd Class"|2650|"£15 4s 11d"|||"Cherbourg"||"C"|
+"TOUMA, Miss Maria Youssef (""Mary Thomas"")"|9|"3rd Class"|2650|"£15 4s 11d"|||"Cherbourg"||"C"|
+"TOUMA, Master Georges Youssef (""George Thomas"")"|8|"3rd Class"|2650|"£15 4s 11d"|||"Cherbourg"||"C"|
+"TURCIN, Mr Stjepan"|36|"3rd Class"|349247|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"TURJA, Miss Anna Sofia"|18|"3rd Class"|4138|"£9 16s 10d"|||"Southampton"||"15"|
+"TURKULA, Mrs Hedwig"|63|"3rd Class"|4134|"£9 11s 9d"|||"Southampton"||"15"|
+"VAN BILLIARD, Mr Austin Blyler"|35|"3rd Class"|851|"£14 10s "|||"Southampton"|||"255"
+"VAN BILLIARD, Master James William"|10|"3rd Class"|851|"£14 10s "|||"Southampton"|||
+"VAN BILLIARD, Master Walter John"|9|"3rd Class"|851|"£14 10s "|||"Southampton"|||"1"
+"VAN DE VELDE, Mr Johannes Josef"|35|"3rd Class"|345780|"£9 10s "|||"Southampton"|"Farmer"||
+"VAN DEN STEEN, Mr Leo Peter"|28|"3rd Class"|345783|"£9 10s "|||"Southampton"|"Farmer"||
+"VAN IMPE, Mr Jean Baptiste"|36|"3rd Class"|345773|"£24 3s "|||"Southampton"|"Farmer"||
+"VAN IMPE, Mrs Rosalie Paula"|30|"3rd Class"|345773|"£24 3s "|||"Southampton"|||
+"VAN IMPE, Miss Catharina"|10|"3rd Class"|345773|"£24 3s "|||"Southampton"|||
+"VAN MELCKEBEKE, Mr Philemon"|23|"3rd Class"|345777|"£9 10s "|||"Southampton"|"Farmer"||
+"VANDERCRUYSSEN, Mr Victor"|46|"3rd Class"|345765|"£9 "|||"Southampton"|"Farmer"||
+"VANDERPLANCKE, Mr Julius"|31|"3rd Class"|345763|"£18 "|||"Southampton"|"Farmer"||
+"VANDERPLANCKE, Mrs Emelie Maria"|31|"3rd Class"|345763|"£18 "|||"Southampton"|||
+"VANDERPLANCKE, Miss Augusta Maria"|18|"3rd Class"|345764|"£18 "|||"Southampton"|"Servant"||
+"VANDERPLANCKE, Mr Leo Edmondus"|15|"3rd Class"|345763|"£18 "|||"Southampton"|"Farm Labourer"||
+"VANDEWALLE, Mr Nestor Cyriel"|28|"3rd Class"|345770|"£9 10s "|||"Southampton"|"Merchant"||
+"VARTANIAN, Mr David"|22|"3rd Class"|2658|"£7 4s 6d"|||"Cherbourg"||"13"|
+"VENDEL, Mr Olof Edvin"|20|"3rd Class"|350416|"£7 17s 1d"|||"Southampton"|"General Labourer"||
+"VESTRöM, Miss Hulda Amanda Adolfina"|14|"3rd Class"|350406|"£7 17s 1d"|||"Southampton"|"Servant"||
+"VOVK, Mr Janko"|21|"3rd Class"|349252|"£7 17s 11d"|||"Southampton"|"General Labourer"||
+"WAELENS, Mr Achille"|22|"3rd Class"|345767|"£9 "|||"Southampton"|"Farm Labourer"||"140"
+"WARE, Mr Frederick"|34|"3rd Class"|359309|"£8 1s "|||"Southampton"|"Motor Fitter"||
+"WARREN, Mr Charles William"|30|"3rd Class"|49867|"£7 11s "|||"Southampton"|"Bricklayer"||
+"WAZLI, Mr Yousif Ahmed"|25|"3rd Class"|2647|"£7 4s 6d"|||"Cherbourg"|"Farmer"||
+"WEBBER, Mr James"|66|"3rd Class"|3101316|"£8 1s "|||"Southampton"|"Miner"||
+"WENNERSTRöM, Mr August"|27|"3rd Class"|350043|"£7 15s 11d"|||"Southampton"||"A"|
+"WIDEGREN, Mr Carl / Charles Peter"|51|"3rd Class"|347064|"£7 15s "|||"Southampton"|"General Labourer"||
+"WIKLUND, Mr Karl Johan"|21|"3rd Class"|3101266|"£6 9s 11d"|||"Southampton"|"General Labourer"||
+"WIKLUND, Mr Jakob Alfred"|18|"3rd Class"|3101267|"£6 9s 11d"|||"Southampton"|"General Labourer"||"314"
+"WILKES, Mrs Ellen"|47|"3rd Class"|363272|"£7 "|||"Southampton"||"16"|
+"WILLER, Mr Aaron"|37|"3rd Class"|3410|"£8 14s 3d"|||"Cherbourg"|||
+"WILLEY, Mr Edward"|18|"3rd Class"|751|"£7 11s "|||"Southampton"|"Farm Labourer"||
+"WILLIAMS, Mr Howard Hugh ""Harry"""|28|"3rd Class"|2466|"£8 1s "|||"Southampton"|"Carman"||
+"WILLIAMS, Mr Leslie"|28|"3rd Class"|54636|"£16 2s "|||"Southampton"|"Pugilist"||"14"
+"WINDELøV, Mr Einar"|21|"3rd Class"|3101317|"£7 5s "|||"Southampton"|"Dairy Worker"||
+"WIRZ, Mr Albert"|27|"3rd Class"|315154|"£8 13s 3d"|||"Southampton"|"Farmer"||"131"
+"WISEMAN, Mr Phillippe"|54|"3rd Class"|34244|"£7 5s "|||"Southampton"|"Merchant"||
+"WITTEVRONGEL, Mr Camilius Aloysius"|36|"3rd Class"|345771|"£9 10s "|||"Southampton"|"Farmer"||
+"YASBECK, Mr Antoni"|27|"3rd Class"|2659|"£14 9s 1d"|||"Cherbourg"|"General Labourer"|"C"|
+"YAZBECK, Mrs Selini ""Celiney"""|15|"3rd Class"|2659|"£14 9s 1d"|||"Cherbourg"|||
+"YOUSSEFF (ABI SAAB), Mr Gerios"|45|"3rd Class"|2628|"£7 4s 6d"|||"Cherbourg"|"Shoemaker"||"312"
+"YOUSSIFF (SAM'AAN), Mr Gerios"|28|"3rd Class"|2685|"£7 4s 7d"|||"Cherbourg"|||
+"ZAKARIAN, Mr Ortin"|27|"3rd Class"|2670|"£7 4s 6d"|||"Cherbourg"|"General Labourer"||
+"ZAKARIAN, Mr Mapriededer"|22|"3rd Class"|2656|"£7 4s 6d"|||"Cherbourg"|||"304"
+"ZIMMERMANN, Mr Leo"|29|"3rd Class"|315082|"£7 17s 6d"|||"Southampton"|"Farmer"||

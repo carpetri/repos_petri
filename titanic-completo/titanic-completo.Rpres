@@ -1,0 +1,213 @@
+Carlos Petricioli
+========================================================
+author: Carlos Petricioli
+date: 18 de febrero de 2014
+
+1. Lectura de Datos
+========================================================
+
+Pasos para juntar las bases del titanic.
+
+1. Primero genero una lista con los archivos a juntar.
+
+```{r}
+lista.datos <- lapply( dir('data/', pattern="csv"),
+                       function(archivo){
+ read.table(file=paste('data/',archivo,sep=''), 
+            header=TRUE, sep="|", dec=".", 
+                         as.is=TRUE, comment.char="#",quote="\"")  })
+```
+
+========================================================
+
+Un poco de limpieza
+
+```{r}
+#hay que quitar la base sobre la gente que no se subió
+discharged.crew <- lista.datos[[2]]
+lista.datos[[2]] <- NULL
+#hay que quitar la base sobre titanic 3
+titanic.3 <- lista.datos[[10]]
+lista.datos[[10]] <- NULL
+#limpio columnas adicionales
+for(i in 1:length(lista.datos)) { 
+  lista.datos[[i]] <- lista.datos[[i]][,1:11] 
+  print(names(lista.datos[[i]])) }
+```
+========================================================
+2. Junto en un mismo archivo y genero el *.psv*
+```{r}
+titanic.completo <- Reduce(function(x,y) {rbind(x,y)}, lista.datos)
+save(titanic.completo,file='titanic.completo.Rdata')
+write.table(titanic.completo,file='titanic-complete.psv',sep='|' )
+```
+
+2. Descripción 
+========================================================
+Con la base completa se tiene que limpiar  todavía algunas variables.
+```{r}
+library(stringr)
+load('titanic.completo.Rdata')
+titanic <- titanic.completo
+titanic$tripulacion <- rep(0,nrow(titanic))
+titanic[which(titanic$Class.Dept %in% c('A la Carte', 'Deck','Engine' ,'Victualling') ),'tripulacion']  <- 1
+#pasar edad a numerico
+titanic$Age[which(str_detect(titanic$Age,'m') )]  <- 
+  as.numeric(substr(x=titanic$Age[which(str_detect(titanic$Age,'m') )],
+ start=1,stop=nchar(titanic$Age[which(str_detect(titanic$Age,'m') )] )-1))/12
+titanic$Age <- as.numeric(titanic$Age)
+```
+
+
+========================================================
+
+```{r}
+#pasar fare a numerico
+library(plyr)
+x <- str_split( string=titanic$Fare, pattern=' ')
+fares <- ldply(.data=x, function(arg){ data.frame(arg[1], arg[2] , arg[3]) }  )
+names(fares) <- c('libras','s','d')
+fares$libras  <- as.character(fares$libras)
+fares$s <- as.character(fares$s)
+fares$d <- as.character(fares$d)
+fares$libras <- as.numeric( substr(x=fares$libras,
+    start=2,stop=nchar(fares$libras) ) )
+fares$s <- as.numeric(substr(x=fares$s, 
+              start=1, stop=nchar(fares$s)-1 ) )
+fares$d  <- as.numeric(substr(x=fares$d , 
+                    start=1,stop=nchar(fares$d)-1 ))
+fares$libras[is.na(fares$libras)] <- 0
+fares$s[is.na(fares$s)] <- 0
+fares$d[is.na(fares$d)] <- 0
+titanic.1 <- cbind(titanic,fares)
+```
+
+
+========================================================
+Esto contine la base de datos.
+
+```{r}
+summary(titanic.1)
+```
+========================================================
+```{r}
+#Estadísticas univariadas
+summary(titanic.1$Age)
+table(titanic.1$Class.Dept)
+```
+========================================================
+```{r}
+summary(fares)
+table(titanic.1$Group)
+
+table(titanic.1$Joined)
+table(titanic.1$Boat)
+```
+
+
+========================================================
+Algunos más específicos.
+
+```{r,echo=F,fig=TRUE}
+hist(titanic.1$Age)
+```
+
+========================================================
+
+```{r,echo=F,fig=TRUE}
+hist(subset(titanic.1, libras<20 &tripulacion==0 & Class.Dept!='')$libras)
+```
+========================================================
+
+```{r,echo=F,fig=TRUE}
+hist(subset(titanic.1,tripulacion==0 & Class.Dept!='')$libras)
+```
+
+
+3. Relaciones entre variables
+========================================================
+Para verificar los datos, se ve que  la tripulación no pagó.
+
+```{r,echo=F,fig=TRUE}
+library(ggplot2)
+ggplot(data=subset(titanic.1, libras<300 &tripulacion==1 & Class.Dept!=''), aes(x=Class.Dept,y=libras) ) +  geom_point(size=2) +ggtitle('Libras pagadas en la tripulación ')
+```
+========================================================
+
+También se ve que los boletos de  las segunda y la tercera clase no eran muy distintos en precio
+```{r,echo=F,fig=TRUE}
+ggplot(data=subset(titanic.1, libras<300 &tripulacion==0 & Class.Dept!='' & Joined!='' & Joined!=' '),
+       aes(x=Class.Dept,y=libras, group=Joined, colour=Joined ) ) +geom_point(size=2)  +  ggtitle('Libras pagadas por Clase y por puerto ')
+```
+========================================================
+Esta relación no es tan clara si separamos por puerto, solo sucede en South Hampton
+
+```{r,echo=F,fig=TRUE}
+ggplot(data=subset(titanic.1, libras<300 &tripulacion==0 & Class.Dept!='' & Joined!='' & Joined!=' '),
+       aes(x=Class.Dept,y=libras, group=Joined, colour=Joined ) ) +geom_point(size=2) + facet_wrap(~Joined) +  ggtitle('Libras pagadas por Clase y por puerto ')
+```
+
+========================================================
+```{r,echo=FALSE}
+ggplot(data=subset(titanic.1,   Class.Dept!='' & Joined!='' & Joined!=' '),
+       aes(x=Class.Dept,y=Body, group=Joined, colour=Joined ) ) +geom_point(size=2) 
+```
+
+========================================================
+```{r,echo=FALSE}
+ggplot(data=subset(titanic.1,Class.Dept!=''), aes(x=Class.Dept,y=Age) ) + 
+  geom_point(size=2)+geom_boxplot()
+```
+
+========================================================
+Esta es la mejor gráfica se puede ver que la primera clase sobrevivió mucho más, que los del Deck sobrivivieron practicamente todos.
+
+```{r,echo=F}
+titanic.1[which(titanic.1$Boat==''),'Boat'] <-':( --RIP-- ): '
+ggplot(data=subset(titanic.1,   Class.Dept!='' & Joined!='' & Joined!=' '),
+       aes(x=Class.Dept,y=Boat, group=Joined, colour=Joined ) ) +geom_point(size=2) + geom_jitter()
+```
+
+5. En pesos
+========================================================
+De la base del Banco mundial. Estimado para 1919-1959.
+
+```{r,echo=FALSE}
+#crecimiento del PIB
+load('titanic.limpio.Rdata')
+crec.pib <-read.table(file='pib-uk.csv', header=TRUE, sep=",", dec=".", 
+                        as.is=TRUE, comment.char="#",quote="\"")
+qplot(x=crec.pib$ano,y=crec.pib$pib.cte.2005.us)+geom_line()+ geom_smooth()
+```
+
+Para transformar
+========================================================
+
+```{r}
+library(Hmisc)
+#formula para pasar a dlls de 2012 1 dollar = .6 poud
+(crec.pib[2012-1919+1,2]/ crec.pib[1,2])
+titanic.limpio$pesos <- titanic.limpio$libras *13.3* .6*(crec.pib[2012-1919+1,2]/ crec.pib[1,2])
+titanic.limpio$q.pesos <- cut2(titanic.limpio$pesos,g=10 )
+```
+========================================================
+```{r,echo=FALSE}
+titanic <- titanic.limpio
+ggplot(data=subset(titanic, libras<300 &tripulacion==0 & Class.Dept!='' & Joined!='' & Joined!=' '),
+       aes(x=Class.Dept,y=pesos, group=Joined, colour=Joined ) ) +geom_point(size=2) + facet_wrap(~Joined) +
+  ggtitle('Libras pagadas por Clase y por puerto ')
+```
+========================================================
+```{r,echo=FALSE}
+ggplot(data=subset(titanic,   Class.Dept!='' & Joined!='' & Joined!=' '),
+       aes(x=Class.Dept,y=Boat, group=q.pesos, colour=q.pesos ) ) +geom_point(size=2) + geom_jitter()
+```
+
+
+
+
+R-Session
+========================================================
+```{r}
+print(sessionInfo(), locale = FALSE)
+```

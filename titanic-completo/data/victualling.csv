@@ -1,0 +1,432 @@
+"Name"|"Age"|"Class/Dept"|"Ticket"|"Fare"|"Group"|"Ship"|"Joined"|"Job"|"Boat"|"Body"||" "
+"ABBOTT, Mr Ernest Owen"|21|"Victualling"|||||"Southampton"|"Lounge Pantry Steward"||||
+"AHIER, Mr Percy Snowden"|20|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"AKERMAN, Mr Albert"|28|"Victualling"|||||"Southampton"|"Steward"||||
+"AKERMAN, Mr Joseph Francis"|35|"Victualling"|||||"Southampton"|"Assistant Pantryman Steward"||"205"||
+"ALLAN, Mr Robert Spencer"|36|"Victualling"|||||"Southampton"|"Bed Room Steward"||||
+"ALLEN, Mr George"|26|"Victualling"|||||"Southampton"|"Scullion"||||
+"ALLEN, Mr Frederick"|17|"Victualling"|||||"Southampton"|"Lift Steward"||||
+"ALLSOP, Mr Frank Richard"|41|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"ANDERSON, Mr Walter J."|48|"Victualling"|||||"Southampton"|"Bed Room Steward"||"146"||
+"ANDREWS, Mr Charles Edward"|19|"Victualling"|||||"Southampton"|"Assistant Saloon Steward"|"16"|||
+"ASHCROFT, Mr Austin Aloysius"|26|"Victualling"|||||"Southampton"|"Clerk"||||
+"ASHE, Mr Henry Wellesley"|32|"Victualling"|||||"Southampton"|"Glory Hole Steward"||"34"||
+"AYLING, Mr George Edwin"|22|"Victualling"|||||"Southampton"|"Assistant Vegetable Cook"||||
+"BACK, Mr Charles Frederick"|32|"Victualling"|||||"Belfast"|"Assistant Lounge Steward"||||
+"BAGGOTT, Mr Allen Marden"|28|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"BAGLEY, Mr Edward Ernest"|31|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"BAILEY, Mr George Francis"|36|"Victualling"|||||"Belfast"|"Saloon Steward"||"161"||
+"BALL, Mr Percy"|19|"Victualling"|||||"Southampton"|"Plate Steward"||||
+"BARKER, Mr Albert Vale"|19|"Victualling"|||||"Southampton"|"Baker"||||
+"BARKER, Mr Ernest T."|37|"Victualling"|||||"Southampton"|"Saloon Steward"||"159"||
+"BARKER, Mr Reginald Lomond"|40|"Victualling"|||||"Belfast"|"Purser"||||
+"BARLOW, Mr George"|36|"Victualling"|||||"Southampton"|"Bed Room Steward"||||
+"BARNES, Mr Frederick"|37|"Victualling"|||||"Southampton"|"Baker"||||
+"BARRATT, Mr Arthur"|15|"Victualling"|||||"Southampton"|"Bell Boy"||||
+"BARRINGER, Mr Arthur William"|33|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"BARROW, Mr Harry"|35|"Victualling"|||||"Southampton"|"Butcher"||||
+"BARROWS, Mr William"|32|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"BARTON, Mr Sidney John"|25|"Victualling"|||||"Southampton"|"Steward"||||
+"BAXTER, Mr Harry Ross"|51|"Victualling"|||||"Southampton"|"Steward"||||
+"BAXTER, Mr Thomas Ferguson"|48|"Victualling"|||||"Southampton"|"Linen Steward"||"235"||
+"BEDFORD, Mr William Barnet"|31|"Victualling"|||||"Southampton"|"Assistant Roast Cook"||||
+"BEEDEM, Mr George Arthur"|34|"Victualling"|||||"Southampton"|"Bed Room Steward"||||
+"BEERE, Mr William"|19|"Victualling"|||||"Southampton"|"Kitchen Porter"||||
+"BENHAM, Mr Frederick"|29|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"BENNETT, Mrs Mabel"|33|"Victualling"|||||"Southampton"|"Stewardess"||||
+"BESSANT, Mr Edward William"|31|"Victualling"|||||"Southampton"|"Baggage Steward"||||
+"BEST, Mr Alfred Edwin"|38|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"BISHOP, Mr Walter Alexander"|34|"Victualling"|||||"Belfast"|"Bed Room Steward"||||
+"BLISS, Mrs Emma"|45|"Victualling"|||||"Southampton"|"Stewardess"||||
+"BOCHATAY, Mr Alexis Joseph"|30|"Victualling"|||||"Southampton"|"Chef"||||
+"BOGIE, Mr Norman Leslie"|29|"Victualling"|||||"Southampton"|"Bed Room Steward"||"274"||
+"BOND, Mr William John"|40|"Victualling"|||||"Belfast"|"Bed Room Steward"||||
+"BOOTHBY, Mr W."|36|"Victualling"|||||"Southampton"|"Bed Room Steward"||"107"||
+"BOSTON, Mr William John"|30|"Victualling"|||||"Belfast"|"Deck Steward"||||
+"BOUGHTON, Mr B."|24|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"BOYD, Mr John"|35|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"BOYES, Mr John Henry"|36|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"BRADSHAW, Mr J. A."|43|"Victualling"|||||"Southampton"|"Plate Steward"||||
+"BREWSTER, Mr George H."|48|"Victualling"|||||"Belfast"|"Bed Room Steward"||||
+"BRIDE, Mr Harold Sydney"|22|"Victualling"|||||"Belfast"|"Assistant Telegraphist"|"B"|||
+"BRISTOW, Mr Robert Charles"|31|"Victualling"|||||"Southampton"|"Steward"||"290"||
+"BRISTOW, Mr Harry"|33|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"BROOKMAN, Mr John"|27|"Victualling"|||||"Southampton"|"Steward"||||
+"BROOM, Mr H."|33|"Victualling"|||||"Belfast"|"Bath Steward"||||
+"BROOME, Mr Athol Frederick"|30|"Victualling"|||||"Southampton"|"Verandah Steward"||||
+"BROWN, Mr Edward"|34|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"BROWN, Mr Walter James"|28|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"BUCKLEY, Mr H. E."|34|"Victualling"|||||"Southampton"|"Assistant Vegetable Cook"||||
+"BULL, Mr W."|30|"Victualling"|||||"Southampton"|"Scullion"||||
+"BULLEY, Mr Henry Ashburnham"|21|"Victualling"|||||"Southampton"|"Boots"||||
+"BUNNELL, Mr Wilfred"|20|"Victualling"|||||"Belfast"|"Plate Steward"||||
+"BURGESS, Mr Charles Reginald"|18|"Victualling"|||||"Southampton"|"Extra 3rd. Baker"||||
+"BURKE, Mr Richard Edward"|30|"Victualling"|||||"Belfast"|"Lounge Steward"||||
+"BURKE, Mr William"|31|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"BURR, Mr Ewart Sydenham"|29|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"BURRAGE, Mr Arthur Victor Edwards"|20|"Victualling"|||||"Southampton"|"Plate Steward"|"13"|||
+"BUTT, Mr Robert Henry"|21|"Victualling"|||||"Southampton"|"Saloon Steward"||"10"||
+"BUTTERWORTH, Mr John"|23|"Victualling"|||||"Southampton"|"Saloon Steward"||"116"||
+"BYRNE, Mr J. E."|38|"Victualling"|||||"Southampton"|"Bed Room Steward"||||
+"CAMPBELL, Mr Donald S."|25|"Victualling"|||||"Southampton"|"3rd Class Clerk"||||
+"CARNEY, Mr William"|31|"Victualling"|||||"Southampton"|"Lift Steward"||"251"||
+"CARTWRIGHT, Mr James Edward"|32|"Victualling"|||||"Belfast"|"Saloon Steward"||"320"||
+"CASSWILL, Mr Charles"|34|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"CATON, Miss Annie"|33|"Victualling"|||||"Southampton"|"Turkish Bath Stewardess"|"11"|||
+"CAUNT, Mr William Ewart"|27|"Victualling"|||||"Southampton"|"Grill Cook"||||
+"CAVE, Mr Herbert"|34|"Victualling"|||||"Belfast"|"Saloon Steward"||"218"||
+"CECIL, Mr Charles Thomas"|21|"Victualling"|||||"Southampton"|"Steward"||||
+"CHAPMAN, Mr Joseph Charles"|32|"Victualling"|||||"Southampton"|"Boots"||||
+"CHARMAN, Mr John"|25|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"CHEVERTON, Mr William Frederick"|27|"Victualling"|||||"Belfast"|"Saloon Steward"||"334"||
+"CHITTY, Mr Archibald George"|28|"Victualling"|||||"Southampton"|"Steward"||||
+"CHITTY, Mr George Henry"|52|"Victualling"|||||"Southampton"|"Baker"||||
+"CHRISTMAS, Mr H."|33|"Victualling"|||||"Southampton"|"Assistant Saloon Steward"||||
+"COLEMAN, Mr Albert Edward"|28|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"COLGAN, Mr E. Joseph"|33|"Victualling"|||||"Southampton"|"Scullion"||||
+"COLLINS, Mr John"|17|"Victualling"|||||"Southampton"|"Scullion"||||
+"CONWAY, Mr P. W."|25|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"COOK, Mr George"|32|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"COOMBS, Mr Augustus Charles"|42|"Victualling"|||||"Southampton"|"Cook"||||
+"CORBEN, Mr Ernest Theodore"|27|"Victualling"|||||"Southampton"|"Assistant Printer Steward"||||
+"COX, Mr William Denton"|29|"Victualling"|||||"Southampton"|"Steward"||"300"||
+"CRAFTER, Mr Frederick"|27|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"CRAWFORD, Mr Alfred George"|43|"Victualling"|||||"Belfast"|"Bed Room Steward"|"8"|||
+"CRISP, Mr Albert Hector"|39|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"CRISPIN, Mr William"|32|"Victualling"|||||"Southampton"|"Glory Hole Steward"||||
+"CROSBY, Mr J. Bertram"|42|"Victualling"|||||"Southampton"|"Turkish Bath Attendant"||||
+"CROWE, Mr George Frederick"|30|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"CRUMPLIN, Mr Charles"|35|"Victualling"|||||"Belfast"|"Bed Room Steward"||||
+"CULLEN, Mr Charles"|45|"Victualling"|||||"Belfast"|"Bed Room Steward"||||
+"CUNNINGHAM, Mr Andrew"|35|"Victualling"|||||"Belfast"|"Bed Room Steward"|"4"|||
+"DANIELS, Mr Sidney Edward"|18|"Victualling"|||||"Southampton"|"Steward"||||
+"DASHWOOD, Mr William George"|19|"Victualling"|||||"Southampton"|"Saloon Steward"||"83"||
+"DAVIES, Mr Gordon Raleigh"|33|"Victualling"|||||"Belfast"|"Bed Room Steward"||||
+"DAVIES, Mr John James"|27|"Victualling"|||||"Belfast"|"Extra 2nd Baker"||"200"||
+"DAVIES, Mr Robert J."|26|"Victualling"|||||"Belfast"|"Saloon Steward"||"191"||
+"DEAN, Mr George H."|19|"Victualling"|||||"Southampton"|"Assistant Saloon Steward"||"252"||
+"DEEBLE, Mr Alfred Arnold"|29|"Victualling"|||||"Belfast"|"Saloon Steward"||"270"||
+"DERRETT, Mr Albert"|26|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"DESLANDS, Mr Percival Stainer"|36|"Victualling"|||||"Southampton"|"Saloon Steward"||"212"||
+"DINENAGE, Mr James Richard"|49|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"DODD, Mr George Charles"|44|"Victualling"|||||"Belfast"|"Steward"||||
+"DOLBY, Mr Joseph"|36|"Victualling"|||||"Belfast"|"Reception Room Steward"||||
+"DONOGHUE, Mr Frank (?Thomas)"|35|"Victualling"|||||"Belfast"|"Bed Room Steward"||||
+"DOUGHTY, Mr W."|22|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"DUNFORD, Mr William"|41|"Victualling"|||||"Southampton"|"Hospital Steward"||"71"||
+"DYER, Mr William"|31|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"EDBROOKE, Mr F."|24|"Victualling"|||||"Southampton"|"Steward"||||
+"EDE, Mr George B."|22|"Victualling"|||||"Southampton"|"Steward"||||
+"EDGE, Mr Frederick William"|39|"Victualling"|||||"Southampton"|"Deck Steward"||||
+"EDWARDS, Mr Clement"|39|"Victualling"|||||"Southampton"|"Assistant Pantryman Steward"||||
+"EGG, Mr W. H."|34|"Victualling"|||||"Southampton"|"Steward"||||
+"ELLIS, Mr John Bertram"|30|"Victualling"|||||"Southampton"|"Assistant Vegetable Cook"|"2"|||
+"ENNIS, Mr Walter"|35|"Victualling"|||||"Southampton"|"Turkish Bath Attendant"||||
+"ETCHES, Mr Henry Samuel"|41|"Victualling"|||||"Belfast"|"Bed Room Steward"|"5"|||
+"EVANS, Mr George Richard"|27|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"FAIRALL, Mr Henry"|38|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"FARRENDEN, Mr Ernest John"|22|"Victualling"|||||"Belfast"|"Confectioner"||||
+"FAULKNER, Mr William Stephen"|37|"Victualling"|||||"Belfast"|"Bed Room Steward"|"11"|||
+"FELLOWES, Mr Alfred J."|29|"Victualling"|||||"Belfast"|"Boots"||"138"||
+"FELTHAM, Mr G."|36|"Victualling"|||||"Southampton"|"Vienna Baker"||||
+"FINCH, Mr Harry"|18|"Victualling"|||||"Southampton"|"Steward"||||
+"FLETCHER, Mr Peter W."|26|"Victualling"|||||"Belfast"|"Bugler Steward"||||
+"FOLEY, Mr William C."|26|"Victualling"|||||"Southampton"|"Steward"||||
+"FORD, Mr Ernest"|32|"Victualling"|||||"Southampton"|"Steward"||||
+"FORD, Mr F."|37|"Victualling"|||||"Southampton"|"Bed Room Steward"||||
+"FOX, Mr William Thomas"|27|"Victualling"|||||"Southampton"|"Steward"||||
+"FRANKLIN, Mr Alan Vincent"|29|"Victualling"|||||"Southampton"|"Saloon Steward"||"262"||
+"FREEMAN, Mr Ernest Edward Samuel"|43|"Victualling"|||||"Belfast"|"Deck Steward"||"239"||
+"GEDDES, Mr Richard Charles"|31|"Victualling"|||||"Southampton"|"Bed Room Steward"||||
+"GIBBONS, Mr Jacob William"|36|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"GILES, Mr John Robert"|33|"Victualling"|||||"Southampton"|"Baker"||||
+"GILL, Mr Joseph Stanley"|34|"Victualling"|||||"Belfast"|"Bed Room Steward"||"49"||
+"GILL, Mr Patrick"|38|"Victualling"|||||"Southampton"|"Ship's Cook"||||
+"GOLD, Mrs Katherine"|42|"Victualling"|||||"Southampton"|"Stewardess"||||
+"GOLLOP, Mr F."|28|"Victualling"|||||"Southampton"|"Assistant Passage Cook"||||
+"GOSHAWK, Mr Arthur James"|31|"Victualling"|||||"Belfast"|"3rd Saloon Steward"||||
+"GREGSON, Miss Mary"|44|"Victualling"|||||"Southampton"|"Stewardess"||||
+"GUNN, Mr Joseph Alfred"|28|"Victualling"|||||"Southampton"|"Assistant Saloon Steward"||||
+"GUY, Mr Elgar John"|28|"Victualling"|||||"Southampton"|"Boots"|"5"|||
+"GWYNN, Mr William Logan"|37|"Victualling"|||"Postal Clerk"||"Southampton"|"Postal Clerk"||||
+"HALFORD, Mr Richard"|22|"Victualling"|||||"Southampton"|"Steward"||||
+"HALL, Mr F. A. J."|38|"Victualling"|||||"Southampton"|"Scullion"||||
+"HAMBLYN, Mr Ernest William"|41|"Victualling"|||||"Southampton"|"Bed Room Steward"||||
+"HAMILTON, Mr Ernest"|25|"Victualling"|||||"Belfast"|"Assistant Smoke Room Steward"||||
+"HARDING, Mr A."|20|"Victualling"|||||"Southampton"|"Assistant Pantry Steward"||||
+"HARDWICK, Mr Reginald"|21|"Victualling"|||||"Southampton"|"Kitchen Porter"|"11"|||
+"HARDY, Mr John T."|37|"Victualling"|||||"Belfast"|"Chief 2nd Class Steward"|"D"|||
+"HARRIS, Mr Charles William"|19|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"HARRIS, Mr Clifford Henry"|16|"Victualling"|||||"Southampton"|"Bell Boy"||||
+"HARRIS, Mr Edward"|18|"Victualling"|||||"Southampton"|"Assistant Pantryman Steward"||||
+"HARRISON, Mr Aragon Drummond"|40|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"HART, Mr John Edward"|31|"Victualling"|||||"Southampton"|"Steward"||||
+"HARTNELL, Mr Frederick"|21|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"HATCH, Mr Hugh"|23|"Victualling"|||||"Southampton"|"Scullion"||||
+"HAWKESWORTH, Mr James"|38|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"HAWKESWORTH, Mr William Walter"|43|"Victualling"|||||"Southampton"|"Deck Steward"||||
+"HAYTER, Mr Arthur"|44|"Victualling"|||||"Belfast"|"Bed Room Steward"||"25"||
+"HEINEN, Mr Joseph"|30|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"HENDY, Mr Edward Martin"|39|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"HENSFORD, Mr Herbert George"|27|"Victualling"|||||"Southampton"|"Butcher"||||
+"HEWETT, Mr Thomas"|37|"Victualling"|||||"Belfast"|"Bed Room Steward"||"168"||
+"HILL, Mr H. P."|36|"Victualling"|||||"Southampton"|"Steward"||||
+"HILL, Mr James Colston"|38|"Victualling"|||||"Belfast"|"Bed Room Steward"||"152"||
+"HINCKLEY, Mr George"|35|"Victualling"|||||"Southampton"|"Bath Steward"||"66"||
+"HINE, Mr William Edward"|36|"Victualling"|||||"Southampton"|"Baker"||||
+"HISCOCK, Mr S."|22|"Victualling"|||||"Southampton"|"Plate Steward"||||
+"HOARE, Mr Leonard James"|16|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"HOGG, Mr Charles William"|37|"Victualling"|||||"Southampton"|"Bed Room Steward"||||
+"HOGUE, Mr E."|22|"Victualling"|||||"Southampton"|"Plate Steward"||||
+"HOLLAND, Mr Thomas"|28|"Victualling"|||||"Belfast"|"Reception Steward"||||
+"HOLLOWAY, Mr Sidney"|20|"Victualling"|||||"Southampton"|"Clothes Presser"||"273"||
+"HOPKINS, Mr F."|16|"Victualling"|||||"Southampton"|"Plate Steward"||||
+"HOUSE, Mr William"|38|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"HOWELL, Mr Arthur Albert"|31|"Victualling"|||||"Belfast"|"Saloon Steward"||"319"||
+"HUGHES, Mr William Thomas"|36|"Victualling"|||||"Southampton"|"Steward"||||
+"HUMBY, Mr Frederick"|16|"Victualling"|||||"Southampton"|"Plate Steward"||||
+"HUMPHREYS, Mr Thomas Humphrey"|31|"Victualling"|||||"Southampton"|"Assistant Saloon Steward"||||
+"HUTCHINSON, Mr James"|28|"Victualling"|||||"Southampton"|"Vegetable. Cook"||"250"||
+"HYLAND, Mr Leo James"|19|"Victualling"|||||"Southampton"|"Steward"|"11"|||
+"IDE, Mr Harry John"|32|"Victualling"|||||"Southampton"|"Bed Room Steward"||||
+"INGROUILLE, Mr Henry"|21|"Victualling"|||||"Southampton"|"Steward"||||
+"INGS, Mr William Ernest"|20|"Victualling"|||||"Southampton"|"Scullion"||||
+"JACKSON, Mr Cecil"|22|"Victualling"|||||"Belfast"|"Boots"||||
+"JANAWAY, Mr William Frank"|35|"Victualling"|||||"Belfast"|"Bed Room Steward"||||
+"JENNER, Mr Harry"|41|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"JENSEN, Mr Charles Valdemar"|25|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"JESSOP, Miss Violet Constance"|24|"Victualling"|||||"Southampton"|"Stewardess"||||
+"JOHNSTON, Mr James"|41|"Victualling"|||||"Belfast"|"Saloon Steward"|"2"|||
+"JONES, Mr Albert"|17|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"JONES, Mr Arthur Ernest"|38|"Victualling"|||||"Southampton"|"Plate Steward"||||
+"JONES, Mr H."|29|"Victualling"|||||"Southampton"|"Roast Cook"||||
+"JONES, Mr Reginald V."|20|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"JOUGHIN, Mr Charles John"|32|"Victualling"|||||"Belfast"|"Chief Baker"|"B"|||
+"KEEN, Mr Percy Edward"|28|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"KELLAND, Mr Thomas"|21|"Victualling"|||||"Southampton"|"Library Steward"||||
+"KENNELL, Mr Charles"|30|"Victualling"|||||"Southampton"|"Hebrew Cook"||||
+"KERLEY, Mr William Thomas"|28|"Victualling"|||||"Southampton"|"Assistant Saloon Steward"||"-1"||
+"KETCHLEY, Mr Henry"|30|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"KIERAN, Mr James W."|32|"Victualling"|||||"Southampton"|"Chief 3rd Class Steward"||||
+"KIERAN, Mr Michael"|31|"Victualling"|||||"Southampton"|"Storekeeper"||||
+"KING, Mr Alfred"|18|"Victualling"|||||"Southampton"|"Lift Steward"||"238"||
+"KING, Mr Ernest Waldron"|28|"Victualling"|||||"Southampton"|"Clerk"||"321"||
+"KING, Mr G."|20|"Victualling"|||||"Southampton"|"Scullion"||||
+"KINGSCOTE, Mr William Ford"|42|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"KIRKALDY, Mr Thomas Benjamin"|39|"Victualling"|||||"Southampton"|"Bed Room Steward"||||
+"KITCHING, Mr Arthur Alfred"|30|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"KLEIN, Mr Herbert"|33|"Victualling"|||||"Southampton"|"Barber"||||
+"KNIGHT, Mr George"|44|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"KNIGHT, Mr Leonard George"|21|"Victualling"|||||"Southampton"|"Steward"||||
+"LACEY, Mr Bert W."|21|"Victualling"|||||"Southampton"|"Assistant Saloon Steward"||||
+"LAKE, Mr William"|35|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"LANE, Mr Albert Edward"|34|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"LATIMER, Mr Andrew L"|55|"Victualling"|||||"Belfast"|"Chief Steward"||||
+"LAVINGTON, Miss Bessie"|38|"Victualling"|||||"Southampton"|"Stewardess"||||
+"LAWRENCE, Mr Arthur"|35|"Victualling"|||||"Belfast"|"Saloon Steward"||"90"||
+"LEADER, Mr Archibald"|22|"Victualling"|||||"Southampton"|"Confectioner"||||
+"LEATHER, Mrs Elizabeth May"|41|"Victualling"|||||"Southampton"|"Stewardess"||||
+"LEFEBVRE, Mr Paul Georges"|35|"Victualling"|||||"Southampton"|"Saloon Steward"||"211"||
+"LEONARD, Mr Matthew"|26|"Victualling"|||||"Belfast"|"Steward"||||
+"LEVETT, Mr George Alfred"|21|"Victualling"|||||"Belfast"|"Assistant Pantryman Steward"||||
+"LEWIS, Mr Arthur Ernest Read"|27|"Victualling"|||||"Southampton"|"Steward"||||
+"LIGHT, Mr C."|23|"Victualling"|||||"Southampton"|"Plate Steward"||||
+"LITTLEJOHN, Mr Alexander James"|40|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"LLOYD, Mr Humphrey"|32|"Victualling"|||||"Belfast"|"Saloon Steward"||"57"||
+"LOCKE, Mr A."|33|"Victualling"|||||"Southampton"|"Scullion"||||
+"LONGMUIR, Mr John Dickson"|19|"Victualling"|||||"Southampton"|"Assistant Pantry Steward"||||
+"LOVELL, Mr John"|37|"Victualling"|||||"Southampton"|"Grill Cook"||||
+"LUCAS, Mr William Watson"|31|"Victualling"|||||"Belfast"|"Saloon Steward"|"A"|||
+"LYDIATT, Mr Charles"|38|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"MABEY, Mr J."|23|"Victualling"|||||"Southampton"|"Steward"||||
+"MACKAY, Mr Charles Donald"|34|"Victualling"|||||"Belfast"|"Saloon Steward"|"11"|||
+"MACKIE, Mr George William"|34|"Victualling"|||||"Southampton"|"Bed Room Steward"||||
+"MAJOR, Mr Thomas Edgar"|35|"Victualling"|||||"Belfast"|"Bath Steward"||||
+"MANTLE, Mr Roland Frederick"|36|"Victualling"|||||"Southampton"|"Steward"||||
+"MARCH, Mr John Starr"|50|"Victualling"|||"Postal Clerk"||"Southampton"|"Postal Clerk"||"225"||
+"MARKS, Mr J."|26|"Victualling"|||||"Southampton"|"Assistant Pantryman Steward"||||
+"MARRIOTT, Mr J. W."|20|"Victualling"|||||"Southampton"|"Assistant Pantryman Steward"||"2"||
+"MARSDEN, Miss Evelyn"|28|"Victualling"|||||"Southampton"|"Stewardess"|"16"|||
+"MARTIN, Mrs Annie"|33|"Victualling"|||||"Southampton"|"Stewardess"||||
+"MARTIN, Mr F."|29|"Victualling"|||||"Southampton"|"Scullion"||||
+"MAYNARD, Mr Isaac Hiram"|31|"Victualling"|||||"Belfast"|"Entre Cook"|"B"|||
+"MAYTUM, Mr Alfred"|52|"Victualling"|||||"Belfast"|"Chief Butcher"||"141"||
+"MCCARTHY, Mr Frederick J."|36|"Victualling"|||||"Southampton"|"Bed Room Steward"||||
+"MCCAWLEY, Mr Thomas W."|36|"Victualling"|||||"Belfast"|"Gymnasium Steward"||||
+"MCELROY, Mr Hugh Walter"|37|"Victualling"|||||"Southampton"|"Purser"||"157"||
+"MCGRADY, Mr James"|27|"Victualling"|||||"Southampton"|"Saloon Steward"||"330"||
+"MCLAREN, Mrs "|40|"Victualling"|||||"Southampton"|"Stewardess"||||
+"MCMICKEN, Mr Arthur"|23|"Victualling"|||||"Belfast"|"Saloon Steward"|"11"|||
+"MCMICKEN, Mr Benjamin Tucker"|21|"Victualling"|||||"Belfast"|"Second Pantry Steward"||||
+"MCMULLIN, Mr James"|32|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"MCMURRAY, Mr William Ernest"|43|"Victualling"|||||"Belfast"|"Bed Room Steward"||||
+"MELLOR, Mr Arthur"|34|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"MIDDLETON, Mr M. V."|24|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"MILLS, Mr Christopher"|51|"Victualling"|||||"Southampton"|"Butcher"||||
+"MISHELLAMY, Mr Abraham"|52|"Victualling"|||||"Belfast"|"Printer Steward"||||
+"MOORE, Mr Alfred Ernest"|39|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"MORGAN (BIRD), Mr Charles Frederick"|42|"Victualling"|||||"Southampton"|"Assistant Storekeeper"||||
+"MORRIS, Mr Frank Herbert"|28|"Victualling"|||||"Belfast"|"Bath Room Steward"|"14"|||
+"MOSS, Mr William"|34|"Victualling"|||||"Belfast"|"1st. Saloon Steward"||||
+"MULLEN, Mr Thomas A."|20|"Victualling"|||||"Southampton"|"Steward"||"323"||
+"MüLLER, Mr L."|36|"Victualling"|||||"Southampton"|"Interpreter Steward"||||
+"NEAL, Mr Bentley Harold"|25|"Victualling"|||||"Southampton"|"Baker"|"13"|||
+"NICHOLLS, Mr Sidney"|39|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"NICHOLS, Mr A.D."|34|"Victualling"|||||"Southampton"|"Steward"||||
+"NICHOLS, Mr Walter Henry"|35|"Victualling"|||||"Southampton"|"Assistant Saloon Steward"||||
+"O'CONNOR, Mr Thomas Peter"|39|"Victualling"|||||"Belfast"|"Bed Room Steward"||||
+"OLIVE, Mr Ernest Roskelly"|28|"Victualling"|||||"Southampton"|"Clothes Presser Steward"||||
+"ORPET, Mr Walter Hayward"|31|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"ORR, Mr J."|40|"Victualling"|||||"Southampton"|"Assistant Vegetable Cook"||||
+"OSBORNE, Mr William Edward"|32|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"OWEN, Mr Lewis"|49|"Victualling"|||||"Southampton"|"Assistant Saloon Steward"||||
+"PACEY, Mr Reginald lvan"|17|"Victualling"|||||"Southampton"|"Lift Steward"||||
+"PAINTIN, Mr James Arthur"|29|"Victualling"|||||"Southampton"|"Captain's Steward (Tiger)"||||
+"PARSONS, Mr Edward"|35|"Victualling"|||||"Southampton"|"Chief Storekeeper"||||
+"PARSONS, Mr Richard"|18|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"PEARCE, Mr Alfred Emest"|24|"Victualling"|||||"Southampton"|"Steward"||||
+"PEARCEY, Mr Albert Victor"|32|"Victualling"|||||"Southampton"|"Steward"||||
+"PENNAL, Mr Thomas Francis"|33|"Victualling"|||||"Southampton"|"Bath Steward"||||
+"PENNY, Mr William Farr"|30|"Victualling"|||||"Southampton"|"Assistant Saloon Steward"||||
+"PENROSE, Mr John Poole"|49|"Victualling"|||||"Belfast"|"Bed Room Steward"||||
+"PERKINS, Mr Laurence Alexander"|22|"Victualling"|||||"Southampton"|"Telephone Steward"||||
+"PERRIN, Mr William Charles"|39|"Victualling"|||||"Southampton"|"Boots"||||
+"PERRITON, Mr Hubert Prouse"|31|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"PETTY, Mr Edwin Henry"|25|"Victualling"|||||"Southampton"|"Bed Room Steward"||"82"||
+"PFROPPER, Mr Richard"|30|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"PHILLIMORE, Mr Harold Charles William"|23|"Victualling"|||||"Belfast"|"Saloon Steward"|"14"|||
+"PHILLIPS, Mr John George"|25|"Victualling"|||||"Belfast"|"Telegraphist"||||
+"PLATT, Mr W."|18|"Victualling"|||||"Southampton"|"Scullion"||||
+"POOK, Mr P."|34|"Victualling"|||||"Southampton"|"Assistant Pantry"||||
+"PORT, Mr Frank"|22|"Victualling"|||||"Southampton"|"Steward"||||
+"PORTEUS, Mr Thomas"|32|"Victualling"|||||"Southampton"|"Butcher"||||
+"PRENTICE, Mr Frank Winnold"|22|"Victualling"|||||"Southampton"|"Storekeeper"||||
+"PRICHARD, Mrs Alice"|33|"Victualling"|||||"Southampton"|"Stewardess"||||
+"PRIDEAUX, Mr John ""Jack"" Arthur"|23|"Victualling"|||||"Southampton"|"Steward"||||
+"PRIOR, Mr Harold John"|21|"Victualling"|||||"Southampton"|"Steward"||||
+"PROCTOR, Mr Charles"|40|"Victualling"|||||"Belfast"|"Chef"||||
+"PRYCE, Mr Charles William"|22|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"PUGH, Mr Alfred"|20|"Victualling"|||||"Southampton"|"Steward"||||
+"PUSEY, Mr John E."|35|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"RANDALL, Mr Frank Henry"|29|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"RANSOM, Mr James"|33|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"RATTONBURY, Mr William Henry"|36|"Victualling"|||||"Belfast"|"Boots"||||
+"RAY, Mr Frederick Dent"|32|"Victualling"|||||"Belfast"|"Saloon Steward"|"13"|||
+"REED, Mr Thomas Charles Prowse"|54|"Victualling"|||||"Southampton"|"Bed Room Steward"||||
+"REVELL, Mr William"|31|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"RICE, Mr John Reginald"|25|"Victualling"|||||"Southampton"|"Clerk"||"64"||
+"RICE, Mr Percy"|19|"Victualling"|||||"Southampton"|"Steward"||||
+"RICKS, Mr Cyril G."|23|"Victualling"|||||"Southampton"|"Storekeeper"||"100"||
+"RIDOUT, Mr W."|29|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"RIMMER, Mr Gilbert"|27|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"ROBERTON, Mr George Edward"|19|"Victualling"|||||"Southampton"|"Assistant Saloon Steward"||"127"||
+"ROBERTS, Mrs Mary Kezziah"|41|"Victualling"|||||"Southampton"|"Stewardess"||||
+"ROBERTS, Mr Frederick (Frank John?)"|36|"Victualling"|||||"Belfast"|"Third Butcher"||"231"||
+"ROBERTS, Mr Hugh H."|40|"Victualling"|||||"Belfast"|"Bed Room Steward"||"93"||
+"ROBINSON, Mrs Annie"|40|"Victualling"|||||"Southampton"|"Stewardess"|"11"|||
+"ROBINSON, Mr James William"|30|"Victualling"|||||"Southampton"|"Saloon Steward"||"151"||
+"ROGERS, Mr Edward James William"|32|"Victualling"|||||"Southampton"|"Assistant Storekeeper"||"282"||
+"ROGERS, Mr Michael"|27|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"ROSS, Mr Horace Leopold"|36|"Victualling"|||||"Southampton"|"Scullion"||||
+"ROWE, Mr Edward M."|31|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"RULE, Mr Samuel James"|58|"Victualling"|||||"Belfast"|"Bath Room Steward"||||
+"RUSSELL, Mr Boysie Richard"|17|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"RYAN, Mr Tom"|27|"Victualling"|||||"Southampton"|"Steward"||||
+"RYERSON, Mr William Edwy"|32|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"SAMUEL, Mr Owen Wilmore"|41|"Victualling"|||||"Southampton"|"Saloon Steward"||"217"||
+"SAUNDERS, Mr D. E."|26|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"SAVAGE, Mr Charles J."|23|"Victualling"|||||"Southampton"|"Steward"||||
+"SCOTT, Mr John"|21|"Victualling"|||||"Southampton"|"Boots"||||
+"SCOVELL, Mr Robert"|42|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"SEDUNARY, Mr Sidney Francis"|25|"Victualling"|||||"Southampton"|"Steward"||||
+"SEWARD, Mr Wilfred Deable"|25|"Victualling"|||||"Southampton"|"Chief Pantry Steward"||||
+"SHAW, Mr Henry"|39|"Victualling"|||||"Southampton"|"Kitchen Porter"||||
+"SHEA, Mr John"|39|"Victualling"|||||"Belfast"|"Saloon Steward"||"11"||
+"SIEBERT, Mr Sidney Conrad"|29|"Victualling"|||||"Belfast"|"Bed Room Steward"|"4"|||
+"SIMMONS, Mr Alfred (Andrew)"|31|"Victualling"|||||"Southampton"|"Scullion"||||
+"SIMMONS, Mr Frederick C."|25|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"SIMMONS, Mr W."|32|"Victualling"|||||"Southampton"|"Passage Cook"||||
+"SIVIER, Mr William"|23|"Victualling"|||||"Southampton"|"Steward"||||
+"SKINNER, Mr Edward"|33|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"SLIGHT, Mr Harry John"|35|"Victualling"|||||"Southampton"|"Steward"||||
+"SLIGHT, Mr William H."|37|"Victualling"|||||"Belfast"|"Larder Cook"||||
+"SLOAN, Miss Mary"|28|"Victualling"|||||"Southampton"|"Stewardess"||||
+"SLOCOMBE, Mrs Maud"|30|"Victualling"|||||"Southampton"|"Turkish Bath Stewardess"||||
+"SMILLIE, Mr John"|29|"Victualling"|||||"Belfast"|"Saloon Steward"||"91"||
+"SMITH, Mr Charles"|38|"Victualling"|||||"Southampton"|"Kitchen Porter"||||
+"SMITH, Mr Charles Edwin"|38|"Victualling"|||||"Southampton"|"Bed Room Steward"||"329"||
+"SMITH, Mr F."|20|"Victualling"|||||"Belfast"|"Assistant Pantryman Steward"||||
+"SMITH, Mr J."|24|"Victualling"|||||"Southampton"|"Baker"||||
+"SMITH, Mr John Richard Jago"|35|"Victualling"|||"Postal Clerk"||"Southampton"|"Postal Clerk"||||
+"SMITH, Miss Katherine E."|42|"Victualling"|||||"Southampton"|"Stewardess"||||
+"SMITH, Mr Robert G."|30|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"SNAPE, Mrs Lucy Violet"|22|"Victualling"|||||"Southampton"|"Stewardess"||||
+"STAGG, Mr John Henry"|34|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"STAP, Miss Sarah Agnes"|47|"Victualling"|||||"Southampton"|"Stewardess"||||
+"STEBBINGS, Mr Sydney Frederick"|34|"Victualling"|||||"Belfast"|"Chief Boots Steward"||||
+"STEWART, Mr John"|27|"Victualling"|||||"Belfast"|"Verandah Steward"|"15"|||
+"STONE, Mr Edmond J."|33|"Victualling"|||||"Southampton"|"Bed Room Steward"||"41"||
+"STONE, Mr Edward Thomas"|30|"Victualling"|||||"Southampton"|"Bed Room Steward"||"243"||
+"STROUD, Mr Edward Alfred Orlando"|19|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"STROUD, Mr Harry John"|35|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"STRUGNELL, Mr John H."|34|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"STUBBINGS, Mr Harry Robert"|31|"Victualling"|||||"Belfast"|"2nd. Class Cook"||||
+"SWAN, Mr W."|46|"Victualling"|||||"Belfast"|"Bed Room Steward"||||
+"SYMONDS, Mr J."|38|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"TALBOT, Mr George Frederick Charles"||"Victualling"|||||"Southampton"|"Steward"||"150"||
+"TAYLOR, Mr Bernard Cuthbert"|22|"Victualling"|||||"Southampton"|"Steward"||||
+"TAYLOR, Mr Leonard"|23|"Victualling"|||||"Southampton"|"Turkish Bath Attendant"||||
+"TAYLOR, Mr William John"|30|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"TAYLOR, Mr George Frederick"|32|"Victualling"|||||"Southampton"|"Stenographer"||||
+"TERRELL, Mr Frank"|27|"Victualling"|||||"Southampton"|"Assistant Saloon Steward"||||
+"TEUTON, Mr Thomas Moore"|32|"Victualling"|||||"Southampton"|"Saloon Steward"||"226"||
+"THALER, Mr Montague Donald"|17|"Victualling"|||||"Southampton"|"Steward"||||
+"THEISSINGER, Mr Alfred"|46|"Victualling"|||||"Southampton"|"Bed Room Steward"||||
+"THOMAS, Mr Benjamin James"|32|"Victualling"|||||"Belfast"|"Saloon Steward"|"15"|||
+"THOMAS, Mr Albert Charles"|23|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"THOMPSON, Mr Herbert Henry"|25|"Victualling"|||||"Belfast"|"2nd (Assistant) Storekeeper"||||
+"THORLEY, Mr William"|39|"Victualling"|||||"Southampton"|"Cook"||||
+"THORN, Mr Harry"|25|"Victualling"|||||"Southampton"|"Assistant Ship's Cook"||||
+"TOMS, Mr Francis A."|31|"Victualling"|||||"Belfast"|"Saloon Steward"|"15"|||
+"TOPP, Mr Thomas Frederick"|28|"Victualling"|||||"Southampton"|"Butcher"||||
+"TOSHACK, Mr James Adamson"|30|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"TURNER, Mr L."|28|"Victualling"|||||"Belfast"|"Saloon Steward"||"23"||
+"VEAL, Mr Thomas Henry Edom"|38|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"WAKE, Mr Percy"|37|"Victualling"|||||"Southampton"|"Baker"||||
+"WALLIS, Mrs Catherine Jane"|35|"Victualling"|||||"Southampton"|"Matron"||||
+"WALPOLE, Mr James"|48|"Victualling"|||||"Belfast"|"Chief Pantryman Steward"||||
+"WALSH, Miss Catherine"|32|"Victualling"|||||"Southampton"|"Stewardess"||||
+"WARD, Mr Edward"|34|"Victualling"|||||"Belfast"|"Bed Room Steward"||||
+"WARD, Mr Percy Thomas"|38|"Victualling"|||||"Belfast"|"Bed Room Steward"||||
+"WARD, Mr William"|36|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"WAREHAM, Mr Robert Arthur"|36|"Victualling"|||||"Belfast"|"Bed Room Steward"||"246"||
+"WARWICK, Mr Tom"|35|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"WATSON, Mr W. A."|14|"Victualling"|||||"Southampton"|"Bell Boy"||||
+"WEATHERSTONE, Mr Thomas Herbert"|24|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"WEBB, Mr Brooke Holding"|50|"Victualling"|||||"Belfast"|"Smoke Room Steward"||||
+"WEIKMAN, Mr August H."|51|"Victualling"|||||"Southampton"|"Barber"||||
+"WELCH, Mr W. H."|23|"Victualling"|||||"Southampton"|"Cook"||||
+"WHEAT, Mr Joseph Thomas"|29|"Victualling"|||||"Belfast"|"Assistant Second Steward"|"11"|||
+"WHEELTON, Mr Edneser (Ernest) Edward"|29|"Victualling"|||||"Belfast"|"Saloon Steward"|"11"|||
+"WHITE, Mr Arthur"|37|"Victualling"|||||"Southampton"|"Barber"||"247"||
+"WHITE, Mr J. W."|27|"Victualling"|||||"Southampton"|"Glory Hole Steward"||"272"||
+"WHITE, Mr Leonard Lisle Oliver"|31|"Victualling"|||||"Belfast"|"Saloon Steward"||||
+"WHITELEY, Mr Thomas Arthur"|18|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"WHITFORD, Mr Alfred Henry"|39|"Victualling"|||||"Southampton"|"Saloon Steward"||||
+"WIDGERY, Mr James George"|37|"Victualling"|||||"Southampton"|"Bath Steward"||||
+"WILLIAMS, Mr Arthur J."|38|"Victualling"|||||"Southampton"|"Storekeeper"||||
+"WILLIAMS, Mr Walter John"|28|"Victualling"|||||"Southampton"|"Assistant Saloon Steward"||||
+"WILLIAMSON, Mr James Bertram"|35|"Victualling"|||"Postal Clerk"||"Southampton"|"Postal Clerk"||||
+"WILLIS, Mr W."|46|"Victualling"|||||"Southampton"|"Steward"||||
+"WILLSHER, Mr William Aubrey"|33|"Victualling"|||||"Southampton"|"Butcher"||||
+"WINDEBANK, Mr Alfred Edgar"|38|"Victualling"|||||"Southampton"|"Cook"|"13"|||
+"WINSER, Mr Rowland"|33|"Victualling"|||||"Southampton"|"Steward"||||
+"WITTER, Mr James William Cheetham"|31|"Victualling"|||||"Southampton"|"Smoke Room Steward"||||
+"WITTMAN, Mr Henry"|34|"Victualling"|||||"Southampton"|"Bed Room Steward"||"315"||
+"WOOD, Mr James Thomas"|40|"Victualling"|||||"Southampton"|"Assistant Saloon Steward"||||
+"WOODY, Mr Oscar Scott"|44|"Victualling"|||"Postal Clerk"||"Southampton"|"Postal Clerk"||"167"||
+"WORMALD, Mr Henry Frederick Charles"|44|"Victualling"|||||"Southampton"|"Saloon Steward"||"144"||
+"WRAPSON, Mr Frederick Bernard"|18|"Victualling"|||||"Belfast"|"Assistant Pantryman Steward"||||
+"WRIGHT, Mr Frederick"|24|"Victualling"|||||"Southampton"|"Sports Instructor"||||
+"WRIGHT, Mr William"|40|"Victualling"|||||"Southampton"|"Glory Hole Steward"||||
+"YEARSLEY, Mr Harry"|38|"Victualling"|||||"Southampton"|"Saloon Steward"||||

@@ -13,7 +13,7 @@ Este repositorio incluye
   * **titanic-completo**: Es un reporte con estadísticas simples que utiliza información de todos los pasajeros del titanic. (incluye tripulación, grupo de música, 1,2 y 3º clase.
   * **titanic** Un mini ejemplo de como usar `grep` en `bash`.
   
-  * **luces-de-la-ciudad** Projecto de `big-data` consiste en cargar una serie de imagenes de la NOAA (100gb descomprimida) con fechas de 1992-2012. Procesarlas y utilizar la información de las luces como variables predictivas para variables de interés de la base de datos del INEGI desglosado por AGEB. El objetivo es montar un `postsql` pasarlo a `Hadoop` y modelar en `R`.
+  * **luces-de-la-ciudad** Projecto de `big-data` consiste en cargar una serie de imagenes de la NOAA (100gb descomprimida) con fechas de 1992-2012. Procesarlas y utilizar la información de las luces como variables predictivas para variables de interés de la base de datos del INEGI desglosado por AGEB. El objetivo es montar un `postgresql` pasarlo a `Hadoop` y modelar en `R`.
   
 Repositorios_Petricioli
 ===========
@@ -31,7 +31,7 @@ This repository includes
 
 * **Titanic** A mini example of using ` grep ` in ` bash `.
 
-* **luces de la ciudad** A ` big -data` project. The plan is to download a series of images from the NOAA (100gb uncompressed) with dates from 1992 to 2012. Process them and use the information from the lights as predictors for variables of interest in the INEGI database. The objective is to assemble a `postsql`  then `Hadoop` and model in `R`.
+* **luces de la ciudad** A ` big -data` project. The plan is to download a series of images from the NOAA (100gb uncompressed) with dates from 1992 to 2012. Process them and use the information from the lights as predictors for variables of interest in the INEGI database. The objective is to assemble a `postgresql`  then `Hadoop` and model in `R`.
 
 
 

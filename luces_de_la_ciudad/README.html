@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>Luces de la ciudad</title>
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 12px;
+   margin: 8px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 { 
+   font-size:2.2em; 
+}
+
+h2 { 
+   font-size:1.8em; 
+}
+
+h3 { 
+   font-size:1.4em; 
+}
+
+h4 { 
+   font-size:1.0em; 
+}
+
+h5 { 
+   font-size:0.9em; 
+}
+
+h6 { 
+   font-size:0.8em; 
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre {	
+   margin-top: 0;
+   max-width: 95%;
+   border: 1px solid #ccc;
+   white-space: pre-wrap;
+}
+
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code.r, code.cpp {
+   background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * { 
+      background: transparent !important; 
+      color: black !important; 
+      filter:none !important; 
+      -ms-filter: none !important; 
+   }
+
+   body { 
+      font-size:12pt; 
+      max-width:100%; 
+   }
+       
+   a, a:visited { 
+      text-decoration: underline; 
+   }
+
+   hr { 
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote { 
+      padding-right: 1em; 
+      page-break-inside: avoid; 
+   }
+
+   tr, img { 
+      page-break-inside: avoid; 
+   }
+
+   img { 
+      max-width: 100% !important; 
+   }
+
+   @page :left { 
+      margin: 15mm 20mm 15mm 10mm; 
+   }
+     
+   @page :right { 
+      margin: 15mm 10mm 15mm 20mm; 
+   }
+
+   p, h2, h3 { 
+      orphans: 3; widows: 3; 
+   }
+
+   h2, h3 { 
+      page-break-after: avoid; 
+   }
+}
+
+</style>
+
+
+
+
+
+</head>
+
+<body>
+<h1>Luces de la ciudad</h1>
+
+<p>type:sub-section</p>
+
+<p>Proponentes: Andrea Fernández y Adolfo De Unánue</p>
+
+<h1>Descripción</h1>
+
+<ul>
+<li>Hay muchas bases de datos geoespaciales que incluyen densidad poblacional, 
+crecimiento, pobreza,impactos ambientales, etc.</li>
+<li>Y la NASA tiene además las bases de datos relacionadas con luminosidad del mundo a nivel nocturno.</li>
+<li>Existen muchas teorías sobre si estas luces son un <em>proxy</em> para pobreza o subdesarrollo.
+¿Será cierto?</li>
+</ul>
+
+<h1>Objetivo</h1>
+
+<ul>
+<li><p>Obtener los datos espaciales y hacer el análisis necesario para responder preguntas como la recién mencionada.</p></li>
+<li><p>Otras preguntas interesantes son si hay correlación con violencia en algunas zonas, eventos, cambio climático, consumo de recursos, etc.</p></li>
+</ul>
+
+<h2>Objetivo acotado</h2>
+
+<p>Determinar si existe una relacion entre las luces de la ciudad e indicadores de pobreza en Mexico.</p>
+
+<h1>Tópicos</h1>
+
+<ul>
+<li>Análisis geoespacial</li>
+<li>Impacto Ambiental</li>
+<li>Minería de datos</li>
+</ul>
+
+<h1>Estructura de las bases de datos</h1>
+
+<h2>Bases de luminosidad de NOAA</h2>
+
+<p><a href="http://ngdc.noaa.gov/eog/download.html" title="NOAA Data Download">National geophysical data center</a></p>
+
+<p>###VIIRS
+1. <a href="http://ngdc.noaa.gov/eog/viirs/download_viirs_ntl.html">VIIRS Luces nocturnas-2012 (dos meses, global)</a>
+..* Este es el primer compilado que existe para la serie de datos nueva y con mayor resolucion. El compuesto se genera utilizando la banda de dia y noche de VIIRS (DNB) para datos recolectados en noches sin luz de luna. 
+..* Se utilizan las observaciones para 2012/4/18-26 and 2012/10/11-23. La base excluye nubes mas no las detecciones de luz asociadas a fuegos, quema de gases, volcanes y la aurora (ademas de background noise). Es posible encontrar luz reflejada por superficies brillantes (lagos o lugares con nieve). 
+..* La base en DNB ~9 GB  descomprimida y 638 MB comprimida.
+2. <a href="http://ngdc.noaa.gov/eog/viirs/download_viirs_monthly.html">VIIRS Luces nocturnas-2012 (dos meses, global)</a>
+..* Compuestos con mas o menos las mismas caracteristicas que (1) pero para abril y octubre de 2012 y enero de 2013.
+..* Descomprimidas por mes ~ 8 GB, comprimidas ~500 MB</p>
+
+<p>###DMPS/OLS
+<a href="http://ngdc.noaa.gov/eog/dmsp/downloadV4composites.html" title="DMPS-OLS nighttime lights time series">Version 4 de la serie de luces nocturnas</a></p>
+
+<ol>
+<li>Promedios de luz visible, luces estables y coberturas sin nubes (1992-2012).<a href="http://ngdc.noaa.gov/eog/gcv4_readme.txt">Mas informacion</a>
+..*33 datasets, ~300 MB comprimidos y ~3 GB descomprimidos
+..*cada set incluye el promedio visible en bruto, el promedio limpiado por cobertura de nubes, los datos que se obtuvieron sin nubes.</li>
+<li>Promedio de luz x Pct
+..* 33 datasets, ~500-800 MB comprimidos y ~3 GB descomprimidos 
+..* Este producto se deriva del numero digital promedio de la banda visible (DN) de las detecciones de luces sin nubes multiplicado por la frecuencia de la deteccion de luz. La inclusion del porcentage de frecuencias de deteccion normaliza los DN&#39;s por variaciones en la persistencia de luz (i.e. el valor de una luz que es detectada solamente la mitad del tiempo se ve reducida por un 50%). Esta serie contiene las detecciones por fuegos y ruido de fondo.</li>
+</ol>
+
+<h1>Arquitectura</h1>
+
+<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdMAAAD/CAYAAACq5zxUAAAABHNCSVQICAgIfAhkiAAAIABJREFUeJzt3Xd4FNX+x/H3bEl20wghgdACAgJSBEWkCSoWbCBFsVxRQcWrYMcuVxH1ooiigv7EelGvIqKoXCyoIChFQJEgIr2EDgkk2WzK7p7fHwkhkADBATaEz+t59slmdubMN7t59rPnzMxZyxhjEBERkb/NEe4CREREjncKUxEREZsUpiIiIjYpTEVERGxSmIqIiNikMBUREbFJYSoiImKTwlRERMQmhamIiIhNClMRERGbFKYiIiI2KUxFRERsUpiKiIjYpDAVERGxSWEqIiJik8JURETEJle4CzieDBgxk9TV6eEu44RxeuNEXh9yVrjLEBE5JIXpYUhdnc78cT3DXcYJo+3AyeEuQUSkXDTMKyIiYpPCVERExCaFqYiIiE0KUxEREZsUpiIiIjYpTEVERGxSmIqIiNikMBUREbFJYSoiImKTwlRERMQmhamIiIhNClMRERGbFKYiIiI2KUxFRERsUpiKiIjYpDAVERGxSWEqIiJik8K0IjE7+bizhWVFc+l/NxHc7+HAmpdoZVWl34/ZZWy7nUmXRmFZFme+to5AmTvIY+2U4VzbsQHxTgvLsrDcCZzc+XpGfr+FgjJrKk+7IiInNoVphZTD1HuGMn2XKfcWwc1f8coPhoZNY1j42iesKZWMIbZ/OYC23YfxW4OBvPb1bBYsnMeMiU9yQd4nPHD+OTy+MOdvtCsiIgrTCseJt8N1tMt6m9tH/oa/XNsE2DB5DD95Lmfk81eTmDqOD5fn77uKyeDH0RPY0eQJPn37Ia65oANtTj+Ts3sOZsxXE7mhWYiF360m93DbFRERhWnFEyJUrQ+jh7Zi5XODeHNVObqCBauZ8OoC4i+/lfPPuZm+tZbz9vg/9g1Gk4/PF4RQgNB+HV5HtUt594/lfPNgCzyH266IiChMK6JQMIJTBr/K4JpzefS+yWzZ/+DpfvKWvccbf9Sg763tiI1uxU396rPuvTdZVHLU1pFIp2vOxLFiGJdc/SQT5q4j60i0KyIiCtOKyoptz9BXrsT5+V08Pms3Bz566mfxW++wKqUft5wWBXhodsNNNN08gdd/ySqxnptGgyYz9V8XYSY/ztUd6hPnTqTZudfywNivWZEd+pvtioiIwrTCcpB06XP8u/NOxt3+IqkHGlvN+oXXPthIoxv+QWNXgEAggKP+ldx8ajqfvvoz+5zD5KpJt2FfsTZ7LbM/GcNjN3cidvWnjBx8MY1rn8+zv2bvDe3DaVdE5ASnMK3IXPW5cczDnPLnMwx6dw0FWPutYNj101gm7YCVw1sT43bjdrtxRzVlyGJD5pSxTN9ZOvUc0fXo0GcQw8d9zrx1mWyeMZzOBdN5aOC7rA38/XZFRE5UCtMKztPyHsYOrMZPD93PlB0WzpJ5anbw/ZgpZDZ/lC9nz2Xu3L23OV8N5/S8bxnzzVYKB3CDZG9axYZSw7kRJJ99D0/3TYBV81ife7jtioiIK9wFyCFYVejyxGi6//dq7no2gaolHgpu/opXvvXTZvTNXNSh/r4vZrAOgzs8wc2vTmHj1TeTvGoUHZo8SN6jC1n01OlElVw3sIOly3dB0skkRRxeu3WdR/FvFxE5Tqhnehxw1uzNC0+1Y9ukN1haPLpaeA3oj4E29L+0TulPRc5kLrypPcx+lU/XBXA3GsBzN9VhxdNd6DLg34yfMp2fZ8/i209e5YHLO/PPOTF0H9qfxhGH166IiChMjxNuGt0yhiENSywqWM2EV+dDm/5cWqesAQYnyRfeRAfHb7w+YSX5jkQu/r+FzBpzPYnzX+af3btyVqcudLtmKJ9lncPTUxbx8XV1cR1uu0fpLxYROZ5YxhidSVJObQdOZv64nuEu44Sh51tEjhfqmYqIiNikMBUREbFJYSoiImKTwlRERMQmhamIiIhNClMRERGbFKYiIiI2KUxFRERsUpiKiIjYpDAVERGxSWEqIiJik8JURETEJoWpiIiITQpTERERmxSmIiIiNilMRUREbFKYioiI2KQwFRERsUlhKiIiYpPCVERExCZXuAs4nrRpkkjbgZPDXcZhWzfrNep1vi3cZRy2Ds1rhLsEEZFysYwxJtxFyNFlWRZ6mUVEjh4N84qIiNikMBUREbFJYSoiImKTwlRERMQmhamIiIhNClMRERGbFKYiIiI2KUxFRERsUpiKiIjYpDAVERGxSWEqIiJik8JURETEJoWpiIiITQpTERERmxSmIiIiNilMRUREbFKYioiI2KQwFRERsUlhKiIiYpPCVERExCaFqYiIiE0KUxEREZsUpiIiIjYpTEVERGxSmIqIiNjkCncBcuTNmTOHmTNn7rPsoYceKr7/6KOPEhsbe6zLEhGptCxjjAl3EXJkzZkzh44dO5b5WOPGjfnrr7+OcUUiIpWbhnkrofbt29OgQYMyH+vVq9cxrkZEpPJTmFZClmVxzTXXlPlY7969j3E1IiKVn4Z5K6mlS5fSvHnzfZbVrl2bDRs2YFlWmKoSEamc1DOtpJo1a0br1q33WdarVy8FqYjIUaAwrcSuvfbafX7v2bNnmCoREancNMxbiW3YsIH69esTCoWoVq0aW7ZsweXS1VAiIkeaeqaVWN26dencuTMA3bt3V5CKiBwlCtNKbs9Qry6JERE5ejTMW8mlp6dz8sknk5aWhtfrDXc5IiKVknqmlVxCQgKjR49WkIqIHEXqmR5j6Zl5pGfmkZGdR2Z2Ppk5AXb58sjJLSAnN0hObgGBoCEQDJEXCIGB3PwgIWPIzQ9C0U+nw0GmvwCAkle7FBQEycsPlasWt8tJZGTR5ykDBjAGoiIdWJZFpNuJw2ER6XLgdDhwuS2cDgcRLgcOB0RFuHC5HHg9bmKjXMR53cRFRxAXHUFCnIfE2AiqxXuO8DMoIlLxKEyPgDVbs0nb6mPTDh8Z2Xnszs4n05ePLzdItr+A3dl5ZPoKQzPC5SDa4yba6yLa4yI2yk2Md8/vbqrEROB2OnA5LaIiXTidFlEeF07LItrrxrIgxusGIC7KXaqWCLeTyAhnueouCATJzQuWWp7tDxAyBl9ugFDIkJMbIBAK4c8NEgiG8OcHKQiEyC8o/Pt8uQF8/gCZOfnF9325Bfj8Afz5AapERxAbHUGsx01MlItor4tYr5uqMR6qxLpJToiiQa1YGtaKs/dCiIiEicK0HIIhw+JVO1m0Ip2NO3zszMxjV1Ye6Vn57NidiyfCSY2qXpLiPVSNjaBqbCSJVTxUjY0scb9wudNxYk2aEDKGjKw8MrLy2bk7t6hXXvJ+Hjt357ElPQdfboCqsZHEx0QU3qIjqJ0UzWmNE2nbNBGXU0clRKRiUpiWYeP2bH5YuJm/0naTtt3Hhm0+4mMiaFArlgY146he1UOtxCiSE6KoWS0KTzl7gnJweQVBtqb72ZLuZ9POHDbvyGHtlizWbM5iW4afGglealaLolGtOC7rlEL9ZH2NnIhUDArTIsbAxzNW8c0vG1m7OYtWDavR6uQEWjWsxin14hWYYRYIhli2fjepq9KZv2w7i1bsoGqsh/Pb1OKfPZuhWRJFJJwUpkWeeu83/lidwU2XNaFLq5pEuDSkWJGFjGHOkm2M/WwpDge8/9i54S5JRE5gSowis1O3cvV5DTm/TW0F6XHAYVl0almDmy9rwoq0zHCXIyInOM0vV2T7rlw+nbmWST+u4ZzTatK+WXWa1ovHofHDCmflxkzmLt3GzEWbycopIBTS4IqIhJfCtIR3Hz6bBX9t5/uFmxj61kJ2ZedzaoMEmjeoSqNacTSoFUvtpOgT7ozccAkZw8btOazZXHgS0pI16aSuysDhgHbNqnPjxY1p37w67W79PNylisgJTmFagmVB26ZJtG2aBMDOzFz+XLeLFRsy+W7hRtb+L4stO/1EeVzUSoyiZkIUydWiqFHVQ1K8l+pVvSfsJTCHKxQyZGQXXjKzfVcu2zL8bM3wF53Nm8PmnTnszMyjdmIU9WvG0qBmLN071uOBa1qRpIkgRKSCUZgeRLU4D2e1TOaslsnFy4yBbRl+Nmz3sXG7j60ZfhavTicjK58tO3PIyMpnV3YeVaIjiI+NIKHoOtP42EiqxkYUT9gQs+end++kDTEeFxHu4+us4YJAqGiihgIycwqK75f8mV7yOtOsPDKy8tiVnU980XOUFO8lqYqH5GpRtDipKhe1q0OdpGhqJHg1zC4ixwWF6WGyLKiR4KVGgpczmiSWuU7IGHZl5ZORlUd6Vh47d+eSkZVfPEHBntmBfLkBsv0FZJUIIafTKpoByYHX48LpsIj2uHDs+WlZxTMgxUaXngEp0uUkMqJ8J1DlB0KFUxTuJ9tfgAmBL7eAYNEMSMGQIScvQCBo8OcFCARCGMCfFyTa4yImyk2sd+/MTtFed+FyT+EMR6ekxFM1LpJqcR4S4iKoGhOJQ713EakkFKZHgcOySIiLJCEukoaHue2egAsEQoWhFSwMsZKh5sstwOVwkJGVV2r7vED55+aNcDnKvH42xuvGckC0x4XT4cAb6SwM90gnbqcDT6SzcF5ft4PI46wnLSJyNChMK5gIl6PEpTmRYa1FRETKRxdUioiI2KQwFRERsUlhKiIiYpPCVERExCaFqYiIiE2VNkxfe+01brjhBqZMmUJ+fv6x2anZycedLSxr/1skya17MXTyGnKPTSUVV/YM/hFv0ehfSyh9YY+IyPGp0obp7t27GT9+PN27d6dGjRr079+fqVOnHptgrfEP3pg6jWnTpjFt2td88cGzXBEznad6deC2b9Ip31Wg5RFk3atnkHT5N+h7U0REwueEuM50165dvPvuu7z77rtUrVqVnj170rdvX8477zzc7tKzCNkW24gOXc+nefFlot3o3r0NgcZdeHPENzx7wTVUPyIfY3ws+345frvNhAIELRdOTUgkIvK3VNqe6YFkZGTwzjvvcPHFF5OcnMzNN9/Md999Bxzlr/GKOYVzG0Fw4wp2BAoXmZxlfHD3BTSOd2BZFs6Eplx0/8esKh4LLmDTV49zecsk3JaFZblIbHk5Q/+3kYLAOsaeVoWLPs3C98VFVLHqcu/CwlgtSPuc+8+rj9eysGKb0OPpr/n2nnpY9R7gt1zA9yP9qjo47dlJDDunGpazI+9sCkLeWj57+DKaVXMW1pPYmquf/4mdwXLUs2eNtM8Zcm4KHsvC8tSj65APmTy4LlbKfSw84ce4RaSyqhBh2qFDhzKOM9q7Pfzwwwfdp9Pp5NRTT6VNmza0bNkSOMrdsvwtLN0CJNajqgsIbefLmztx3es+eo+by/I1fzF7TDe2jL6KLnfPYLeB4KaP6NfrSZZ2fJ7pf6xkxeLveK7jCp7pdRXvbKzJTd/OZWhjiOj2Eau2L2Z4Ky8UrOb1K3vz/O+n8vR3S/jrx1F0nH8nt/x3Azjdhb1Py4XHbVj5zuP83OlVps99i+6JWUy/6yx6P7uS9s/8wB8r/+D74S2Ye/95XP7qSgo4RD3rAsX7HvXHGTz3w1JW//4hN+a9xOD/pIEzApd6viJSWZkK4GiU8e9//9tQ2N0svjkcDtOlSxczZswYs3nz5n3WP+OWz+zvNLTDTDgLQ8OhZlF2gSkoKDAFBXkme2uq+ezhDsZDjOn+0SYTMMYE1o8z7cC0GLnc5Bc3kGMWDkkxRF5iPtsZMjnz7zK1qWH++bNv7z7yNpsFP/1q1vtCxuQvN882w3h6fG12Fz2cv3KUaQmm3bj1JlBc1pfmijgMJz1ifs81xvh+NrckYWj+nFletPPgpvGmixPTcOhik1u8s93mhxuqGWrfZebnmEPWs2ffZ47bULxv45tn7qpdYt9Z0821VTANh6aW2I89R+S1ExGxoUL0TI8mh8NB586deeWVV0hLS+PHH39k0KBBJCcnH3rjv2vVcFrHuHG73bjdkcTUaEmvZzdz4YhvePfKmjgB/8rpLKM6HTvVZu9RWy8Nz2lORN5S5q7Pw9OoB5fU2sr/9biQm558gy8XpJHjSqZNp9OoG1V2Ny9v7TzWUpdOpyexZwp6K6EDV7ctPSF9YrsO1CrauX/F9ywJJnJOt4YlZgSOo1WP1jg3zmT+9uAh6yncdzJnnFqteN9ENeGCVhH2n1MRkQqs0oZpkyZNeOmll1i/fj0zZ85k8ODB1KxZ89jsvNYAPpg1l7lz5zJ37i8sTF3NTv9qPn+wIwlFz3jQtxMfUSRE7fsSOKOq4CGHjJwQVnxXxi74gdF941gw5lZ6tK1LdPUzufnNxWQd4BBv0J9BDlFULdmuFUlC9ehS63rjvcWhF8zZiY8dvHVW9D7D5dX6fE+QDNZnFByynsJ9e6niKfk3OYmK9/7951JE5DhQac/m7dWrV/h2HlWXVm3blTibtzRnTCLR/MZO374XygSyM/ATTWJMYcy5a57LXa+ey12v5rNjyfd8OOpe7r6lG+5mK3mtbel2HZGxROInM7dku/ns2p5TeuUSX7ztjE4khiT6Tviah1p49lsvksSTIg9Zz3OeODzk7rfvAjJ3+A78RIiIVAKVtmda0XkbdaW5tZ2fZ6UVnwkLOfw1LZWC6NZ0Sokge+X3fPzZ7+wOAUSQ2OJi7hj9PN0itrDgjwz2nGRrQnu7qZF1TqMOG5n3x67i61lN+lwmzA8cop7zaOHawV/p1WjcrBnNim6NkyOISKxDkodD1uNOaUsKm1mQurO4NrJSmbLo4PsWETneKUzDxFmrJ49el8TSYf0Z9tlCVm1Yxbz372fA2E00uv0hzo6H/BVv8s/eF9DvuS+Y/9dqVv05j0nPP8uP+SfRtU0iToeXqlGQlzqFab8s4q+MIBENenFt0yAzH7qfd+auYu2Sb3nh1gf59RAjrY7kSxnavya/3Hctj338CyvWr2XJD//HwA5NaNHnHdYGDl2Pp35PbmwF8x4exOhvF/HH/K94+fbBfHWMJqASEQmbcJ8BZczROZv3cB3Rs3kbPW6WlONU1ZDvT/P+nV1Ng9jCs42diaeaXk9MNWl7Tu8NZphfxvQ3HVOii85IdpqEU7qZe/77l/GFjDGmwKR93M80dGIgyVw9LdMYEzK+pW+aG0+vVrhNlRam7wvfmc+uiTc0+pdJLXE2b937Fhp/yYL8q82kBy8xp1R1FG7rrWPa9xtlZm4PlLMeY3JXfmBu65BsnGBw1TZn3/+R+fCaqjqbV0QqNcsYc5RnKzg0y7IIdxltB05m/rieYa3hSAn4dpAeqEL1KkWn6oY28Z/OdejPu2yadT3Jx3Q8wsfMG+py9qzb+P3Ppzn1IMeR/67K9NqJyPFJw7yVTcFyRneuTo3TbuH1HxazfNlCpr5wO/fP9nLhbeeRpFdcROSIq7Rn856w3I258/PJpN/2EI9c0Ir0EETWassVo77lpWtqU/pqUxERsUthWglF1O3BM1N68Ey4CwEgmi7/ST/aMx+LiISVBv1ERERsUpiKiIjYpDAVERGxSWEqIiJik05AEjkCBoyYSerq9HCXIQdweuNEXh9yVrjLKJP+d468cLzeCtMi0R4Xu7LziY/R14UdT9ZvzSYp3nPoFY+y1NXpmjiiAms7cHK4Szgg/e8ceeF4vRWmRW66tAnXPz2DHmfV45J2damVGBXukuQg1m/N5qu5G/j853UM7t083OWIyAlOYVqkX7eT6dQymc9mreWfo37CE+Gkcd0qtGyQQMsGVTmpZhzeSE15EA45uQFWbcpkyeoMFq9OZ/mG3Tgsi7NOrcHrQzpTt4zvahUROZYUpiU0qBXLfVe15L6rWrJhm4/fVuzg95XpTJ61lvVbs6lWxcNJNWOplxxD3aRoaidFk5wQRY0EL9EePZV2ZOUUsC3Dz5Z0P2nbfazbmk3atmzWbM4iPTOPesmxnFIvng7Nq3N7z2YKUBGpUJQAB1C3ejR1q0fTo1M9AIIhw8aiN/nNO3PYtCOHn1K3snlnDlvT/WBBYhUP8TERRbdIEmIjiY8tvB8fE0GVmAhivC6iPW6ivS6iIivn0+/PC+LLLcDnD5DtL2BXdn7RLY9dWfmkZ+UV3i9avmN3LhiokeCldmI0J9WKpUHNWDq2qE69GrHUTozC4bAOvWMRkTCpnO/mR4HTYZFSI4aUGjFlPp7tL2Dn7n1DIj0zj20ZfpZv2M2u7HyycgrIzMnH5w/gyy0gLz9EjNdFTJSbaI+bGK+LKI8Lb4QLl8uBN9KJy+kgKtKJw2ER7XHjsCDG68ZyWMR4S798kS4nkRHlG47ODwTJzQ+WWp7tD2BCBl9ugGDIkJMbIBgKkZMXJBAM4c8LEgiEyC0I4vMX4MsN4MsNkOXLJzs3QITLUfyBIdrjKvwwERtR/EGjZVJV4mMji3+vFuchNsp9eC+IiEgFojA9QmK8bmK8bupRdtiWJRQyZBeF0J5A8uUWkJtfGFb+ovDKyQsSDIXIysknGDJs2O7DGMjOKSjVZm5BkPyC0gFZlgiXE08ZwRvjdWE5LKI9LpwOiyiPC6fDRfWqTtxOB54IJ263g0iXsygwCz8IxEa5ifa6caoXKSInGIVpGDkcFnFRbuLUKxMROa5pBiQRERGbFKYiIiI2KUxFRERsUpiKiIjYpDAVERGxSWEqIiJik8JURETEJoWpiIiITQpTERERmxSmIiIiNilMRUREbFKYilQ0Zicfd7awTn6CP/JKP+z7aQCJVlX6/Zhtc0c+Zt6QgNXgURaXsZ+jzfhXMemRyzm1uhvLsrBi6tPpxheZtb18X9QgR9Ge/0GrjFtMfTreMIqZ2wLhrrJC0UT3InLsBbcyuf+ZXDHBy8X3jeL+tknkLp/KK8PvpcsiH6lzH6OFJ9xFCjX+wRvv3Ej9ou/iMIFs0hZMZOQTQzh7kY/f5/2LU/U6AQpTEQmDglX/YeiEXbQfu4Avbj+p6I3oKno2z+SkPq8xbvF9vHym95jXlZaWxtKlS7nwwgv/dhtr1qxhy5YttG/fHss6zr+OMLYRHbqeT/PIEssu6k63+ls5qd/LjF5wH2+fFR228ioSDfOKVAIFaVMY2qMl1SMKh+Ic1Zpz+bBv2Roouc7n3H9uCh7LwopuQLeHp7Bxv6/ENTnL+ODuC2gc78CyLJwJTbno/o9ZlXsY62R9x5WxFi2fmsyY608n0bKwrGgadBvKN1sLh3CNqwE3Pv0ao65KKfGJ3kGVU9pSh3TWZZT+rt6jJS0tjdGjR9OpUydSUlJ4+eWXbbW3dOlSOnbsSL169bj33nuZM2cOxpgjVG1F4CTxtM7UYycrNvqpTH+ZHQpTkYoq6Gf3rgwyMva97crKI1RyvcBa3urbk6cWtOTJbxbx57Lf+WHEGSx64nKu+3ATQYCC1bx+ZR+e/6MtI6cvZfVv/6Vfzmju/yJjbzuh7Xx5cyeue91H73FzWb7mL2aP6caW0VfR5e4Z7DblXMdyEeGEJSPvZXq711icnUfG7y9x2oKn6Hn9h2wKQkSDKxjyyEA6Viv55fQBNv34FSs5mbNOOrq90v0D9J577mH27NlHNPQ2bNjAiy++WAmD1eBbl8oW4qlXw8Nx3vc+ckwFUEHKEPnbzrjlsyPXWGiHmXAWBg52izfXzcgqWt9vtq5INUvWZZngnjbylplnmmK8Pb8xmcaYgpWjTEsw7d7YYAJ71slZYO5LwXDSI+b3XGMC68eZdmBajFxu8ouLyTELh6QYIi8xn+0MlWsdkzXdXFsFw2kvm9UFxQWZZc80NVhnmfGbi6ssIc+s//Q209SBaXLvDJNR1io2nHHLZ2bDhg3mxRdfNB07djSWZR3wub300ktt7WvKlCkHfe3q1q1r7rnnHjN79mwTCoWO7P/OkbLnf7DhULMou8AUFBTdcneZtbPGmr61MKTcaX7OCnehZQvHc6pjpiIV1X4nf+yRm/ocV907f+8Cy0OVyPW8+eidXPvzn6zfupu8UBC/Hxy1C3uxuWvnsZaaXN+yGsV9QW8juraMZNTSwl/9K6ezjOpc1ak2e3fppeE5zYl4filz1+dxfsah1+nZqKj8dm2pUfwOE0HN007GYxbx+6Z8+iWXOGvF+Fg8uhdd7p1LqydmMOmxs4k/wmNmmWm/cckl/yI1NfWQ627btu2oHuvc02MdP348gwYNwgRbHLV92bZqOK1jhpdaXK39bbw/fgQdY8JQUwWlMBWpqMo6+QPwef6Ll71harJmcW/HS3k18nrGvjaK85tUJ9axnnEXdOTJonWC/gxy8BDnKZlSTqKq7A21oG8nPqJIiNo3yZxRVfCQQ0ZOqFzr7BGVEEXJQVxHZAyR5JKZu88gNf7fnqTnvT9x+pjfmDqoCUfj5NC4Oqcxf+owli1bxieffMKkSZNYtGhRmetWr17d1lDs//73Py677LIyH0tKSqJXr1706dOHrl274nK5mDpw8t/e11FXawAfTBhIQzdALktG9eHmbzrz6qev0Lem81Bbn1AUpiLHuZxFbzMhrRo3zhjL7WcXdRVyt+ErcdKQwxOHBz+79wmyAJk7fMW/OWMSieY3dvr2DbtAdgZ+okmMceLMP/Q6e/gzcih5xWjIvxs/XuK9JYO4gI2z5xNoOZBn+h+dIC2padOmPPbYYzz22GOsXLmSSZMmMXHiRBYuXHjU9pmcnEzv3r3p06cPZ599Nk7ncRRCUXVp1bZd8Qe6M0a/wuQm13L7/V/RdfxlJOqsm2J6KkSOcyH/LnKoQp2EvQOvvt/fY8I6oKiH5al7BilsYcHinXsDLvsPpv6+93Rfb6OuNLe28/OsNPaeS5vDX9NSKYhuTaeUyHKts8eWOfPYUtx8Hmt//pN8Z0NOr12yq+2m0eAfWL94NO2jjszzUV6NGjXiwQcfZMGCBaxZs4aRI0cesctZ6tSpwx133MHMmTPZuHEjY8eOpWvXrsdXkJbBWesKXhrRid0f3MIj0zN0Jm8JClOR45z35PNozmrGvzyZ1LQNLPnfM1x7+3LObgGhtT+xaFMm1O9F/9bwyyNs4YDbAAAPeElEQVSDeXna7yxbPJ037rmTr0pcgeKs1ZNHr0ti6bD+DPtsIas2rGLe+/czYOwmGt3+EGfHl2+dPayNLzPomf+Run4Df379HHe8uIboS27j3MSSYZXHstdvpe+A0aSW6Ekfa/Xr12fIkCHMmTOHjz76yFZb5513HuvXr+fll1+mc+fOOByV6W3WTYObXmVo8y28cdMwZmcpTveoTK+yyAnJVX8A77x6NdEfXc2pdVPo8sgSuv7ffxjxZD9SVo/knHOe5PdQE+6c9CGDGv/CAxe25pT2/ZmQ8DBj+6VAsICgARzVuPj/ZvL+LR4+vOEMGqU0otM9P9HkX1OZ8fSZRFPOdYo0uHEkfTY9TbeTU2h28Qg2njuML9/qTY193nUCbJs9kYkf/cjmY3dp6UFFR9ubhMDj8Rz/kzUcjKcl97x+J3XXvcSAf/9KTrjrqSAsY+dI+5EqwrIqwbVXciJrO3Ay88f1DHcZFUP2DP5R51zm3ZnKH0+2IPLQWxx1Ffn1qci1Ha/C8ZyqZyoiImKTwlRERMQmXRojIkdWzDl8sEuHbeTEop6piIiITQpTERERmxSmIiIiNp2wx0wHjJhJ6ur0cJchR9jpjRN5fchZ4S5DRE4wJ2yYpq5O17VdlVDbijxpuIhUWhrmFRERsUlhKiIiYpPCVERExCaFqYiIiE0KUxEREZsUpiIiIjYpTEVERGxSmIqIiNikMBUREbFJYSoiImKTwlRERMSmE3ZuXpEjqU2TxEozL3BBTjruqKqAFe5SjpgOzWuEu4QDqkz/OxVFOF5vhanIEfB/91Web6oZNmwYl1zSkrZt24a7lBNCZfrfOZEpTEVkH5988glZWVkKU5HDoGOmIlJs2bJlLFmyhEmTJmGMCXc5IscNhamIFJs4cSIAa9eu5ZdffglzNSLHD4WpiBT75JNPiu/vCVYROTSFqYgAsGLFChYvXlz8+8SJEzXUK1JOCtP9BXbwy9tD6NU2hTinhWVZeGu04MKBo/k+La/sbYLpLPjPA/RpV58qrsJtrJg6nN7jHt6an06weMVcfh2SghV5KV9llmwgj7VThnNtxwbEF+3TcidwcufrGfn9FgqOxt9pdvJx56J97XOLJLl1L4ZOXkPu3207ZzYDq1ukDPn177chx1zJXinA+vXrNdQrUk4K05LyV/F232a0u+klltbpy7C3JzL50w8YdWtrdn54D+c3Pp9n5mexz2f1vFW8c1Uz2t44mj9qXcETb03k888n8vbjvan++2huPrMNg77eTuiAOw2x/csBtO0+jN8aDOS1r2ezYOE8Zkx8kgvyPuGB88/h8YU5R+9vrvEP3pg6jWnTpjFt2td88cGzXBEznad6deC2b9IPUndJQda9egZJl39D5qFXlgpq/zAFmDBhQhgqETkOmQrgSJSxevVqs2vXrnKvf8Ytn+23JN+sGN3OOIg1F49bbvz7PVqw8VNzfU0Mde8wP2eV2ObFM42DGHPR66W3Ce362TzY1DIRZ440y/KMMcZvFt5X1xBxiZm6e89KO8zErk5Dk+Fmad6+2wd3TDE3NDvZXDgitVTbpQSzzfolqWZdVrA8f74xoR1mwlkYGj1uluTu91jmTHNrMsZ5zn/N1nI1t9t83TvWRPf42uw2xhjfz+aWJEzd+xYeuu4jrPTrKuWxcuVKA5S6paSkmFAoFO7yRCq8StMznTBhAjVq1KBHjx6899577N69+/AayF3Ma6PmETpzBK/2PxnPfg+7al3OqLHdidrwJiO+Ty/sneb+wZsv/UKo1ZO8UsY2VpWOPLUgk6y5Q2gScYD9mnx8viCEAoT2OzzlqHYp7/6xnG8ebFGq7VL8vzK0a1cePRK92JhTOLcRBNPm8UIbC6vda6wLlHg8tIX/nheB1eI5lvvXMfa0Klz0aRa+Ly6iilWXe38rHA53hLbw9WPdOMljYVluanW6k0kb9g5am5xlfHD3BTSOd2BZFs6Eplx0/8es2jM27JvJDQkOWo+awYS7O1M7orCdmh0HM3H9URn8PmGV1SuFwqHeuXPnHuNqRI4/lSZMAfLy8vjyyy+5/vrrDztYC9Jm8O0GaHnNRdQpcyoLB9W63EBHl5+5/1uGHwhun8d3a6Fx726kuMtu1xUdQ8TBZmVzJNLpmjNxrBjGJVc/yYS568gKHmT9YyF/C0u3AEmtuOquLrh+eY2P1+wNr9C273ljVoC2g/rSwFuXm76dy9DGENHtI1ZtX8zwlpEAbP70Pl7YdRVvz1nM3En3k7LgFW6861syDBDazpc3d+K61330HjeX5Wv+YvaYbmwZfRVd7p7BbgNYLiJdhj9evINPGz3Pb9kBsv58g/Z/jmXA3dMK25Ej4kBhCjqrV6Q8KlWYlnS4wVqwYyXbcVP75MQDTgtlRdWhSRLsWLmNfKBg52p2ANWb1qBklpqAn+zs7BI3H3kHDEg3jQZNZuq/LsJMfpyrO9Qnzp1Is3Ov5YGxX7Miu3xHLf82EyIQCBTd8vFtW8LkYQN5bmUM3e+6iJaX3cMlUam8/t4yCvubIbZOe4OfOZs7Lk/BhQNPfAIxLnBExpOYWJXooicwv8otvP3iAM49rSXtej/EExd5yf59Dmn5ENw4mWc+TKfF8P8wvO+ZnFy/Me2uHcHbd6ew6d2RTC+RlIE6d/L8be2oHuEkpmkfBl8QS/biwnbkyJg/fz7GmOIbUHz/hRdeCHN1IhXfCTGd4J5g/fLLL4mLi+P5558Hk7jPOpbDhQPDoTo7xoDD5cQCLMuJAzDBkoEXJO3Ns0i57dcSy+K5bsYG3jv7AE+3qybdhn3F2gfWMe/rKUz95lu+/eZTRg7+kJGPnMuI6V/wwOkxpaYdz5lzKyd1HMe2kgvPieX9oruJN/3E2jc7EX2wP2jVcFrHDN93maM+PUZ8wztX1sTl6MpdVyRw3jtvs/jhF2kbuZVpb87BfeFHXFzz4J/FanbuRO3iTxkuqiTHwsJs8kLgXzmdZVTnqk61S3wQ8dLwnOZEPL+Uuevz6Nm4qJ22rUh07lnHSVS1KMjNIu8of87Izs6moKD0cHJeXh45OaWH040x7Nq1q8y2srKyCAQCpZbn5ubi9/tLLQ+FQgf84JeZmUkwWPrTmd/vJze39PnTwWCQzMyyTw3bvXs3oVDpJ7J27dplri8iZasQYXrOOedgWUfvGyoiIyO58MILufLKK+nRowdVqlRh3Px9v6XBndSIJAKk/bmVgkvjKGvU1vg3sWIHVG9SgwjAXb0xNYCNv28k75qkouOaTqr3fItZp+wmCBSse48bb5hUrjod0fXo0GcQHfoMYjj5bPnxOfpePJSHBr5L37mDOWm/V8vbaig//DqQ3BDg/5XHLxtC8Ln/8VQbL2ARWb0J3kPttNYAPpgwkIZuAAfu6ETqN65PQvHYdBwdBvejzvgPeH3BcE5v+C1vzo2ix5fnUu0QL5nL497nA4Dl2Ptb0LcTH1EkRO0byM6oKnjIISNn7xu8K9K1bzsH2efiDwdivdHr4IXtp2rVqmUutyyL+Pj4Mh9zOBxUqVKlzMecTidxcXFlPuZyuYiNjS3zMbfbTUxMTJmPRUREEB1d9seiyMhIoqKi8Hq9eL37vuIej6fUsj28Xi8eT9lH45988skyl4tI2SpEmE6fPt12GyNGjODhhx8u/r2sAD0YV82zOL8uvPDhVDbcfRcNSj0zhl3zPmReII5ulzbGA1jV2nFZU3js449Z9kRrWhe9L0Umt+as5ML7+X/Npuy3zj2CZG9aS0bcSdSNKRksESSffQ9P932RLp/PY33uYE7a733WiqpD89PqFP7iyyExMpJgk9a0aVP2G3KZourSqm07mkceeBVvq4EMbPISL701jyFnv8EvVa9kWsd4W1/Q5YxJJJrf2Onbt1cUyM7ATzSJMc4DbHlwp14zjvnjetqoTETk8FWqY6aRkZF0796d8ePHs3XrVr744gv69et3yCAFwNOSgXeeDr8+xuB3V7H/9AyhjB8ZfudEMhvcygNdioIkojE3PHQBnjXPMmDEPDJLjRHns+XXhWw9yG4Llo+iQ+1GnDdiEaUGDgM7WLp8FySdTNKBzgY+FiIac93gM9g9eTjDnl9AjX/cyhll5LXZ/3Tkg/A26kpzazs/z0orMSlFDn9NS6UgujWdUg6S7iIiFUyF6JkeCVdddRW33XZb+YKzTBE0GTSe0V+14+5bTqXDT49wV58ONIjLZ9Oir3nruZeYtrM9w38aSpuoPds4qfOP//DfmZ3oPaw9p8y6jTuuPYdmNSLJ2ZjKjE/e4o3v1pJ4yQvce3o0lIpocDcawHM3vcIlT3ehy6ZHubN3exomuPBtSuW7d0Ywck4M3cf3p3E4wxQX9frcTZd7r+OjpSfzxMct9x0+dnipGgV5qVOY9ksyLeoc+mCms1ZPHr3uYS4d1p9hjV+m/xnx7PjxBQaM3USj+x7i7Hgo/elCRKSCCudFruF0wIv7/WvNlOHXmPZ1o/devB5zkul03dNmyhq/KfPy9WCmSf3oUXNlu3omds82kdVNs/P6m6c/XWoyiyc+KGPSBmOMKdhqZo25zXRrkWy8e7Z3JZhGnfuZp6esNv6jcc38wSZtKEtwsxnfEUPrF8yK/P0fLDBpH/czDZ0YSDJXT5lWxqQNPjPnnzUMte8y83OKSvD9ad6/s6tpEFv4NzsTTzW9nphq0va0X+bkD6XbKUmTNohIOFjGnJgzWbcdOPmQx9YCa8bQvsEd7H5sEanDWx164oRKLLDhbS5ofAeR76xi6tXJFfb4QHleVxGRI62ividWCK6UK3jw8lhWPtWTm16ayrzffmf5rnDPqHAsGfJ3rmHJrPHc0/2fzKh7J0/1qLhBKiISLnpfPBhnMn3e/prnenv48u5LaX96N578tfQ1gZVXAWve6E7LLjfwvuMG3pv6OGdEHXorEZETTaU5AelocSR05P5Jf3J/uAsJiwiaPLQE81C46xARqdjUMxUREbFJYSoiImKTwlRERMQmhamIiIhNClMRERGbFKYiIiI2KUxFRERsUpiKiIjYpDAVERGxSWEqIiJik8JURETEJoWpiIiITQpTERERmxSmIiIiNilMRUREbFKYioiI2KQwFRERsckV7gLCpU2TRNoOnBzuMuQI69C8RrhLEJETkGWMMeEuQkRE5HimYV4RERGbFKYiIiI2KUxFRERsUpiKiIjYpDAVERGxSWEqIiJik8JURETEJoWpiIiITQpTERERmxSmIiIiNilMRUREbFKYioiI2KQwFRERsUlhKiIiYtP/AxECvZTizhK4AAAAAElFTkSuQmCC" alt="click it" title="arquitectura"/></p>
+
+<pre><code>Código para obneter censo económico INEGI
+============
+```{bash}
+#! /bin/bash
+# Installar innoextract http://constexpr.org/innoextract/
+# sudo add-apt-repository ppa:arx/release
+# sudo apt-get update
+# sudo apt-get install innoextract
+# chmod +x download-census-shp.sh
+# En mac instalar tambien rename &#39;brew install rename&#39;, 
+# Esto hace un script shps con todos los shapefiles
+
+
+# Para hacer compatibles las coordenadas
+PROJECCION=&quot;+proj=longlat +ellps=WGS84 +no_defs +towgs84=0,0,0&quot;
+WGET=&quot;wget -w 5 --random-wait --tries=10 &quot;
+
+declare -a files=(&quot;ageb_urb&quot; &quot;eje_vial&quot; &quot;estatal&quot; &quot;loc_rur&quot; &quot;loc_urb&quot;
+    &quot;manzanas&quot; &quot;municipal&quot; &quot;servicios_a&quot; &quot;servicios_l&quot; &quot;servicios_p&quot;)
+
+declare -a estados=(&quot;ags&quot; &quot;bc&quot; &quot;bcs&quot; &quot;camp&quot; &quot;coah&quot; &quot;col&quot; &quot;chis&quot; &quot;chih&quot; 
+    &quot;df&quot; &quot;dgo&quot; &quot;gto&quot; &quot;gro&quot; &quot;hgo&quot; &quot;jal&quot; &quot;mex&quot; &quot;mich&quot; &quot;mor&quot; &quot;nay&quot; &quot;nl&quot; &quot;oax&quot; 
+    &quot;pue&quot; &quot;qro&quot; &quot;qroo&quot; &quot;slp&quot; &quot;sin&quot; &quot;son&quot; &quot;tab&quot; &quot;tamps&quot; &quot;tlax&quot; &quot;ver&quot; &quot;yuc&quot; 
+    &quot;zac&quot;);
+
+
+</code></pre>
+
+<h1>Código para obneter censo económico INEGI</h1>
+
+<pre><code class="bash">
+# Con gdal se hace la conversion de coordenadas (tambien installar eso)
+# tambien tener cuidado con el encoding
+function reproject {
+  for i in &quot;${files[@]}&quot;
+  do
+    ./ogr2ogr.py $1/$2_$i.shp &quot;$1&quot;/$i.shp -t_srs &quot;$PROJECCION&quot;
+    rm &quot;$1&quot;/$i*
+  done
+  # rename
+  cd $1/tablas
+  rename &quot;s/^cpv2010/$2_cpv2010/&quot; cpv2010*
+  rm -rf cpv2010*
+  cd ../../..
+}
+</code></pre>
+
+<h1>Código para obneter censo económico INEGI</h1>
+
+<pre><code class="bash">
+for i in {1..32}
+do
+   if [ $i -lt 10 ]
+   then
+     FILENUM=&quot;0$i&quot;
+   else
+     FILENUM=&quot;$i&quot;
+   fi
+   $WGET &quot;http://www.inegi.org.mx/sistemas/consulta_resultados/scince2010.aspx?_file=/sistemas/consulta_resultados/scince2010/Scince2010_$FILENUM.exe&amp;idusr=80085&quot; -O ${estados[$i-1]}_scince.exe
+   innoextract --lowercase --silent ${estados[$i-1]}_scince.exe 
+   mkdir -p shps/${estados[$i-1]}
+   cp -r app/$FILENUM/* shps/${estados[$i-1]}
+   rm -rf app
+   rm -rf tmp
+   rm -rf ${estdos[$i - 1]}_scince.exe 
+   reproject shps/${estados[$i - 1]} ${estados[$i - 1]}
+   sleep 20
+done
+</code></pre>
+
+<h1>Plan de trabajo</h1>
+
+<p>######Marzo 15
+1. Adaptación del codigo de INEGI presentado para años anteriores del censo económico. Solucionando posibles complicaciones.
+..* Comparacion
+..* Cambios de metodología
+..* Distintas variables</p>
+
+<p>####Marzo 30
+1. Adaptación del codigo presentado en <a href="http://economics.mit.edu/files/8945">Night Lights in and ArcGIS: A brief guide</a> para qgis (con python). La limpieza será únicamente para los datos de México e incluye.
+..* Conversion
+..* Reclasificacion
+..* Promedio (para los anos en que los datos fueron tomados por mas de un satelite)
+..* Limpieza de bases por efectos de gases</p>
+
+<ol>
+<li>Limpieza de datos economicos y extraccion de datos censales.</li>
+<li>Proyección de los datos de luces a la unidad de análisis elegida de acuerdo a el nivel de desagregación que se tenga de los datos económicos (manzana, ageb, municipio)</li>
+</ol>
+
+<p>####Abril 15
+Se utilizara el censo economico a nivel municipal (a nivel manzana, si se puede conseguir) para determinar la relacion entre variables socioeconomicas en Mexico.
+Asimismo, se utilizara el censo de poblacion y vivienda para buscar patrones entre las luces e indices de marginacion.</p>
+
+<p>Resultados preliminares y analisis descriptivo</p>
+
+<h1>Bibliografia</h1>
+
+<ul>
+<li>Chen and Nordhaus, &ldquo;Using luminosity data as a proxy for economic statistics,&rdquo; <em>PNAS</em>  Vol. 108 No. 21, DOI:1017031108 <a href="http://www.pnas.org/content/108/21/8589.full#ref-13">Link</a></li>
+<li>Dell, Melissa &ldquo;GIS Analysis for Applied Economists&rdquo; Department of Economics, Massachusetts Institute of Technology, <a href="http://scholar.harvard.edu/files/dell/files/090110combined_gis_notes.pdf">Programming for economists</a> (2009)</li>
+<li>Doll, &ldquo;Thematic Guide to Night-time Light Remote Sensing and its Applications&rdquo; CIESIN Thematic Guide (2008). <a href="http://wwwgateway.ciesin.org/binaries/web/sedac/thematic-guides/ciesin_nl_tg.pdf">Link</a></li>
+<li>Elvidge, Sutton, Ghosh, Tuttle, Baugh, Bhaduri, Bright, &ldquo;A global poverty map derived from satellite data,&rdquo; <em>Computers and geosciences</em> 35(2009) </li>
+<li>Henderson, Storeygard, Weil, &ldquo;A Bright idea for Measuring Economic Growth,&rdquo; <em>American Economic Review</em> Vol. 101 No. 3 (2011): 194-199</li>
+<li>Lowe, Matt &ldquo;Night Lights and ArcGIS: A Brief Guide&rdquo; <a href="http://economics.mit.edu/files/8945">Online version</a> (2014)</li>
+<li>Xi, Huimin, Xiaoling and Chang &ldquo;Potential of NPP-VIIRS Nighttime Light Imagery for Modeling the Regional Economy of China&rdquo; <em>Remote Sensing of Environment</em> 5(2013): 3057-3081. doi: 10.3390/rs5063057</li>
+<li>Zhang, Q., Seto, K. C. &ldquo;Mapping urbanization dynamics at regional and global scales using multi-temporal DMSP/OLS nighttime light data.&rdquo; <em>Remote Sensing of Environment</em> 115.9 (2011): 2320-2329. DOI: 10.1016/j.rse.2011.04.032</li>
+<li>Zhang, Q., Schaaf, C., Seto, K. C. &ldquo;The Vegetation Adjusted NTL Urban Index: A new approach to reduce saturation and increase variation in nighttime luminosity.&rdquo; <em>Remote Sensing of Environment</em> 129.1 (2013): 32-41. DOI: 10.1016/j.rse.2012.10.022</li>
+<li>Zhang, Q., Seto, K. C. &ldquo;Mapping urbanization dynamics at regional and global scales using multi-temporal DMSP/OLS nighttime light data.&rdquo; <em>Remote Sensing of Environment</em> 115.9 (2011): 2320-2329. DOI: 10.1016/j.rse.2011.04.032</li>
+</ul>
+
+</body>
+
+</html>
+

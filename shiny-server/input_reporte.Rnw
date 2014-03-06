@@ -1,0 +1,50 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage[spanish]{babel}
+\decimalpoint
+\usepackage[T1]{fontenc}
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+
+\begin{document}
+
+\center{\includegraphics[width=3cm]{www/LOGOITAM.png}}
+\section*{Reporte de evaluación de punto}
+<<setup, include=FALSE>>=
+options(xtable.comment = FALSE)
+version <- 1.0
+@
+
+<<echo=FALSE>>=
+c('Fecha de creación')
+timestamp()
+c('Versión')
+version
+@
+ 
+
+\subsection*{Predicción}
+<<echo=FALSE, out.width="10cm", fig.width=8, fig.height=2>>=
+load('plot_1.Rd')
+load('plot_2.Rd')
+print(plot.2)
+@
+
+\subsection*{Variables de entrada}
+
+\begin{minipage}[b]{0.5\linewidth}
+<<tab-2, echo=FALSE,results = 'asis'>>=
+lista.entradas <- reactiveValuesToList(input)
+entradas <- t(as.data.frame(lista.entradas))
+names(entradas) <- c('valor')
+print(xtable(entradas, align='r|r'), floating=FALSE)
+@
+\end{minipage}
+\begin{minipage}[b]{0.3\linewidth}
+<<echo=FALSE, out.width="6cm", fig.width=6, fig.height=6>>=
+print(plot.1)
+@
+\end{minipage}
+\end{document}
+
+

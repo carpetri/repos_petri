@@ -21,11 +21,11 @@ Repositorios_Petricioli
 This repository includes
  * **INEGI**: a script to download information from the INEGI 2010 Economic Census.
  
- * **ejemlo-bash-grep**: A small scrit for familiarirse using `grep` and `awk` run`script.h` .
+ * **ejemlo-bash-grep**: A small script to introduce using `grep` and `awk` run`script.h` .
  
- * **Rita** On example of the Limit of data that `R ` supports using `big -data` . Run 01-04. It Download, processes and works clean data arrivals at U.S. airports aircraft with ` bash ` makes processing and runs scripts `R ` for processing and calculation of some interesting statistics.
+ * **Rita** One example of the limit of data that `R ` supports using `big -data` . Run 01-04. It Download, processes and works clean data arrivals at U.S. airports aircraft with ` bash ` makes processing and runs scripts `R ` for processing and calculation of some interesting statistics.
  
-* **Shiny -server**: contains a `shiny` app. It is a simulator for forecast retail sales usung variables depending on location . Uses the INEGI database as input and data from existing stores. Generates a simple `.tex` as report. It is powered by a `boosting` model.
+* **Shiny -server**: contains a `shiny` app. It is a simulator for forecast retail sales using variables depending on location . Uses the INEGI database as input and data from existing stores. Generates a simple `.tex` as report. It is powered by a `boosting` model.
 
 * **titanic-completo**: A simple statistical report uses information from all passengers of the Titanic. (includes crew, band, 1, 2 and 3rd class.
 
